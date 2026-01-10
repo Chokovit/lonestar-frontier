@@ -2,11 +2,17 @@
   id: HornyHawkerInventory
   startingInventory:
     # Collars
-    ClothingNeckCollarBlack: 6
-    ClothingNeckCollarBlue: 5
-    ClothingNeckCollarPink: 6
-    ClothingNeckBellCollar: 5
-    ClothingNeckShockCollar: 4
+    ClothingNeckCollarBlack: 25
+    ClothingNeckCollarBlue: 25
+    ClothingNeckCollarPink: 25
+    ClothingNeckBellCollar: 25
+    ClothingNeckShockCollar: 25
+    # Advanced Collars
+    ClothingNeckAdvancedCollarBlack: 25
+    ClothingNeckAdvancedCollarBlue: 25
+    ClothingNeckAdvancedCollarPink: 25
+    AdvCollarModuleBondage: 25
+    AdvCollarModuleShock: 25
     # Restraints
     FuzzycuffsBlack: 5
     FuzzycuffsBlue: 5
@@ -22,25 +28,6 @@
     WhipTeal: 5
     SpankPinkPaddle: 5
     SpankTealPaddle: 5
-    # Sexy Outfits
-    CoolCoyoteClothesSexyMaid: 5
-    CoolCoyoteClothesSexyclown: 4
-    CoolCoyoteClothesSexymime: 4
-    CoolCoyoteClothesSexynursesuit: 5
-    CoolCoyoteClothesSecstripper: 4
-    CoolCoyoteClothesSecslutskirt: 4
-    CoolCoyoteClothesSecslutskirtpink: 4
-    # Loincloths & Thongs
-    CoolCoyoteClothesLoincloth: 5
-    CoolCoyoteClothesMayanLoincloth: 4
-    ClothingUniformloincloth: 5
-    ClothingUniformloinclothWhite: 5
-    ClothingUniformBeeThong: 6
-    ClothingUniformCoderThong: 6
-    ClothingUniformPlainThong: 6
-    # Accessories
-    ClothingHandsBeeWarmers: 6
-    ClothingHandsCoderWarmers: 6
     # Toys - Vibrators
     LewdVibeGreen: 6
     LewdVibePink: 7
@@ -48,20 +35,21 @@
     LewdVibeTeal: 6
     LewdVibeYellow: 6
     LewdWand: 5
+    ## LoneStar, Disabled until they have any form of function.
     # Toys - Fleshlights
-    LewdFleshlightGreen: 5
-    LewdFleshlightPink: 6
-    LewdFleshlightRed: 5
-    LewdFleshlightTeal: 5
-    LewdFleshlightYellow: 5
+    # LewdFleshlightGreen: 5
+    # LewdFleshlightPink: 6
+    # LewdFleshlightRed: 5
+    # LewdFleshlightTeal: 5
+    # LewdFleshlightYellow: 5
     # Toys - Dildos
-    AvianDildo: 4
-    CanineDildo: 6
-    DoubleDildo: 5
-    DragonDildo: 5
-    HorseDildo: 5
-    NormalDildo: 7
-    TentacleDildo: 5
+    # AvianDildo: 4
+    # CanineDildo: 6
+    # DoubleDildo: 5
+    # DragonDildo: 5
+    # HorseDildo: 5
+    # NormalDildo: 7
+    # TentacleDildo: 5
     # Candles
     CandleRed: 6
     CandleBlack: 5
