@@ -104,6 +104,28 @@ guide-entry-shipyard-sparrow = Sparrow
 guide-entry-shipyard-skipper = Skipper
 guide-entry-shipyard-spirit = Spirit
 guide-entry-shipyard-stasis = Stasis
+guide-entry-shipyard-tyne = Tyne
+guide-entry-shipyard-vitalis = Vitalis
+guide-entry-shipyard-voltage = Voltage
+
+# Frontier Staff Shipyard entries
+guide-entry-shipyard-broom = Broom
+guide-entry-shipyard-harbormaster = Harbormaster
+guide-entry-shipyard-hound = Hound
+
+# Expedition Shipyard entries
+guide-entry-shipyard-aegis = Aegis
+guide-entry-shipyard-anchor = Anchor
+guide-entry-shipyard-brigand = Brigand
+guide-entry-shipyard-charon = Charon
+guide-entry-shipyard-dove = Dove
+guide-entry-shipyard-dragonfly = Dragonfly
+guide-entry-shipyard-pathfinder = Pathfinder
+
+# Scrap Shipyard entries
+guide-entry-shipyard-construct = Construct
+guide-entry-shipyard-geode = Geode
+guide-entry-shipyard-rusty = Rusty
 guide-entry-shipyard-stringer = Stringer
 guide-entry-shipyard-surveyor = Surveyor
 guide-entry-shipyard-tide = Tide
