@@ -2,29 +2,25 @@
   id: HornyHawkerInventory
   startingInventory:
     # Collars
-    ClothingNeckCollarBlack: 25
-    ClothingNeckCollarBlue: 25
-    ClothingNeckCollarPink: 25
-    ClothingNeckBellCollar: 25
-    ClothingNeckShockCollar: 25
-    # Advanced Collars
-    ClothingNeckAdvancedCollarBlack: 25
-    ClothingNeckAdvancedCollarBlue: 25
-    ClothingNeckAdvancedCollarPink: 25
-    ClothingNeckAdvancedCollarShock: 25
-    ClothingNeckAdvancedCollarBell: 25
-    ClothingNeckAdvancedCollarEpi: 25
-    ClothingNeckAdvancedCollarEngi: 25
-    ClothingNeckAdvancedCollarLogi: 25
-    ClothingNeckAdvancedCollarMed: 25
-    ClothingNeckAdvancedCollarSec: 25
-    ClothingNeckAdvancedCollarCmd: 25
-    ClothingNeckAdvancedCollarCC: 25
-    ClothingNeckAdvancedCollarSyndi: 25
-    AdvCollarModuleBondage: 25
-    AdvCollarModuleShock: 25
-    AdvCollarModuleJingling: 25
-    AdvCollarModuleClothingLock: 25
+    ClothingNeckAdvancedCollarBlack: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarBlue: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarPink: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarShock: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarBell: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarEpi: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarEngi: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarLogi: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarMed: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarSec: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarCmd: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarCC: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarSyndi: 4294967295 # Infinite
+    AdvCollarModuleBondage: 4294967295 # Infinite
+    AdvCollarModuleShock: 4294967295 # Infinite
+    AdvCollarModuleJingling: 4294967295 # Infinite
+    AdvCollarModuleSpeechModifier: 4294967295 # Infinite # WF 
+    AdvCollarModulePsychicClothingLock: 4294967295 # Infinite # WF 
+    AdvCollarModuleClothingLock: 4294967295 # Infinite
     # Restraints
     FuzzycuffsBlack: 5
     FuzzycuffsBlue: 5
