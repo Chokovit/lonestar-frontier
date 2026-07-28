@@ -15,8 +15,8 @@ RELEASE_DIR = "release"
 # CONFIGURATION PARAMETERS
 # Forks should change these to publish to their own infrastructure.
 #
-ROBUST_CDN_URL =  "https://ss14.coyotebayou.com:7163/"
-FORK_ID = "Coyote-Frontier"
+ROBUST_CDN_URL =  "https://cdn.lonestarss14.com/"
+FORK_ID = "lonestar"
 
 def main():
     parser = argparse.ArgumentParser()
