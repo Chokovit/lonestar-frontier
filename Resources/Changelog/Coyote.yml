@@ -2863,3 +2863,10 @@ Entries:
   id: 327
   time: '2026-07-24T13:45:17.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/5
+- author: BlueSushii
+  changes:
+    - type: Remove
+      message: Coyote reference in rules
+  id: 328
+  time: '2026-07-28T08:43:54.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/7
