@@ -2870,3 +2870,10 @@ Entries:
   id: 328
   time: '2026-07-28T08:43:54.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/7
+- author: archee1
+  changes:
+    - type: Tweak
+      message: the GSW LMG-6 is buffed to be more in line with other rare guns.
+  id: 329
+  time: '2026-08-04T20:16:24.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/11
