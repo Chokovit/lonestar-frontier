@@ -2886,3 +2886,16 @@ Entries:
   id: 330
   time: '2026-08-04T20:17:55.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/10
+- author: archee1
+  changes:
+    - type: Add
+      message: 5 New outfits with a medieval theme
+    - type: Add
+      message: 7 New recolours of the school skirt
+    - type: Add
+      message: 2 New Gloves that match 'cold' white clothes
+    - type: Add
+      message: Golden bell, buyable at the hawker.
+  id: 331
+  time: '2026-08-06T07:09:44.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/8
