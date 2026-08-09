@@ -2906,3 +2906,10 @@ Entries:
   id: 332
   time: '2026-08-09T10:51:53.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/12
+- author: archee1
+  changes:
+    - type: Fix
+      message: Player sprites in some situations no longer display the character naked
+  id: 333
+  time: '2026-08-09T20:18:19.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/16
