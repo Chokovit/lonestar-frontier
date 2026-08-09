@@ -2899,3 +2899,10 @@ Entries:
   id: 331
   time: '2026-08-06T07:09:44.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/8
+- author: JFerrix
+  changes:
+    - type: Add
+      message: Added naga tail markings
+  id: 332
+  time: '2026-08-09T10:51:53.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/12
