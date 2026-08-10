@@ -2949,3 +2949,10 @@ Entries:
   id: 335
   time: '2026-08-10T09:48:03.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/20
+- author: Jakumba
+  changes:
+    - type: Remove
+      message: 'Removed job time requirements for Nash Guard & Nash Secretary '
+  id: 336
+  time: '2026-08-10T18:34:12.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/23
