@@ -227,7 +227,7 @@
   parent: BaseAdvCollarModule
   id: AdvCollarModuleClothingLock
   name: Collar clothing lock module
-  description: An advanced module that locks specific clothing slots, preventing removal by anyone while the collar with this module is worn.
+  description: An advanced module that locks specific clothing slots (head, feet, jumpsuit, gloves, eyes, mask, ears), preventing removal by anyone while the collar with this module is worn. # LoneStar
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -245,7 +245,7 @@
         # LoneStar v
         - eyes
         - mask
-        - headset
+        - ears
       blockOthers: true # WF
 # WF Begin
 # Clothing Lock Module - prevents specific clothing slots from removal while worn
@@ -253,7 +253,7 @@
   parent: BaseAdvCollarModule
   id: AdvCollarModulePsychicClothingLock
   name: Collar psychic clothing lock module
-  description: An advanced module that locks specific clothing slots, preventing removal by the wearer only.
+  description: An advanced module that locks specific clothing slots (head, feet, jumpsuit, gloves, eyes, mask, ears), preventing removal by the wearer only. # LoneStar
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
