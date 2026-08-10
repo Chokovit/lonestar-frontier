@@ -2913,3 +2913,16 @@ Entries:
   id: 333
   time: '2026-08-09T20:18:19.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/16
+- author: archee1
+  changes:
+    - type: Add
+      message: Drumkits can now be ordered at cargo for 7.5k
+    - type: Tweak
+      message: >-
+        Updated soundfont to match wizdens more modern one, complex midi should
+        sound better on DAW/S-Synths.
+    - type: Tweak
+      message: You can now play all instruments handsfree like harmonicas can be.
+  id: 334
+  time: '2026-08-10T09:37:35.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/21
