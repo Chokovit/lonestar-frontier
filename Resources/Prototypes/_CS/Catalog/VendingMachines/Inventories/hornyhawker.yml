@@ -1,7 +1,13 @@
 - type: vendingMachineInventory
   id: HornyHawkerInventory
   startingInventory:
-    # Collars
+    # Basic Collars
+    ClothingNeckCollarBlack: 6
+    ClothingNeckCollarBlue: 5
+    ClothingNeckCollarPink: 6
+    ClothingNeckBellCollar: 5
+    ClothingNeckShockCollar: 4
+    # Adv Collars
     ClothingNeckAdvancedCollarBlack: 4294967295 # Infinite
     ClothingNeckAdvancedCollarBlue: 4294967295 # Infinite
     ClothingNeckAdvancedCollarPink: 4294967295 # Infinite
@@ -18,8 +24,8 @@
     AdvCollarModuleBondage: 4294967295 # Infinite
     AdvCollarModuleShock: 4294967295 # Infinite
     AdvCollarModuleJingling: 4294967295 # Infinite
-    AdvCollarModuleSpeechModifier: 4294967295 # Infinite # WF 
-    AdvCollarModulePsychicClothingLock: 4294967295 # Infinite # WF 
+    AdvCollarModuleSpeechModifier: 4294967295 # Infinite # WF
+    AdvCollarModulePsychicClothingLock: 4294967295 # Infinite # WF
     AdvCollarModuleClothingLock: 4294967295 # Infinite
     # Restraints
     FuzzycuffsBlack: 5
@@ -65,14 +71,11 @@
     CandleBlackSmall: 6
     # Lubricants
     DrinkSpaceLube: 8
-    # Snacks
-    FoodTinPeachesMaint: 8
     # Weapons
     WeaponSizeManipulator: 5
   contrabandInventory:
     # Snacks
     FoodTinPeachesMaint: 10
   emaggedInventory:
-    ClothingNeckShockCollar: 3
     ClothingUniformCoderValidThong: 2
     CanineDildoRed: 2

@@ -227,7 +227,7 @@
   parent: BaseAdvCollarModule
   id: AdvCollarModuleClothingLock
   name: Collar clothing lock module
-  description: An advanced module that locks specific clothing slots (head, feet, jumpsuit, and gloves), preventing removal by anyone while the collar with this module is worn.
+  description: An advanced module that locks specific clothing slots, preventing removal by anyone while the collar with this module is worn.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -242,14 +242,18 @@
         - shoes
         - jumpsuit
         - gloves
-      blockOthers: true # WF 
+        # LoneStar v
+        - eyes
+        - mask
+        - headset
+      blockOthers: true # WF
 # WF Begin
 # Clothing Lock Module - prevents specific clothing slots from removal while worn
 - type: entity
   parent: BaseAdvCollarModule
   id: AdvCollarModulePsychicClothingLock
   name: Collar psychic clothing lock module
-  description: An advanced module that locks specific clothing slots (head, feet, jumpsuit, and gloves), preventing removal by the wearer only.
+  description: An advanced module that locks specific clothing slots, preventing removal by the wearer only.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -264,6 +268,10 @@
         - shoes
         - jumpsuit
         - gloves
+        # LoneStar v
+        - eyes
+        - mask
+        - ears
       blockOthers: false
 
 # Speech Modifier Module - forces the wearer to speak a certain way
