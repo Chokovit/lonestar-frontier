@@ -2956,3 +2956,16 @@ Entries:
   id: 336
   time: '2026-08-10T18:34:12.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/23
+- author: archee1
+  changes:
+    - type: Add
+      message: Ports advanced collars from wayfarer
+    - type: Add
+      message: >-
+        Adds 2 new modules to the hacked hawker inventory related to the new
+        advanced collars
+    - type: Remove
+      message: Removes a few things from the hawkers vend inventory that were unneeded
+  id: 337
+  time: '2026-08-10T18:38:03.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/22
