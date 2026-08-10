@@ -2926,3 +2926,26 @@ Entries:
   id: 334
   time: '2026-08-10T09:37:35.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/21
+- author: archee1
+  changes:
+    - type: Add
+      message: >-
+        Pill canisters use paradise's sprites and now have an open/close sound
+        and texture
+    - type: Tweak
+      message: >-
+        Almost all loot sources of medical supplies have been reduced or made
+        more variable.
+    - type: Tweak
+      message: >-
+        Higher tier topicals now apply faster to yourself and others, all
+        topicals also heal twice as much.
+    - type: Tweak
+      message: All pill canisters are now 5x3 storage and start with 10 pills.
+    - type: Tweak
+      message: >-
+        Medkits are now 2x3 in your bag but are whitelisted to only medical
+        supplies.
+  id: 335
+  time: '2026-08-10T09:48:03.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/20
