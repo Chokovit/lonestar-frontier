@@ -5,13 +5,28 @@
     ClothingNeckCollarBlack: 4294967295
     ClothingNeckCollarBlue: 4294967295
     ClothingNeckCollarPink: 4294967295
-    ClothingNeckCollarEpi: 4294967295
-    ClothingNeckCollarEngi: 4294967295
-    ClothingNeckCollarLogi: 4294967295
-    ClothingNeckCollarMed: 4294967295
     ClothingNeckBellCollar: 4294967295
     ClothingNeckShockCollar: 4294967295
-    RemoteSignaller: 4294967295
+    # Adv Collars
+    ClothingNeckAdvancedCollarBlack: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarBlue: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarPink: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarShock: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarBell: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarEpi: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarEngi: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarLogi: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarMed: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarSec: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarCmd: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarCC: 4294967295 # Infinite
+    ClothingNeckAdvancedCollarSyndi: 4294967295 # Infinite
+    AdvCollarModuleBondage: 4294967295 # Infinite
+    AdvCollarModuleShock: 4294967295 # Infinite
+    AdvCollarModuleJingling: 4294967295 # Infinite
+    AdvCollarModuleSpeechModifier: 4294967295 # Infinite # WF
+    AdvCollarModulePsychicClothingLock: 4294967295 # Infinite # WF
+    AdvCollarModuleClothingLock: 4294967295 # Infinite
     # Restraints
     FuzzycuffsBlack: 4294967295
     FuzzycuffsBlue: 4294967295
@@ -41,25 +56,7 @@
     WhipTealCrotch: 4294967295
     SpankPinkPaddle: 4294967295
     SpankTealPaddle: 4294967295
-    # Sexy Outfits
-    CoolCoyoteClothesSexyMaid: 4294967295
-    CoolCoyoteClothesSexyclown: 4294967295
-    CoolCoyoteClothesSexymime: 4294967295
-    CoolCoyoteClothesSexynursesuit: 4294967295
-    CoolCoyoteClothesSecstripper: 4294967295
-    CoolCoyoteClothesSecslutskirt: 4294967295
-    CoolCoyoteClothesSecslutskirtpink: 4294967295
-    # Loincloths & Thongs
-    CoolCoyoteClothesLoincloth: 4294967295
-    CoolCoyoteClothesMayanLoincloth: 4294967295
-    ClothingUniformloincloth: 4294967295
-    ClothingUniformloinclothWhite: 4294967295
-    ClothingUniformBeeThong: 4294967295
-    ClothingUniformCoderThong: 4294967295
-    ClothingUniformPlainThong: 4294967295
     # Accessories
-    ClothingHandsBeeWarmers: 4294967295
-    ClothingHandsCoderWarmers: 4294967295
     Clicker: 4294967295
     ServantBell: 4294967295
     # Toys - Vibrators
@@ -94,6 +91,7 @@
     FoodTinPeachesMaint: 8
     # Weapons
     WeaponSizeManipulator: 15
+    RemoteSignaller: 4294967295
   contrabandInventory:
     # Coder Items
     ClothingUnderSocksCoder: 4294967295
