@@ -2969,3 +2969,12 @@ Entries:
   id: 337
   time: '2026-08-10T18:38:03.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/22
+- author: archee1
+  changes:
+    - type: Add
+      message: >-
+        4 new avanced collar modules, waddle, psychic walking, vulnerability,
+        stealth.
+  id: 338
+  time: '2026-08-13T08:19:14.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/24
