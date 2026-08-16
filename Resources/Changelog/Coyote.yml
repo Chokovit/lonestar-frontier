@@ -2978,3 +2978,12 @@ Entries:
   id: 338
   time: '2026-08-13T08:19:14.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/24
+- author: DoubleHypercube
+  changes:
+    - type: Add
+      message: Added over 40 new types of bunnysuits!
+    - type: Add
+      message: Added a variety of maid & lewd clothings!
+  id: 339
+  time: '2026-08-16T08:14:15.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/34
