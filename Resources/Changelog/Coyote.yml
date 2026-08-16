@@ -3004,3 +3004,14 @@ Entries:
   id: 340
   time: '2026-08-16T08:25:01.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/26
+- author: archee1
+  changes:
+    - type: Add
+      message: >-
+        Casey's Casino has been given a remodelling to sport a host of recently
+        added content
+    - type: Tweak
+      message: Autodrobes and Clothesmates now have infinite stock
+  id: 341
+  time: '2026-08-16T15:22:37.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/38
