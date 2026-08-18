@@ -21,7 +21,7 @@ tilemap:
   4: FloorSteelMono
   7: FloorTechMaint
   9: FloorTechMaint2
-  8: FloorTechMaintDark
+  8: FloorTechMaint3
   10: Lattice
   1: Plating
 entities:
