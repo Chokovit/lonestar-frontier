@@ -3066,3 +3066,14 @@ Entries:
   id: 346
   time: '2026-08-19T17:34:42.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/41
+- author: archee1
+  changes:
+    - type: Tweak
+      message: The L6 now comes with 2 extra box magazines instead of 4
+    - type: Fix
+      message: Muskets now come with .30 ammo boxes instead of .60 ammo
+    - type: Fix
+      message: .40 magazines in the contravend are now named properly
+  id: 347
+  time: '2026-08-19T20:53:03.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/45
