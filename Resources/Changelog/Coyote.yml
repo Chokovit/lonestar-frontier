@@ -3024,3 +3024,14 @@ Entries:
   id: 342
   time: '2026-08-17T20:26:50.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/28
+- author: Synthestra
+  changes:
+    - type: Add
+      message: >-
+        Steel and wood stair tiles are now constructable, with 2 steel or 2
+        planks respectively.
+    - type: Fix
+      message: Wooden stair tiles now drop planks instead of steel when broken.
+  id: 343
+  time: '2026-08-19T07:35:56.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/40
