@@ -3117,3 +3117,10 @@ Entries:
   id: 350
   time: '2026-08-20T01:36:06.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/47
+- author: DoubleHypercube
+  changes:
+    - type: Fix
+      message: You can now only brainwash players.
+  id: 351
+  time: '2026-08-20T04:10:05.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/48
