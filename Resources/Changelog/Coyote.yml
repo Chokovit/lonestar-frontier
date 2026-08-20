@@ -3093,3 +3093,27 @@ Entries:
   id: 349
   time: '2026-08-19T21:54:24.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/46
+- author: archee1
+  changes:
+    - type: Add
+      message: >-
+        You can now buy a chameleon advanced collar at the hawker through its
+        hidden inventory, it can only disguise as bowties and other collar
+        variants.
+    - type: Tweak
+      message: Collars of all kinds now take a brief moment to equip/unequip
+    - type: Fix
+      message: Foldable clothes are now foldable while worn
+    - type: Tweak
+      message: >-
+        The white bunnysuit from coyote has been updated, along with the default
+        'bunny ears'.
+    - type: Tweak
+      message: Advanced collars now support 7 modules instead of 5
+    - type: Fix
+      message: >-
+        Bunnysuit bowties now display if they are tied or untied as items, the
+        ears also no longer appear when in pockets.
+  id: 350
+  time: '2026-08-20T01:36:06.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/47
