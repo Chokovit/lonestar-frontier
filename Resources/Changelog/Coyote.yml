@@ -3124,3 +3124,10 @@ Entries:
   id: 351
   time: '2026-08-20T04:10:05.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/48
+- author: DoubleHypercube
+  changes:
+    - type: Tweak
+      message: Tier III LSRD role timers lowered to eight hours (from 48).
+  id: 352
+  time: '2026-08-22T11:26:41.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/51
