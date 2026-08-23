@@ -3161,3 +3161,18 @@ Entries:
   id: 356
   time: '2026-08-23T20:47:03.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/60
+- author: archee1
+  changes:
+    - type: Add
+      message: >-
+        The plant manager now has an SOP to help guide them in how to play when
+        unsure.
+    - type: Remove
+      message: You can no longer buy radiation collectors at nash.
+    - type: Tweak
+      message: B-RTGs are now back to their original price of 90k.
+    - type: Remove
+      message: Bulk fuel orderables from cargo have been removed.
+  id: 357
+  time: '2026-08-23T21:03:54.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/56
