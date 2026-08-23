@@ -3145,3 +3145,12 @@ Entries:
   id: 354
   time: '2026-08-23T14:48:26.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/44
+- author: Synthestra
+  changes:
+    - type: Tweak
+      message: >-
+        Readds viewing viewing artifact effects before you trigger them. Now
+        it's completely your fault that your ship exploded!
+  id: 355
+  time: '2026-08-23T20:24:50.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/61
