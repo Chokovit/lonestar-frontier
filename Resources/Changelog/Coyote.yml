@@ -3154,3 +3154,10 @@ Entries:
   id: 355
   time: '2026-08-23T20:24:50.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/61
+- author: DoubleHypercube
+  changes:
+    - type: Tweak
+      message: Hug & Pet are now SFW.
+  id: 356
+  time: '2026-08-23T20:47:03.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/60
