@@ -3176,3 +3176,14 @@ Entries:
   id: 357
   time: '2026-08-23T21:03:54.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/56
+- author: archee1
+  changes:
+    - type: Add
+      message: >-
+        3 new bunnysuits, pink/pirate/SR, with pirate and SR being printable by
+        their faction specific lathes, or selected as loadouts.
+    - type: Tweak
+      message: All freelancer roles can now select pirate related loadout options
+  id: 358
+  time: '2026-08-23T21:04:37.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/58
