@@ -3196,3 +3196,10 @@ Entries:
   id: 359
   time: '2026-08-23T21:12:54.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/55
+- author: Synthestra
+  changes:
+    - type: Add
+      message: Ice Boxes are now constructable, and are similar to sinks
+  id: 360
+  time: '2026-08-23T21:29:42.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/49
