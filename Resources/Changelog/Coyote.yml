@@ -3210,3 +3210,12 @@ Entries:
   id: 361
   time: '2026-08-23T21:32:35.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/31
+- author: DoubleHypercube
+  changes:
+    - type: Add
+      message: Many, many new drinks hit the sector!
+    - type: Add
+      message: Added a recipe for the Singulo drink.
+  id: 362
+  time: '2026-08-23T21:54:17.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/52
