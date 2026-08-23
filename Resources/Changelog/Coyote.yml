@@ -3219,3 +3219,12 @@ Entries:
   id: 362
   time: '2026-08-23T21:54:17.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/52
+- author: DoubleHypercube
+  changes:
+    - type: Fix
+      message: >-
+        Random things will no longer display job icons if they shouldn't be able
+        to.
+  id: 363
+  time: '2026-08-23T21:58:47.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/59
