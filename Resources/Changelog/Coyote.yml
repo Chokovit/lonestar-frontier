@@ -3138,3 +3138,10 @@ Entries:
   id: 353
   time: '2026-08-23T14:46:38.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/50
+- author: archee1
+  changes:
+    - type: Remove
+      message: Removes the 3 biscuit variants buyable at barista vends.
+  id: 354
+  time: '2026-08-23T14:48:26.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/44
