@@ -3187,3 +3187,12 @@ Entries:
   id: 358
   time: '2026-08-23T21:04:37.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/58
+- author: Waterwithoutanyice
+  changes:
+    - type: Add
+      message: >-
+        pirates can now buy the Brute at the blackmarket shipyard, a retrofit of
+        the bulker.
+  id: 359
+  time: '2026-08-23T21:12:54.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/55
