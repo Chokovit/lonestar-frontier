@@ -3203,3 +3203,10 @@ Entries:
   id: 360
   time: '2026-08-23T21:29:42.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/49
+- author: DoubleHypercube
+  changes:
+    - type: Add
+      message: Added eight new melee weapons!
+  id: 361
+  time: '2026-08-23T21:32:35.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/31
