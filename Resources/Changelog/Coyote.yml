@@ -3228,3 +3228,12 @@ Entries:
   id: 363
   time: '2026-08-23T21:58:47.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/59
+- author: archee1
+  changes:
+    - type: Fix
+      message: >-
+        Edison is no longer lost in hyperspace, and will spawn on round start
+        again.
+  id: 364
+  time: '2026-08-25T15:31:45.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/67
