@@ -3246,3 +3246,12 @@ Entries:
   id: 365
   time: '2026-08-26T11:12:09.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/69
+- author: archee1
+  changes:
+    - type: Fix
+      message: >-
+        Previously setup freelancer loadouts should no longer be missing their
+        jumpsuits.
+  id: 366
+  time: '2026-08-26T11:18:12.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/68
