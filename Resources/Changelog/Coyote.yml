@@ -3237,3 +3237,12 @@ Entries:
   id: 364
   time: '2026-08-25T15:31:45.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/67
+- author: archee1
+  changes:
+    - type: Add
+      message: >-
+        Bulk fuel crates at cargo have been replaced with 'compressed' fuel
+        rods, which can be bought for for the same effect at any fuel vend.
+  id: 365
+  time: '2026-08-26T11:12:09.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/69
