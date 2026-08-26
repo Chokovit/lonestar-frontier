@@ -3255,3 +3255,10 @@ Entries:
   id: 366
   time: '2026-08-26T11:18:12.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/68
+- author: Waterwithoutanyice
+  changes:
+    - type: Tweak
+      message: Re-enabled choral hydrate, pax, and nocturine
+  id: 367
+  time: '2026-08-26T17:03:55.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/65
