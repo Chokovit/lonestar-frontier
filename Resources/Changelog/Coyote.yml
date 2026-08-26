@@ -3262,3 +3262,12 @@ Entries:
   id: 367
   time: '2026-08-26T17:03:55.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/65
+- author: archee1
+  changes:
+    - type: Add
+      message: >-
+        you can now purchase 2 new shuttles, Aegis from the expedition shipyard,
+        And Dragoon from the regular shipyard.
+  id: 368
+  time: '2026-08-26T22:44:58.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/72
