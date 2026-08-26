@@ -3271,3 +3271,12 @@ Entries:
   id: 368
   time: '2026-08-26T22:44:58.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/72
+- author: Synthestra
+  changes:
+    - type: Tweak
+      message: >-
+        The Plant Analyzer now displays localized names. no more "JuiceTomato".
+        you'll see "tomato juice" instead
+  id: 369
+  time: '2026-08-26T23:04:32.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/76
