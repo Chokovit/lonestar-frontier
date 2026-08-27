@@ -3280,3 +3280,12 @@ Entries:
   id: 369
   time: '2026-08-26T23:04:32.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/76
+- author: archee1
+  changes:
+    - type: Tweak
+      message: >-
+        the wording of the confrontation beacon when toggled off has been
+        tweaked slightly to reflect rules better.
+  id: 370
+  time: '2026-08-27T00:21:42.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/77
