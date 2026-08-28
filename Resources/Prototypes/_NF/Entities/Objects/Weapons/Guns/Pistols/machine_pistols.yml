@@ -68,7 +68,8 @@
   - type: Item
     id: Small
   - type: Tag
-    id: ConcealableWeapon
+      - ConcealableWeapon
+      - Sidearm
 
 - type: entity
   id: NFWeaponPistolMackerelHighCapacityMag
