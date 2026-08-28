@@ -67,6 +67,8 @@
     sprite: _LoneStar/Objects/Weapons/Guns/Pistols/mackerel.rsi
   - type: Item
     size: small
+  - type: Tag
+    id: ConcealableWeapon
 
 - type: entity
   id: NFWeaponPistolMackerelHighCapacityMag
