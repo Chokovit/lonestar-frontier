@@ -1,0 +1,9 @@
+- type: reagent
+  id: Tomatosauce
+  name: reagent-name-tomatosauce
+  group: Foods
+  desc: reagent-desc-tomatosauce
+  physicalDesc: reagent-physical-desc-saucey
+  flavor: tomato
+  color: red
+  recognizable: true
