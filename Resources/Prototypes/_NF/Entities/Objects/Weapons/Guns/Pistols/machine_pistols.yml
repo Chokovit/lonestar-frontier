@@ -65,8 +65,8 @@
     sprite: _LoneStar/Objects/Weapons/Guns/Pistols/mackerel.rsi
   - type: Clothing
     sprite: _LoneStar/Objects/Weapons/Guns/Pistols/mackerel.rsi
-  - type: Item
-    size: small
+  - type: itemSize
+    id: Small
   - type: Tag
     id: ConcealableWeapon
 
