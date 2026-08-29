@@ -1,0 +1,23 @@
+# Lone Star: Making Pizza Base
+- type: constructionGraph
+  id: PizzaBase
+  start: start
+  graph:
+  - node: start
+    entity: FoodDoughFlat
+    edges:
+    - to: pizza-base
+      steps:
+      - tool: Rolling
+        doAfter: 1
+
+  - node: pizza-base
+    entity: FoodPizzaBase
+    edges:
+    - to: pizza-base
+      steps:
+      - tag: TomatoSauce
+        name: Pizza Base
+        icon:
+          sprite: Objects/Consumable/Food/ingredients.rsi
+          state: pizzabread
