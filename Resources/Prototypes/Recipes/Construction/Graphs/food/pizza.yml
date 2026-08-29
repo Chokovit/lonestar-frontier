@@ -30,4 +30,13 @@
   - node: pastry
     entity: FoodDoughFlatPastry
   # End Frontier
-  # TODO: add stuff for adding ingredients then cooking the pizza, wsci
+
+  # Lone Star: Making Pizza Base
+    edges:
+    - to: pizza-base
+      steps:
+      - tag: TomatoSauce
+        name: Pizza Base
+        icon:
+          sprite: Objects/Consumable/Food/ingredients.rsi
+          state: pizzabread
