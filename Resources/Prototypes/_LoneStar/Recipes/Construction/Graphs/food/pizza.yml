@@ -13,7 +13,7 @@
       entity: FoodDoughFlat
       # Lone Star: Adding Tomato Puree to make a Pizza Base
       edges:
-        - to: dough-pizza
+        - to: pizza-base
           steps:
             - tag: TomatoPuree
               name: construction-graph-tag-tomato-puree
