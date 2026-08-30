@@ -3320,3 +3320,14 @@ Entries:
   id: 373
   time: '2026-08-30T17:05:35.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/88
+- author: archee1
+  changes:
+    - type: Add
+      message: >-
+        You can now quick equip from the internals slot and pockets.](add: Adds
+        smart equip function to pocket 1, pocket 2, and suit storage slots.
+        Default binds are Shift+F and Shift+G for first and second pocket,
+        Shift+H for suit storage.)
+  id: 374
+  time: '2026-08-30T22:41:11.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/90
