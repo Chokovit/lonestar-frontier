@@ -29,7 +29,7 @@
       - dough
       - tomato
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/ingredients.rsi
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: dough-pizza
   - type: Construction
     graph: Pizza
