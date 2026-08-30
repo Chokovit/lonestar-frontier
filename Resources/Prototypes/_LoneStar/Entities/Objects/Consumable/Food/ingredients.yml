@@ -17,6 +17,10 @@
           reagents:
             - ReagentId: TomatoSauce
               Quantity: 10
+    - type: Tag
+      tags:
+        - Ingredient
+        - TomatoPuree
 
 - type: entity
   parent: FoodDoughFlat
