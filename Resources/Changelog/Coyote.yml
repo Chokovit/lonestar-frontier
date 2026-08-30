@@ -3306,3 +3306,10 @@ Entries:
   id: 371
   time: '2026-08-30T06:07:57.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/89
+- author: DoubleHypercube
+  changes:
+    - type: Fix
+      message: Anthromorphs now properly have animal stomachs
+  id: 372
+  time: '2026-08-30T06:11:22.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/86
