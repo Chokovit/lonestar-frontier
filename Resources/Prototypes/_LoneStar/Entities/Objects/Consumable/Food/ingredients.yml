@@ -9,8 +9,8 @@
       - dough
       - tomato
   - type: Sprite
-    sprite: /Objects/Consumable/Food/ingredients.rsi
-    state: pizzabread
+    sprite: _Lonestar/Objects/Consumable/Food/ingredients.rsi
+    state: dough-pizza
   - type: Construction
     graph: Pizza
     node: pizza-base

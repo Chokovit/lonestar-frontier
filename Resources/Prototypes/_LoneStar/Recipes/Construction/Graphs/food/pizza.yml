@@ -6,12 +6,12 @@
   - node: start
     entity: FoodDoughFlat
     edges:
-    - to: pizza-base
+    - to: dough-pizza
       steps:
       - tool: Rolling
         doAfter: 1
 
-  - node: pizza-base
+  - node: dough-pizza
     entity: FoodPizzaBase
     edges:
     - to: pizza-base
@@ -19,5 +19,5 @@
       - tag: TomatoSauce
         name: Pizza Base
         icon:
-          sprite: Objects/Consumable/Food/ingredients.rsi
-          state: pizzabread
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: dough-pizza
