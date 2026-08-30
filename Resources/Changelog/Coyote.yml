@@ -3331,3 +3331,12 @@ Entries:
   id: 374
   time: '2026-08-30T22:41:11.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/90
+- author: DoubleHypercube
+  changes:
+    - type: Add
+      message: The ClothesMate now has access to some more (existing) clothes.
+    - type: Remove
+      message: Removed CentComm bunnysuits.
+  id: 375
+  time: '2026-08-30T22:43:19.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/78
