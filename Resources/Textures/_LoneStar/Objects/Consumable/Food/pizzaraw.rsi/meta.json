@@ -8,153 +8,49 @@
   },
   "states": [
     {
-      "name": "alpha-filling"
+      "name": "dough-pizza"
     },
     {
-      "name": "alpha-slice-filling"
+      "name": "pizza-cheese-raw"
     },
     {
-      "name": "arnold"
+      "name": "pizza-cotton-raw"
     },
     {
-      "name": "arnold-slice"
+      "name": "pizza-donkpocket-raw"
     },
     {
-      "name": "base-1"
+      "name": "pizza-firecracker-raw"
     },
     {
-      "name": "base-2"
+      "name": "pizza-fourcheese-raw"
     },
     {
-      "name": "base-3"
+      "name": "pizza-margherita-raw"
     },
     {
-      "name": "base-4"
+      "name": "pizza-meat-raw"
     },
     {
-      "name": "base-5"
+      "name": "pizza-mushroom-raw"
     },
     {
-      "name": "base-6"
+      "name": "pizza-pepperoni-raw"
     },
     {
-      "name": "base-7"
+      "name": "pizza-pesto-raw"
     },
     {
-      "name": "base-8"
+      "name": "pizza-pineapple-raw"
     },
     {
-      "name": "cotton-pizza"
+      "name": "pizza-sassysage-raw"
     },
     {
-      "name": "cotton-slice"
+      "name": "pizza-uranium-raw"
     },
     {
-      "name": "dank"
-    },
-    {
-      "name": "dank-slice"
-    },
-    {
-      "name": "donkpocket"
-    },
-    {
-      "name": "donkpocket-slice"
-    },
-    {
-      "name": "meat"
-    },
-    {
-      "name": "meat-slice"
-    },
-    {
-      "name": "moldy-slice"
-    },
-    {
-      "name": "mushroom"
-    },
-    {
-      "name": "mushroom-slice"
-    },
-    {
-      "name": "pineapple"
-    },
-    {
-      "name": "pineapple-slice"
-    },
-    {
-      "name": "box"
-    },
-    {
-      "name": "box1"
-    },
-    {
-      "name": "box2"
-    },
-    {
-      "name": "box3"
-    },
-    {
-      "name": "box4"
-    },
-    {
-      "name": "box-messy-overlay"
-    },
-    {
-      "name": "box-open"
-    },
-    {
-      "name": "box-bomb-overlay"
-    },
-    {
-      "name": "box-bomb-overlay-active"
-    },
-    {
-      "name": "box-tag-overlay"
-    },
-    {
-      "name": "plate-pizza"
-    },
-    {
-      "name": "plate-slice"
-    },
-    {
-      "name": "margherita"
-    },
-    {
-      "name": "margherita-slice"
-    },
-    {
-      "name": "sassysage"
-    },
-    {
-      "name": "sassysage-slice"
-    },
-    {
-      "name": "vegetable"
-    },
-    {
-      "name": "vegetable-slice"
-    },
-    {
-      "name": "box-inhand-right",
-      "directions": 4
-    },
-    {
-      "name": "box-inhand-left",
-      "directions": 4
-    },
-    {
-      "name": "uranium-pizza"
-    },
-    {
-      "name": "uranium-slice"
-    },
-    {
-      "name": "worldpeas"
-    },
-    {
-      "name": "worldpeas-slice"
+      "name": "pizza-vegetable-raw"
     }
   ]
 }
