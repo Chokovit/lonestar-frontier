@@ -1,23 +1,22 @@
-# Lone Star: Making Pizza Base
 - type: constructionGraph
-  id: PizzaBase
+  id: Pizza
   start: start
   graph:
-  - node: start
-    entity: FoodDoughFlat
-    edges:
-    - to: dough-pizza
-      steps:
-      - tool: Rolling
-        doAfter: 1
-
-  - node: dough-pizza
-    entity: FoodPizzaBase
-    edges:
-    - to: pizza-base
-      steps:
-      - tag: TomatoSauce
-        name: Pizza Base
-        icon:
-          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: dough-pizza
+    - node: start
+      entity: FoodDough
+      edges:
+        - to: flat
+          steps:
+            - tool: Rolling
+              doAfter: 1
+    - node: flat
+      entity: FoodDoughFlat
+      # Lone Star: Adding Tomato Puree to make a Pizza Base
+      edges:
+        - to: dough-pizza
+          steps:
+            - tag: TomatoPuree
+              name: construction-graph-tag-tomato-puree
+              icon:
+                sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+                state: dough-pizza
