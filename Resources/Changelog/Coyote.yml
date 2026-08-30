@@ -3289,3 +3289,20 @@ Entries:
   id: 370
   time: '2026-08-27T00:21:42.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/77
+- author: archee1
+  changes:
+    - type: Add
+      message: added 3 kimonos from TG, named 'pressed kimono' in red green and white.
+    - type: Add
+      message: >-
+        added alternate performer outfit (its red, you can figure out who it
+        is).
+    - type: Add
+      message: added pink variant of the regal gown and suit.
+    - type: Tweak
+      message: >-
+        the pirate garb coat and black and gold dress have had their sprites
+        updated.
+  id: 371
+  time: '2026-08-30T06:07:57.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/89
