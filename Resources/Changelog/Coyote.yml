@@ -3340,3 +3340,10 @@ Entries:
   id: 375
   time: '2026-08-30T22:43:19.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/78
+- author: archee1
+  changes:
+    - type: Fix
+      message: Bulk fuels now properly look bulky.
+  id: 376
+  time: '2026-08-31T03:01:24.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/92
