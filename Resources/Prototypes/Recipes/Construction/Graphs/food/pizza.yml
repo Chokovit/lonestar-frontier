@@ -28,6 +28,7 @@
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-cheese-raw
+
     # Frontier: making buttered flat dough
     - to: flat-butter
       steps:
