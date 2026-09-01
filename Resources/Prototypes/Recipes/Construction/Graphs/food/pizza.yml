@@ -20,6 +20,15 @@
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: dough-pizza
+    #Lone Star: Adding Mozzarella to the pizza-dough
+    edges:
+    - to: pizza-cheese-raw
+      steps:
+      - tag: Mozzarella
+        name: construction-graph-tag-mozzarella
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-cheese-raw
     # Frontier: making buttered flat dough
     - to: flat-butter
       steps:

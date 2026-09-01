@@ -38,3 +38,20 @@
   - type: Construction
     graph: Pizza
     node: pizza-base
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodCheesePizzaRaw
+  name: uncooked cheese pizza
+  description: Still needs topping...unless you're one of THOSE types of people.
+  components:
+    - type: FlavorProfile
+      flavors:
+        - dough
+        - cheesy
+    - type: Sprite
+      sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+      state: pizza-cheese-raw
+    - type: Construction
+      graph: Pizza
+      node: pizza-cheese-raw
