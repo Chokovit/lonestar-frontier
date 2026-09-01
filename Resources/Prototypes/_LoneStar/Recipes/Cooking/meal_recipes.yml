@@ -21,7 +21,7 @@
     FoodSausageCasing: 1
   reagents:
     UncookedAnimalProteins: 9
-    Pepper: 3u
+    Pepper: 3
   recipeType:
   - Assembler
 
@@ -35,7 +35,7 @@
     OrganRatStomach: 1
   reagents:
     UncookedAnimalProteins: 9
-    Pepper: 3u
+    Pepper: 3
   recipeType:
   - Assembler
 
@@ -49,6 +49,6 @@
     OrganHumanStomach: 1
   reagents:
     UncookedAnimalProteins: 9
-    Pepper: 3u
+    Pepper: 3
   recipeType:
   - Assembler
