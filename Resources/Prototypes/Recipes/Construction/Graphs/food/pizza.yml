@@ -28,14 +28,15 @@
         icon:
           sprite: Objects/Consumable/Food/ingredients.rsi
           state: butter
+  - node: flat-butter
+    entity: FoodDoughFlatButtered
     # Frontier: buttered flat dough -> Pastry dough
+    edges:
     - to: pastry
       steps:
       - tool: Rolling
         doAfter: 2 # Lamination takes time
   - node: pizza-base
     entity: FoodPizzaDough
-  - node: flat-butter
-    entity: FoodDoughFlatButtered
   - node: pastry
     entity: FoodDoughFlatPastry
