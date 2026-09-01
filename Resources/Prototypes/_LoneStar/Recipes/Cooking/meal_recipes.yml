@@ -1,0 +1,12 @@
+# Pizza Stuff
+
+- type: microwaveMealRecipe
+  id: FoodTomatoPuree
+  name: Tomato Puree
+  result: FoodTomatoPuree
+  time: 5
+  group: Salad
+  reagents:
+    TomatoSauce: 10
+  recipeType: Assembler # Frontier
+
