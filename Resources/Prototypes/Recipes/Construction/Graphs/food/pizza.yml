@@ -21,7 +21,6 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: dough-pizza
     #Lone Star: Adding Mozzarella to the pizza-dough
-    edges:
     - to: pizza-cheese-raw
       steps:
       - tag: Mozzarella
