@@ -11,27 +11,7 @@
         doAfter: 1
   - node: flat
     entity: FoodDoughFlat
-    # Frontier: adding butter and rolling to pastries
-    edges:
-    - to: flat-butter
-      steps:
-      - tag: NFButterStick
-        name: construction-graph-tag-nf-butter-stick
-        icon:
-          sprite: Objects/Consumable/Food/ingredients.rsi
-          state: butter
-  - node: flat-butter
-    entity: FoodDoughFlatButtered
-    edges:
-    - to: pastry
-      steps:
-      - tool: Rolling
-        doAfter: 2 # Lamination takes time
-  - node: pastry
-    entity: FoodDoughFlatPastry
-  # End Frontier
-
-  # Lone Star: Adding Tomato Puree to make a Pizza Base
+    # Lone Star: Adding Tomato Puree to make a Pizza Base
     edges:
     - to: pizza-base
       steps:
@@ -40,5 +20,22 @@
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: dough-pizza
+    # Frontier: making buttered flat dough
+    - to: flat-butter
+      steps:
+      - tag: NFButterStick
+        name: construction-graph-tag-nf-butter-stick
+        icon:
+          sprite: Objects/Consumable/Food/ingredients.rsi
+          state: butter
+    # Frontier: buttered flat dough -> Pastry dough
+    - to: pastry
+      steps:
+      - tool: Rolling
+        doAfter: 2 # Lamination takes time
   - node: pizza-base
     entity: FoodPizzaDough
+  - node: flat-butter
+    entity: FoodDoughFlatButtered
+  - node: pastry
+    entity: FoodDoughFlatPastry
