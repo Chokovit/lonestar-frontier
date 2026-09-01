@@ -20,7 +20,10 @@
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: dough-pizza
+  - node: pizza-base
+    entity: FoodPizzaDough
     #Lone Star: Adding Mozzarella to the pizza-dough
+    edges:
     - to: pizza-cheese-raw
       steps:
       - tag: Mozzarella
@@ -28,8 +31,10 @@
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-cheese-raw
-
+  - node: pizza-cheese-raw
+    entity: FoodCheesePizzaRaw
     # Frontier: making buttered flat dough
+    edges:
     - to: flat-butter
       steps:
       - tag: NFButterStick
@@ -45,9 +50,5 @@
       steps:
       - tool: Rolling
         doAfter: 2 # Lamination takes time
-  - node: pizza-base
-    entity: FoodPizzaDough
-  - node: pizza-cheese-raw
-    entity: FoodCheesePizzaRaw
   - node: pastry
     entity: FoodDoughFlatPastry
