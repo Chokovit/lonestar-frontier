@@ -20,5 +20,5 @@
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: dough-pizza
-  - node: flat-butter
+  - node: pizza-base
     entity: FoodPizzaDough
