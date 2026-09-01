@@ -47,5 +47,7 @@
         doAfter: 2 # Lamination takes time
   - node: pizza-base
     entity: FoodPizzaDough
+  - node: pizza-cheese-raw
+    entity: FoodCheesePizzaRaw
   - node: pastry
     entity: FoodDoughFlatPastry
