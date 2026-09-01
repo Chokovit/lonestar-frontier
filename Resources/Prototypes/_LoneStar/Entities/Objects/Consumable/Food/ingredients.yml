@@ -36,5 +36,5 @@
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: dough-pizza
   - type: Construction
-    graph: LSPizza
+    graph: Pizza
     node: pizza-base

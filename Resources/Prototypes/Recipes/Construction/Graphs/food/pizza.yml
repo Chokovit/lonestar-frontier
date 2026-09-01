@@ -1,6 +1,5 @@
 - type: constructionGraph
   id: Pizza
-  abstract: true #Lone Star
   start: start
   graph:
   - node: start
@@ -31,3 +30,17 @@
   - node: pastry
     entity: FoodDoughFlatPastry
   # End Frontier
+
+  # Lone Star: Adding Tomato Puree to make a Pizza Base
+  - node: flat
+    entity: FoodDoughFlat
+    edges:
+    - to: pizza-base
+      steps:
+      - tag: TomatoPuree
+        name: construction-graph-tag-tomato-puree
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: dough-pizza
+  - node: pizza-base
+    entity: FoodPizzaDough
