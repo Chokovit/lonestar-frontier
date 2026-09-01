@@ -32,8 +32,6 @@
   # End Frontier
 
   # Lone Star: Adding Tomato Puree to make a Pizza Base
-  - node: flat
-    entity: FoodDoughFlat
     edges:
     - to: pizza-base
       steps:
