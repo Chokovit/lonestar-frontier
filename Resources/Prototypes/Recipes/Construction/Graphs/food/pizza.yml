@@ -1,5 +1,6 @@
 - type: constructionGraph
   id: Pizza
+  abstract: true #Lone Star
   start: start
   graph:
   - node: start
