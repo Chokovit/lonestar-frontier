@@ -3418,3 +3418,10 @@ Entries:
   id: 383
   time: '2026-09-02T21:05:58.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/96
+- author: archee1
+  changes:
+    - type: Add
+      message: Adds a new 'hero's cloak' to the theatre drobe.
+  id: 384
+  time: '2026-09-02T23:59:05.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/100
