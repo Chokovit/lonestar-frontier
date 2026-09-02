@@ -3356,3 +3356,16 @@ Entries:
   id: 377
   time: '2026-09-02T17:52:11.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/95
+- author: DoubleHypercube
+  changes:
+    - type: Add
+      message: Added many new options to the RCDs!
+    - type: Add
+      message: >-
+        Different lattice shapes will now actually affect the mass scanner
+        outline.
+    - type: Tweak
+      message: Split RCD "Walls & Flooring" into "Walls" & "Floors".
+  id: 378
+  time: '2026-09-02T17:55:09.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/36
