@@ -3347,3 +3347,12 @@ Entries:
   id: 376
   time: '2026-08-31T03:01:24.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/92
+- author: archee1
+  changes:
+    - type: Add
+      message: DeltaV's medical wardrobe is now available at the medi-drobe.
+    - type: Add
+      message: Omu's long lab coats can now be found at sci/med/cent drobes.
+  id: 377
+  time: '2026-09-02T17:52:11.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/95
