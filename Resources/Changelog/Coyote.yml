@@ -3369,3 +3369,14 @@ Entries:
   id: 378
   time: '2026-09-02T17:55:09.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/36
+- author: Synthestra
+  changes:
+    - type: Add
+      message: Added flipped variants of windoors.
+    - type: Tweak
+      message: >-
+        Normal and secure variants of plasma, and uranium windoors can now be
+        viewable in the construction menu.
+  id: 379
+  time: '2026-09-02T18:10:48.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/93
