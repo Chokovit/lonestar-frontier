@@ -3402,3 +3402,12 @@ Entries:
   id: 381
   time: '2026-09-02T18:39:26.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/87
+- author: Synthestra
+  changes:
+    - type: Tweak
+      message: >-
+        Directional Windows can now be stacked, as long as it's not in the same
+        orientation.
+  id: 382
+  time: '2026-09-02T18:57:38.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/80
