@@ -3380,3 +3380,10 @@ Entries:
   id: 379
   time: '2026-09-02T18:10:48.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/93
+- author: tenmillimaster
+  changes:
+    - type: Tweak
+      message: Punk Goggles now have silicon/organic health overlays.
+  id: 380
+  time: '2026-09-02T18:13:41.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/81
