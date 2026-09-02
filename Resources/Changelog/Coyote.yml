@@ -3387,3 +3387,18 @@ Entries:
   id: 380
   time: '2026-09-02T18:13:41.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/81
+- author: archee1
+  changes:
+    - type: Remove
+      message: EMP .35 ammo can no longer be sourced from dungeons.
+    - type: Tweak
+      message: Specialized ammo found in dungeon crates has been made less common.
+    - type: Tweak
+      message: All projectile weapon damages have been lowered slightly.
+    - type: Tweak
+      message: The GSW LMG has been buffed slightly in wield speed and firerate.
+    - type: Tweak
+      message: Stunbatons are now a 3hit stun instead of 2.
+  id: 381
+  time: '2026-09-02T18:39:26.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/87
