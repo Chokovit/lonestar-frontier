@@ -68,6 +68,7 @@
   - type: Item
     id: Small
   - type: Tag
+    tags:
       - ConcealableWeapon
       - Sidearm
 
