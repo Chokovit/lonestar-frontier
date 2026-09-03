@@ -3434,3 +3434,10 @@ Entries:
   id: 385
   time: '2026-09-03T00:50:51.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/101
+- author: Synthestra
+  changes:
+    - type: Add
+      message: 'Wet your eyelids with the Blink emote '
+  id: 386
+  time: '2026-09-03T03:04:41.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/104
