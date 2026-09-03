@@ -3425,3 +3425,12 @@ Entries:
   id: 384
   time: '2026-09-02T23:59:05.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/100
+- author: Synthestra
+  changes:
+    - type: Fix
+      message: >-
+        Solution containers (beakers, glasses, etc) no longer rapidly flicker
+        through different fill level visuals when transferring their contents
+  id: 385
+  time: '2026-09-03T00:50:51.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/101
