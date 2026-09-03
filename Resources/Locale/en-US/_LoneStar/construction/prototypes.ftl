@@ -14,3 +14,22 @@ construction-ghost-reinforced-plasma-window-diagonal = reinforced plasma window 
 construction-ghost-uranium-window-diagonal = uranium window (diagonal)
 construction-ghost-reinforced-uranium-window-diagonal = reinforced uranium window (diagonal)
 construction-ghost-clockwork-window-diagonal = clockwork window wall (diagonal)
+
+## Stairs
+construction-ghost-stairs-wood = wood stairs
+construction-ghost-stairs-wood-stage = wood stairs (stage)
+construction-ghost-stairs-steel = steel stairs
+construction-ghost-stairs-steel-stage = steel stairs (stage)
+construction-ghost-stairs-white = white stairs
+construction-ghost-stairs-white-stage = white stairs (stage)
+construction-ghost-stairs-dark = dark stairs
+construction-ghost-stairs-dark-stage = dark stairs (stage)
+
+## Flipped Windoors
+
+construction-ghost-windoor-flipped = windoor (flipped)
+construction-ghost-windoor-secure-flipped = secure windoor (flipped)
+construction-ghost-windoor-plasma-flipped = plasma windoor (flipped)
+construction-ghost-windoor-plasma-secure-flipped = secure plasma windoor (flipped)
+construction-ghost-windoor-uranium-flipped = uranium windoor (flipped)
+construction-ghost-windoor-uranium-secure-flipped = secure uranium windoor (flipped)
