@@ -102,6 +102,7 @@
     - NFLightsColoredStatic
     - NFServiceArchetypeStatic
     - CSPlumbingStatic # Coyote: showers, sinks, drains
+    - LSAccessibilityPack #LoneStar Adds accessiblity lights to service techfab
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFServiceTechfabEmagStatic
@@ -153,6 +154,7 @@
     - NFLightsColoredStatic
     - NFServiceArchetypeStatic
     - NFMcServiceTechfabStatic
+    - LSAccessibilityPack #LoneStar Adds accessiblity lights to service techfab
 
 - type: entity
   parent: [ NFBlueprintReceiverBase, BaseLatheLube ]
@@ -255,8 +257,8 @@
 - type: entity
   id: NfsdTechFab
   parent: [ NFBlueprintReceiverBase, SecurityTechFab ]
-  name: NFSD techfab
-  description: Prints equipment for use by NFSD.
+  name: LSRD techfab # Lonestar changes NFSD -> LSRD
+  description: Prints equipment for use by LSRD.
   components:
   - type: Sprite
     sprite: _NF/Structures/Machines/techfab.rsi
@@ -344,8 +346,8 @@
     - NFMercenaryAmmoBoxesStatic
     - NfsdPracticeStatic
     - NFMercenaryMagazineStatic
-    - NFTopicalsStatic
-    - CSIPCTopicalsStatic # Coyote: IPC topicals
+    #- NFTopicalsStatic # LoneStar, find a doctor right for you.
+    #- CSIPCTopicalsStatic # LoneStar, find a mechanic right for you.
     - CSMagazineStatic
     - NFMercenaryArchetypeStatic
     - NFMercenaryArchetypeMeleeStatic
