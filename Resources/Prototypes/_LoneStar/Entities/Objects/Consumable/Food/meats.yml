@@ -10,7 +10,7 @@
     flavors:
     - savory
   - type: Sprite
-    sprite: _LoneStar/Objects/Consumable/Foods/meats.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/meats.rsi
     state: pepperoni
   - type: SliceableFood
     count: 6
@@ -26,7 +26,7 @@
     flavors:
     - savory
   - type: Sprite
-    sprite: _LoneStar/Objects/Consumable/Foods/meats.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/meats.rsi
     state: pepperoni-slice
   - type: Tag
     tags:
