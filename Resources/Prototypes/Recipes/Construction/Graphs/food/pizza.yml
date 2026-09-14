@@ -47,6 +47,8 @@
     entity: FoodPepperoniPizzaRaw
 
     # Frontier: making buttered flat dough
+  - node: flat
+    entity: FoodDoughFlat
     edges:
     - to: flat-butter
       steps:
