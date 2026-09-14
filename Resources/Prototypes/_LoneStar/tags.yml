@@ -4,3 +4,5 @@
   id: TomatoPuree
 - type: Tag
   id: Mozzarella
+- type: Tag
+  id: Pepperoni

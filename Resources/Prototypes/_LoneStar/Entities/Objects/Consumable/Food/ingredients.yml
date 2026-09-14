@@ -55,3 +55,21 @@
     - type: Construction
       graph: Pizza
       node: pizza-cheese-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodPepperoniPizzaRaw
+  name: uncooked pepperoni pizza
+  description: A pepperoni pizza ready to bake.
+  components:
+    - type: FlavorProfile
+      flavors:
+        - dough
+        - cheesy
+        - savory
+    - type: Sprite
+      sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+      state: pizza-pepperoni-raw
+    - type: Construction
+      graph: Pizza
+      node: pizza-pepperoni-raw
