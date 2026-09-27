@@ -11,8 +11,14 @@
         doAfter: 1
   - node: flat
     entity: FoodDoughFlat
-    # Lone Star: Adding Tomato Puree to make a Pizza Base
     edges:
+    - to: flat-butter
+      steps:
+      - tag: NFButterStick
+        name: construction-graph-tag-nf-butter-stick
+        icon:
+          sprite: Objects/Consumable/Food/ingredients.rsi
+          state: butter
     - to: pizza-base
       steps:
       - tag: TomatoPuree
@@ -20,9 +26,10 @@
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: dough-pizza
+
+  # LoneStar: Pizza
   - node: pizza-base
     entity: FoodPizzaDough
-    #Lone Star: Adding Mozzarella to the pizza-dough
     edges:
     - to: pizza-cheese-raw
       steps:
@@ -33,7 +40,6 @@
           state: pizza-cheese-raw
   - node: pizza-cheese-raw
     entity: FoodCheesePizzaRaw
-    #Lone Star: Adding Mozzarella to the pizza-dough
     edges:
     - to: pizza-pepperoni-raw
       steps:
@@ -42,24 +48,41 @@
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-pepperoni-raw
-        doAfter: 3
+      - tag: Pepperoni
+        name: construction-graph-tag-pepperoni
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-pepperoni-raw
+      - tag: Pepperoni
+        name: construction-graph-tag-pepperoni
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-pepperoni-raw
   - node: pizza-pepperoni-raw
     entity: FoodPepperoniPizzaRaw
-
-    # Frontier: making buttered flat dough
-  - node: flat
-    entity: FoodDoughFlat
-    edges:
-    - to: flat-butter
-      steps:
-      - tag: NFButterStick
-        name: construction-graph-tag-nf-butter-stick
-        icon:
-          sprite: Objects/Consumable/Food/ingredients.rsi
-          state: butter
+  - node: pizza-pineapple-raw
+    entity: FoodPineapplePizzaRaw
+  - node: pizza-sassysage-raw
+    entity: FoodSassysagePizzaRaw
+  - node: pizza-meat-raw
+    entity: FoodMeatPizzaRaw
+  - node: pizza-mushroom-raw
+    entity: FoodMushroomPizzaRaw
+  - node: pizza-fourcheese-raw
+    entity: FoodFourcheesePizzaRaw
+  - node: pizza-donkpocket-raw
+    entity: FoodDonkpocketPizzaRaw
+  - node: pizza-firecracker-raw
+    entity: FoodFirecrackerPizzaRaw
+  - node: pizza-vegetable-raw
+    entity: FoodVegetablePizzaRaw
+  - node: pizza-uranium-raw
+    entity: FoodUraniumPizzaRaw
+  - node: pizza-Margherita-raw
+    entity: FoodMargheritaPizzaRaw
+  # Frontier: making buttered flat dough
   - node: flat-butter
     entity: FoodDoughFlatButtered
-    # Frontier: buttered flat dough -> Pastry dough
     edges:
     - to: pastry
       steps:
