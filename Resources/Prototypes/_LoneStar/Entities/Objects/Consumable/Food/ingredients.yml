@@ -73,3 +73,21 @@
     - type: Construction
       graph: Pizza
       node: pizza-pepperoni-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodPineapplePizzaRaw
+  name: uncooked hawaiian pizza
+  description: A hawaiian pizza ready to bake.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+    - savory
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-pineapple-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-pineapple-raw

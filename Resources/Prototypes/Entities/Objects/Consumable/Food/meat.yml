@@ -165,6 +165,7 @@
     tags:
     - Raw
     - Meat
+    - RawBacon
   - type: Sprite
     state: bacon
   - type: SolutionContainerManager

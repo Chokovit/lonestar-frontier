@@ -1,4 +1,6 @@
-# other
+# ingredients
 construction-graph-tag-tomato-puree = a tomato puree
 construction-graph-tag-mozzarella = some mozzarella
-construction-graph-tag-pepperoni = some pepperoni
+construction-graph-tag-pepperoni-slice = a slice of pepperoni
+construction-graph-tag-pineapple-slice = a pineapple slice
+construction-graph-tag-bacon = raw bacon

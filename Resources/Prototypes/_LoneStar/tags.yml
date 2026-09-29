@@ -5,4 +5,8 @@
 - type: Tag
   id: Mozzarella
 - type: Tag
-  id: Pepperoni
+  id: PepperoniSlice
+- type: Tag
+  id: PineappleSlice
+- type: Tag
+  id: RawBacon

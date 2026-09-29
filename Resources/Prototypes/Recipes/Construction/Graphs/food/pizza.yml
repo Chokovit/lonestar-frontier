@@ -38,36 +38,43 @@
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-cheese-raw
+
   - node: pizza-cheese-raw
     entity: FoodCheesePizzaRaw
     edges:
     - to: pizza-pepperoni-raw
       steps:
-      - tag: Pepperoni
-        name: construction-graph-tag-pepperoni
+      - tag: PepperoniSlice
+        amount: 3
+        name: construction-graph-tag-pepperoni-slice
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-pepperoni-raw
-      - tag: Pepperoni
-        name: construction-graph-tag-pepperoni
+
+
+    - to: pizza-pineapple-raw
+      steps:
+      - tag: PineappleSlice
+        amount: 3
+        name: construction-graph-tag-pineapple-slice
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pepperoni-raw
-      - tag: Pepperoni
-        name: construction-graph-tag-pepperoni
+          state: pizza-pineapple-raw
+      - tag: RawBacon
+        name: construction-graph-tag-bacon
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pepperoni-raw
-  - node: pizza-pepperoni-raw
-    entity: FoodPepperoniPizzaRaw
-  - node: pizza-pineapple-raw
-    entity: FoodPineapplePizzaRaw
+          state: pizza-pineapple-raw
+
   - node: pizza-sassysage-raw
     entity: FoodSassysagePizzaRaw
+
   - node: pizza-meat-raw
     entity: FoodMeatPizzaRaw
+
   - node: pizza-mushroom-raw
     entity: FoodMushroomPizzaRaw
+
   - node: pizza-fourcheese-raw
     entity: FoodFourcheesePizzaRaw
   - node: pizza-donkpocket-raw

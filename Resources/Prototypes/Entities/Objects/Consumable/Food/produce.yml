@@ -1377,6 +1377,7 @@
     tags:
     - Fruit
     - Slice
+    - PineappleSlice
   - type: FoodSequenceElement
     entries:
       Burger: PineappleSliceBurger
@@ -1408,6 +1409,7 @@
     tags:
     - Vegetable
     - Slice
+    - OnionSlice
   - type: FoodSequenceElement
     entries:
       Burger: OnionSliceBurger
@@ -1473,6 +1475,7 @@
   - type: Tag
     tags:
     - Vegetable
+    - Chili
   - type: FoodSequenceElement
     entries:
       Taco: ChiliPepper
