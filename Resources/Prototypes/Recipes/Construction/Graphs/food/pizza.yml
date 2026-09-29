@@ -49,7 +49,8 @@
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-pepperoni-raw
-    - node: pizza-pepperoni-raw
+      - node: pizza-pepperoni-raw
+      entity: FoodPepperoniPizzaRaw
 
     - to: pizza-pineapple-raw
       steps:
@@ -64,7 +65,8 @@
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-pineapple-raw
-    - node: pizza-pineapple-raw
+      - node: pizza-pineapple-raw
+      entity: FoodPineapplePizzaRaw
 
   - node: pizza-sassysage-raw
     entity: FoodSassysagePizzaRaw
