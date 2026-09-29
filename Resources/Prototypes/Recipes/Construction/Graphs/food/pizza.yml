@@ -42,6 +42,9 @@
     entity: FoodCheesePizzaRaw
     edges:
     - to: pizza-pepperoni-raw
+      completed:
+        !type:SpawnPrototype
+        prototype: FoodPepperoniPizzaRaw
       steps:
       - tag: PepperoniSlice
         name: construction-graph-tag-pepperoni-slice
