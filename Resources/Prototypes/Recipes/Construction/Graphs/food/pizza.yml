@@ -51,7 +51,6 @@
           state: pizza-pepperoni-raw
       - node: pizza-pepperoni-raw
       entity: FoodPepperoniPizzaRaw
-
     - to: pizza-pineapple-raw
       steps:
       - tag: PineappleSlice
