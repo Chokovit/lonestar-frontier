@@ -49,8 +49,7 @@
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-pepperoni-raw
-      - node: pizza-pepperoni-raw
-      entity: FoodPepperoniPizzaRaw
+
     - to: pizza-pineapple-raw
       steps:
       - tag: PineappleSlice
@@ -64,30 +63,7 @@
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-pineapple-raw
-      - node: pizza-pineapple-raw
-      entity: FoodPineapplePizzaRaw
 
-  - node: pizza-sassysage-raw
-    entity: FoodSassysagePizzaRaw
-
-  - node: pizza-meat-raw
-    entity: FoodMeatPizzaRaw
-
-  - node: pizza-mushroom-raw
-    entity: FoodMushroomPizzaRaw
-
-  - node: pizza-fourcheese-raw
-    entity: FoodFourcheesePizzaRaw
-  - node: pizza-donkpocket-raw
-    entity: FoodDonkpocketPizzaRaw
-  - node: pizza-firecracker-raw
-    entity: FoodFirecrackerPizzaRaw
-  - node: pizza-vegetable-raw
-    entity: FoodVegetablePizzaRaw
-  - node: pizza-uranium-raw
-    entity: FoodUraniumPizzaRaw
-  - node: pizza-Margherita-raw
-    entity: FoodMargheritaPizzaRaw
   # Frontier: making buttered flat dough
   - node: flat-butter
     entity: FoodDoughFlatButtered
