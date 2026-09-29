@@ -44,7 +44,16 @@
     - to: pizza-pepperoni-raw
       steps:
       - tag: PepperoniSlice
-        amount: 3
+        name: construction-graph-tag-pepperoni-slice
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-pepperoni-raw
+      - tag: PepperoniSlice
+        name: construction-graph-tag-pepperoni-slice
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-pepperoni-raw
+      - tag: PepperoniSlice
         name: construction-graph-tag-pepperoni-slice
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
@@ -53,7 +62,11 @@
     - to: pizza-pineapple-raw
       steps:
       - tag: PineappleSlice
-        amount: 2
+        name: construction-graph-tag-pineapple-slice
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-pineapple-raw
+      - tag: PineappleSlice
         name: construction-graph-tag-pineapple-slice
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
