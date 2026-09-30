@@ -209,3 +209,39 @@
   - type: Construction
     graph: Pizza
     node: pizza-donkpocket-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodMushroomPizzaRaw
+  name: uncooked mushroom pizza
+  description: An uncooked mushroom pizza.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+    - mushroom
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-mushroom-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-mushroom-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodMargheritaPizzaRaw
+  name: uncooked margherita pizza
+  description: An uncooked margherita pizza.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+    - tomato
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-margherita-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-margherita-raw

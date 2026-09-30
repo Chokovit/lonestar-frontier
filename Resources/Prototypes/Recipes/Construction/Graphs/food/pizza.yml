@@ -164,6 +164,22 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-donkpocket-raw
 
+    - to: pizza-mushroom-raw
+      steps:
+      - tag: Mushroom
+        amount: 2
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-mushroom-raw
+
+    - to: pizza-margherita-raw
+      steps:
+      - tag: TomatoSlice
+        amount: 2
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-margherita-raw
+
   - node: pizza-pepperoni-raw
     entity: FoodPepperoniPizzaRaw
   - node: pizza-pineapple-raw
@@ -180,6 +196,10 @@
     entity: FoodUraniumPizzaRaw
   - node: pizza-donkpocket-raw
     entity: FoodDonkPocketPizzaRaw
+  - node: pizza-mushroom-raw
+    entity: FoodMushroomPizzaRaw
+  - node: pizza-margherita-raw
+    entity: FoodMargheritaPizzaRaw
 
   # Frontier: making buttered flat dough
   - node: flat-butter

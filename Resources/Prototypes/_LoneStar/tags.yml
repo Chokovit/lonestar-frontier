@@ -28,3 +28,5 @@
   id: Cabbage
 - type: Tag
   id: RawCarp
+- type: Tag
+  id: TomatoSlice

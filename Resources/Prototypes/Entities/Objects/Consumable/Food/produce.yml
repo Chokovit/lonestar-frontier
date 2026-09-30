@@ -1485,6 +1485,7 @@
     - Fruit
     - Slice
     - SlicedVegetable
+    - TomatoSlice
 
 - type: entity
   name: chili pepper
