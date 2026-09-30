@@ -77,6 +77,11 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-pineapple-raw
 
+  - node: pizza-pepperoni-raw
+    entity: FoodPepperoniPizzaRaw
+  - node: pizza-pineapple-raw
+    entity: FoodPineapplePizzaRaw
+
   # Frontier: making buttered flat dough
   - node: flat-butter
     entity: FoodDoughFlatButtered
