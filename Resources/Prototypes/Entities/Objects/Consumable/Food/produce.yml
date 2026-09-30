@@ -928,6 +928,9 @@
         solution: food
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+  - type: SliceableFood
+    count: 5
+    slice: FoodTomatoSlice
   - type: Tag
     tags:
     - Fruit
@@ -1409,7 +1412,7 @@
     tags:
     - Vegetable
     - Slice
-    - OnionSlice
+    - SlicedVegetable
   - type: FoodSequenceElement
     entries:
       Burger: OnionSliceBurger
@@ -1441,10 +1444,42 @@
     tags:
     - Vegetable
     - Slice
+    - SlicedVegetable
   - type: FoodSequenceElement
     entries:
       Burger: OnionRedSliceBurger
       Taco: OnionRedSlice
+
+- type: entity
+  name: tomato slice
+  parent: ProduceSliceBase
+  id: FoodTomatoSlice
+  description: A slice of tomato.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - onion
+  - type: Sprite
+    sprite: Objects/Consumable/Food/meat.rsi
+    state: salami-slice
+    color: red
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 2
+        - ReagentId: Water
+          Quantity: 1
+        - ReagentId: Vitamin
+          Quantity: 1
+  - type: Tag
+    tags:
+    - Vegetable
+    - Fruit
+    - Slice
+    - SlicedVegetable
 
 - type: entity
   name: chili pepper

@@ -63,7 +63,7 @@
   parent: FoodDoughFlat
   id: FoodPepperoniPizzaRaw
   name: uncooked pepperoni pizza
-  description: A pepperoni pizza ready to bake.
+  description: An uncooked pepperoni pizza.
   components:
   - type: Tag
     tags:
@@ -84,7 +84,7 @@
   parent: FoodDoughFlat
   id: FoodPineapplePizzaRaw
   name: uncooked hawaiian pizza
-  description: A hawaiian pizza ready to bake.
+  description: An uncooked hawaiian pizza.
   components:
   - type: Tag
     tags:
@@ -105,7 +105,7 @@
   parent: FoodDoughFlat
   id: FoodMeatPizzaRaw
   name: uncooked meat pizza
-  description: A meat lovers pizza ready to bake.
+  description: An uncooked meat lovers pizza.
   components:
   - type: Tag
     tags:
@@ -121,3 +121,21 @@
   - type: Construction
     graph: Pizza
     node: pizza-meat-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodVegetablePizzaRaw
+  name: uncooked vegetable pizza
+  description: An uncooked vegetable pizza.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+    - vegetable
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-vegetable-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-vegetable-raw

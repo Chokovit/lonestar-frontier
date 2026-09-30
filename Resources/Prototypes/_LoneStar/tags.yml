@@ -12,3 +12,7 @@
   id: RawBacon
 - type: Tag
   id: RawSausage
+- type: Tag
+  id: SlicedVegetable
+- type: Tag
+  id: Chili

@@ -95,12 +95,37 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-meat-raw
 
+    - to: pizza-vegetable-raw
+      steps:
+      - tag: SlicedVegetable
+        name: construction-graph-tag-sliced-vegetable
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-vegetable-raw
+      - tag: SlicedVegetable
+        name: construction-graph-tag-sliced-vegetable
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-vegetable-raw
+      - tag: SlicedVegetable
+        name: construction-graph-tag-sliced-vegetable
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-vegetable-raw
+      - tag: Chili
+        name: construction-graph-tag-sliced-chili
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-vegetable-raw
+
   - node: pizza-pepperoni-raw
     entity: FoodPepperoniPizzaRaw
   - node: pizza-pineapple-raw
     entity: FoodPineapplePizzaRaw
   - node: pizza-meat-raw
     entity: FoodMeatPizzaRaw
+  - node: pizza-vegetable-raw
+    entity: FoodVegetablePizzaRaw
 
   # Frontier: making buttered flat dough
   - node: flat-butter
