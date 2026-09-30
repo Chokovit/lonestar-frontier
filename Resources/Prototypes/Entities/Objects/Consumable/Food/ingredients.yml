@@ -739,6 +739,7 @@
           Quantity: 3.75
   - type: Tag
     tags:
+    - CheeseWedge
     - Slice
   - type: FoodSequenceElement
     entries:
@@ -794,6 +795,7 @@
   - type: Tag
     tags:
     - Slice
+    - ChevreSlice
 
 - type: entity
   name: tofu

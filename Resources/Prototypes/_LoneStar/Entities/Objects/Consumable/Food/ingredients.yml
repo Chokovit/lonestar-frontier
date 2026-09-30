@@ -139,3 +139,20 @@
   - type: Construction
     graph: Pizza
     node: pizza-vegetable-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodFourCheesePizzaRaw
+  name: uncooked four cheese pizza
+  description: An uncooked four cheese pizza.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-fourcheese-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-fourcheese-raw

@@ -14,6 +14,9 @@
   - type: Sprite
     sprite: Nyanotrasen/Objects/Consumable/Food/cheese.rsi
     state: curdcheese
+  - type: Tag
+    tags:
+    - CurdCheese
   - type: SolutionContainerManager
     solutions:
       food:

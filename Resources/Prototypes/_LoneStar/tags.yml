@@ -16,3 +16,9 @@
   id: SlicedVegetable
 - type: Tag
   id: Chili
+- type: Tag
+  id: CheeseSlice
+- type: Tag
+  id: ChevreSlice
+- type: Tag
+  id: CurdCheese

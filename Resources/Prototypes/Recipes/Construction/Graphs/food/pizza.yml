@@ -113,10 +113,38 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-vegetable-raw
       - tag: Chili
-        name: construction-graph-tag-sliced-chili
+        name: construction-graph-tag-chili
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-vegetable-raw
+
+    - to: pizza-fourcheese-raw
+      steps:
+      - tag: CheeseSlice
+        name: construction-graph-tag-cheese-wedge
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-fourcheese-raw
+      - tag: ChevreSlice
+        name: construction-graph-tag-sliced-chevre
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-fourcheese-raw
+      - tag: ChevreSlice
+        name: construction-graph-tag-sliced-chevre
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-fourcheese-raw
+      - tag: Mozzarella
+        name: construction-graph-tag-mozzarella
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-fourcheese-raw
+      - tag: CurdCheese
+        name: construction-graph-tag-curd-cheese
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-fourcheese-raw
 
   - node: pizza-pepperoni-raw
     entity: FoodPepperoniPizzaRaw
