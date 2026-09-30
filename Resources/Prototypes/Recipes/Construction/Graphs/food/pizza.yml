@@ -77,10 +77,30 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-pineapple-raw
 
+    - to: pizza-meat-raw
+      steps:
+      - tag: Cutlet
+        name: construction-graph-tag-cutlet
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-meat-raw
+      - tag: RawSausage
+        name: construction-graph-tag-sausage
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-meat-raw
+      - tag: RawBacon
+        name: construction-graph-tag-bacon
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-meat-raw
+
   - node: pizza-pepperoni-raw
     entity: FoodPepperoniPizzaRaw
   - node: pizza-pineapple-raw
     entity: FoodPineapplePizzaRaw
+  - node: pizza-meat-raw
+    entity: FoodMeatPizzaRaw
 
   # Frontier: making buttered flat dough
   - node: flat-butter

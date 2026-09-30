@@ -45,6 +45,9 @@
   name: uncooked cheese pizza
   description: Still needs topping...unless you're one of THOSE types of people.
   components:
+  - type: Tag
+    tags:
+    - Raw
     - type: FlavorProfile
       flavors:
         - dough
@@ -62,6 +65,9 @@
   name: uncooked pepperoni pizza
   description: A pepperoni pizza ready to bake.
   components:
+  - type: Tag
+    tags:
+    - Raw
     - type: FlavorProfile
       flavors:
         - dough
@@ -80,6 +86,9 @@
   name: uncooked hawaiian pizza
   description: A hawaiian pizza ready to bake.
   components:
+  - type: Tag
+    tags:
+    - Raw
   - type: FlavorProfile
     flavors:
     - dough
@@ -91,3 +100,24 @@
   - type: Construction
     graph: Pizza
     node: pizza-pineapple-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodMeatPizzaRaw
+  name: uncooked meat pizza
+  description: A meat lovers pizza ready to bake.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+    - savory
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-meat-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-meat-raw

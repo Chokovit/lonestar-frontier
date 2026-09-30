@@ -10,3 +10,5 @@
   id: PineappleSlice
 - type: Tag
   id: RawBacon
+- type: Tag
+  id: RawSausage

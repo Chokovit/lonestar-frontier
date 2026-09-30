@@ -314,6 +314,11 @@
         reagents:
         - ReagentId: UncookedAnimalProteins
           Quantity: 5
+  - type: Tag
+    tags:
+    - Raw
+    - Meat
+    - RawSausage
   - type: Construction
     graph: NFHotdogStove
     node: start
