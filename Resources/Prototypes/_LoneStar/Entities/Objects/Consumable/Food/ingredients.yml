@@ -421,3 +421,25 @@
   - type: Construction
     graph: Pizza
     node: pizza-firecracker-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodCottonPizzaRaw
+  name: uncooked cotton pizza
+  description: An uncooked cotton pizza.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+    - cotton
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-cotton-raw
+  - type: Tag
+    tags:
+    - ClothMade
+  - type: MothFood
+  - type: Construction
+    graph: Pizza
+    node: pizza-cotton-raw

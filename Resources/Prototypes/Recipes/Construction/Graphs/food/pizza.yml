@@ -194,6 +194,14 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-margherita-raw
 
+    - to: pizza-cotton-raw
+      steps:
+      - tag: CottonBoll
+        amount: 2
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-cotton-raw
+
   - node: pizza-pepperoni-raw
     entity: FoodPepperoniPizzaRaw
   - node: pizza-pineapple-raw
@@ -214,6 +222,8 @@
     entity: FoodMushroomPizzaRaw
   - node: pizza-margherita-raw
     entity: FoodMargheritaPizzaRaw
+  - node: pizza-cotton-raw
+    entity: FoodCottonPizzaRaw
 
   # Pesto Pizzas
   - node: pizza-base-pesto
