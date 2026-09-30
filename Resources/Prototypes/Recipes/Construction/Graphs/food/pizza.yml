@@ -154,6 +154,9 @@
     entity: FoodMeatPizzaRaw
   - node: pizza-vegetable-raw
     entity: FoodVegetablePizzaRaw
+  - node: pizza-fourcheese-raw
+    entity: FoodFourCheesePizzaRaw
+
 
   # Frontier: making buttered flat dough
   - node: flat-butter
