@@ -44,16 +44,7 @@
     - to: pizza-pepperoni-raw
       steps:
       - tag: PepperoniSlice
-        name: construction-graph-tag-pepperoni-slice
-        icon:
-          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pepperoni-raw
-      - tag: PepperoniSlice
-        name: construction-graph-tag-pepperoni-slice
-        icon:
-          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pepperoni-raw
-      - tag: PepperoniSlice
+        amount: 2
         name: construction-graph-tag-pepperoni-slice
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
@@ -62,11 +53,7 @@
     - to: pizza-pineapple-raw
       steps:
       - tag: PineappleSlice
-        name: construction-graph-tag-pineapple-slice
-        icon:
-          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pineapple-raw
-      - tag: PineappleSlice
+        amount: 1
         name: construction-graph-tag-pineapple-slice
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
@@ -103,11 +90,7 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-vegetable-raw
       - tag: SlicedVegetable
-        name: construction-graph-tag-sliced-vegetable
-        icon:
-          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-vegetable-raw
-      - tag: SlicedVegetable
+        amount: 1
         name: construction-graph-tag-sliced-vegetable
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
@@ -126,11 +109,7 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-fourcheese-raw
       - tag: ChevreSlice
-        name: construction-graph-tag-sliced-chevre
-        icon:
-          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-fourcheese-raw
-      - tag: ChevreSlice
+        amount: 1
         name: construction-graph-tag-sliced-chevre
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
@@ -146,6 +125,45 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-fourcheese-raw
 
+    - to: pizza-sausage-raw
+      steps:
+      - tag: RawSausage
+        name: construction-graph-tag-sausage
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-sassysage-raw
+
+    - to: pizza-uranium-raw
+      steps:
+      - material: Uranium
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-uranium-raw
+      - tag: Chili
+        name: construction-graph-tag-chili
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-uranium-raw
+      - tag: Garlic
+        name: construction-graph-tag-garlic
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-uranium-raw
+      - tag: PepperoniSlice
+        amount: 2
+        name: construction-graph-tag-pepperoni-slice
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-uranium-raw
+
+    - to: pizza-donkpocket-raw
+      steps:
+      - tag: DonkPocket
+        amount: 2
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-donkpocket-raw
+
   - node: pizza-pepperoni-raw
     entity: FoodPepperoniPizzaRaw
   - node: pizza-pineapple-raw
@@ -156,7 +174,12 @@
     entity: FoodVegetablePizzaRaw
   - node: pizza-fourcheese-raw
     entity: FoodFourCheesePizzaRaw
-
+  - node: pizza-sausage-raw
+    entity: FoodSausagePizzaRaw
+  - node: pizza-uranium-raw
+    entity: FoodUraniumPizzaRaw
+  - node: pizza-donkpocket-raw
+    entity: FoodDonkPocketPizzaRaw
 
   # Frontier: making buttered flat dough
   - node: flat-butter

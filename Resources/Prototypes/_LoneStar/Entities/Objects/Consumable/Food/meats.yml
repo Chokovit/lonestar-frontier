@@ -15,6 +15,9 @@
   - type: SliceableFood
     count: 6
     slice: FoodPepperoniSlice
+  - type: Tag
+    tags:
+    - Meat
 
 - type: entity
   name: pepperoni slice
@@ -31,5 +34,6 @@
   - type: Tag
     tags:
     - Slice
+    - Meat
     - Ingredient
     - PepperoniSlice

@@ -583,6 +583,7 @@
     seedId: cabbage
   - type: Tag
     tags:
+    - Cabbage
     - Vegetable
   - type: FoodSequenceElement
     entries:
@@ -595,6 +596,10 @@
   id: FoodGarlic
   description: Delicious, but with a potentially overwhelming odor.
   components:
+  - type: Tag
+    tags:
+    - Garlic
+    - Vegetable
   - type: FlavorProfile
     flavors:
       - garlic
@@ -2316,7 +2321,7 @@
   name: grapes
   parent: FoodProduceBase
   id: FoodGrape
-  description: The food of emperors, Space France inhabitants (usually as wine) and soccer moms. One day it could be used in wine production for the bartender if he ever runs out.
+  description: The food of emperors, French People (usually as wine) and soccer moms. One day it could be used in wine production for the bartender if he ever runs out.
   components:
   - type: FlavorProfile
     flavors:

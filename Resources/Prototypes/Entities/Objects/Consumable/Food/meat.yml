@@ -125,6 +125,9 @@
   - type: SliceableFood
     count: 3
     slice: FoodMeatCutlet
+  - type: Tag
+    tags:
+    - Meat
 
 - type: entity
   name: raw carp fillet
@@ -140,6 +143,7 @@
     tags:
     - Raw
     - Meat
+    - RawCarp
   - type: Sprite
     state: fish
   - type: SolutionContainerManager
@@ -208,6 +212,9 @@
     graph: BearSteak
     node: start
     defaultTarget: filet migrawr
+  - type: Tag
+    tags:
+    - Meat
 
 - type: entity
   name: raw penguin meat
@@ -233,6 +240,9 @@
     graph: PenguinSteak
     node: start
     defaultTarget: cooked penguin
+  - type: Tag
+    tags:
+    - Meat
 
 - type: entity
   name: raw chicken meat
@@ -259,6 +269,9 @@
     graph: ChickenSteak
     node: start
     defaultTarget: cooked chicken
+  - type: Tag
+    tags:
+    - Meat
 
 - type: entity
   name: raw duck meat
@@ -284,6 +297,9 @@
     graph: DuckSteak
     node: start
     defaultTarget: cooked duck
+  - type: Tag
+    tags:
+    - Meat
 
 - type: entity
   name: prime-cut corgi meat

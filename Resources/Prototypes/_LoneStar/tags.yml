@@ -22,3 +22,9 @@
   id: ChevreSlice
 - type: Tag
   id: CurdCheese
+- type: Tag
+  id: Garlic
+- type: Tag
+  id: Cabbage
+- type: Tag
+  id: RawCarp

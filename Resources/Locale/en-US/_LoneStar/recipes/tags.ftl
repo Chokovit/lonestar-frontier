@@ -10,3 +10,4 @@ construction-graph-tag-chili = a chili
 construction-graph-tag-sliced-chevre = a slice of chevre cheese
 construction-graph-tag-cheese-wedge = a cheese wedge
 construction-graph-tag-curd-cheese = some curd cheese
+construction-graph-tag-garlic = some garlic

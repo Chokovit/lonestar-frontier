@@ -156,3 +156,56 @@
   - type: Construction
     graph: Pizza
     node: pizza-fourcheese-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodSausagePizzaRaw
+  name: uncooked sausage pizza
+  description: An uncooked sausage pizza.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+    - savory
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-sassysage-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-sausage-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodUraniumPizzaRaw
+  name: uncooked spicy rock pizza
+  description: An uncooked spicy rock pizza.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - spicy
+    - tingly
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-uranium-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-uranium-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodDonkPocketPizzaRaw
+  name: uncooked donk pocket pizza
+  description: An uncooked donk pocket pizza.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - donk
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-donkpocket-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-donkpocket-raw
