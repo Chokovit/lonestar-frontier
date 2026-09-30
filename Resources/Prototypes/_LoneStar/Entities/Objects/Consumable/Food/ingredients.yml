@@ -23,6 +23,54 @@
         - TomatoPuree
 
 - type: entity
+  name: pesto puree
+  parent: FoodBakingBase
+  id: FoodPestoPuree
+  description: A puree of pesto sauce, stirred to be thick and spreadable.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - oily
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/sauce.rsi
+    state: pestopuree
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: Pesto
+          Quantity: 10
+  - type: Tag
+    tags:
+    - Ingredient
+    - PestoPuree
+
+- type: entity
+  name: bbq puree
+  parent: FoodBakingBase
+  id: FoodBbqPuree
+  description: A puree of Bbq sauce, stirred to be thick and spreadable.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - smokey
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/sauce.rsi
+    state: bbqpuree
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: BbqSauce
+          Quantity: 5
+  - type: Tag
+    tags:
+    - Ingredient
+    - BbqPuree
+
+- type: entity
   parent: FoodDoughFlat
   id: FoodPizzaDough
   name: pizza base
@@ -41,23 +89,115 @@
 
 - type: entity
   parent: FoodDoughFlat
+  id: FoodPizzaDough
+  name: pizza base
+  description: Flattened dough with tomato sauce spread around it.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - tomato
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: dough-pizza
+  - type: Construction
+    graph: Pizza
+    node: pizza-base
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodPestoPizzaDough
+  name: pesto pizza base
+  description: Flattened dough with pesto sauce spread around it.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - oily
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: dough-pesto
+  - type: Construction
+    graph: Pizza
+    node: pizza-base-pesto
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodBbqPizzaDough
+  name: bbq pizza base
+  description: Flattened dough with bbq sauce spread around it.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - bbq
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: dough-bbq
+  - type: Construction
+    graph: Pizza
+    node: pizza-base-bbq
+
+- type: entity
+  parent: FoodDoughFlat
   id: FoodCheesePizzaRaw
   name: uncooked cheese pizza
-  description: Still needs topping...unless you're one of THOSE types of people.
+  description: Still needs toppings...unless you're one of THOSE types of people.
   components:
   - type: Tag
     tags:
     - Raw
-    - type: FlavorProfile
-      flavors:
-        - dough
-        - cheesy
-    - type: Sprite
-      sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-      state: pizza-cheese-raw
-    - type: Construction
-      graph: Pizza
-      node: pizza-cheese-raw
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-cheese-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-cheese-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodPestoCheesePizzaRaw
+  name: unfinished pesto pizza
+  description: Still needs toppings.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-cheese-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-pesto-cheese-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodBbqCheesePizzaRaw
+  name: unfinished bbq pizza
+  description: Still needs toppings.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-cheese-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-bbq-cheese-raw
+
 
 - type: entity
   parent: FoodDoughFlat
@@ -245,3 +385,39 @@
   - type: Construction
     graph: Pizza
     node: pizza-margherita-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodPestoPizzaRaw
+  name: uncooked pesto pizza
+  description: An uncooked pesto pizza.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+    - oily
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-pesto-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-pesto-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodFirecrackerPizzaRaw
+  name: uncooked firecracker pizza
+  description: An uncooked firecracker pizza.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+    - spicy
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-firecracker-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-firecracker-raw

@@ -30,3 +30,9 @@
   id: RawCarp
 - type: Tag
   id: TomatoSlice
+- type: Tag
+  id: PestoPuree
+- type: Tag
+  id: BbqPuree
+- type: Tag
+  id: ChickenCutlet

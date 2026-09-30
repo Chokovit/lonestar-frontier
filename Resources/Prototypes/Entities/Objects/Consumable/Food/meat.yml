@@ -1447,6 +1447,7 @@
     - Raw
     - Cutlet
     - Meat
+    - ChickenCutlet
   - type: Sprite
     state: cutlet
     color: white

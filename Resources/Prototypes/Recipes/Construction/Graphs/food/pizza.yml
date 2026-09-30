@@ -26,6 +26,20 @@
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: dough-pizza
+    - to: pizza-base-pesto
+      steps:
+      - tag: PestoPuree
+        name: construction-graph-tag-pesto-puree
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: dough-pesto
+    - to: pizza-base-bbq
+      steps:
+      - tag: BbqPuree
+        name: construction-graph-tag-bbq-puree
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: dough-bbq
 
   # LoneStar: Pizza
   - node: pizza-base
@@ -200,6 +214,75 @@
     entity: FoodMushroomPizzaRaw
   - node: pizza-margherita-raw
     entity: FoodMargheritaPizzaRaw
+
+  # Pesto Pizzas
+  - node: pizza-base-pesto
+    entity: FoodPestoPizzaDough
+    edges:
+    - to: pizza-pesto-cheese-raw
+      steps:
+      - tag: Mozzarella
+        name: construction-graph-tag-mozzarella
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-cheese-raw
+  - node: pizza-pesto-cheese-raw
+    entity: FoodPestoCheesePizzaRaw
+    edges:
+    - to: pizza-pesto-raw
+      steps:
+      - tag: TomatoSlice
+        amount: 1
+        name: construction-graph-tag-tomato-slice
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-pesto-raw
+    - to: pizza-pesto-raw
+      steps:
+      - tag: Mozzarella
+        amount: 1
+        name: construction-graph-tag-mozzarella
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-pesto-raw
+
+  - node: pizza-pesto-raw
+    entity: FoodPestoPizzaRaw
+
+  # BBQ Pizzas
+  - node: pizza-base-bbq
+    entity: FoodBbqPizzaDough
+    edges:
+    - to: pizza-bbq-cheese-raw
+      steps:
+      - tag: Mozzarella
+        name: construction-graph-tag-mozzarella
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-cheese-raw
+  - node: pizza-bbq-cheese-raw
+    entity: FoodBbqCheesePizzaRaw
+    edges:
+    - to: pizza-firecracker-raw
+      steps:
+      - tag: Chili
+        name: construction-graph-tag-chili
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-firecracker-raw
+      - tag: CheeseSlice
+        name: construction-graph-tag-cheese-wedge
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-firecracker-raw
+      - tag: Cutlet
+        name: construction-graph-tag-cutlet
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-firecracker-raw
+
+  - node: pizza-firecracker-raw
+    entity: FoodFirecrackerPizzaRaw
 
   # Frontier: making buttered flat dough
   - node: flat-butter

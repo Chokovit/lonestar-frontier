@@ -7,8 +7,28 @@
   time: 5
   group: Salad
   reagents:
-    TomatoSauce: 10
-  recipeType: Assembler # Frontier
+    TomatoSauce: 5
+  recipeType: Assembler
+
+- type: microwaveMealRecipe
+  id: FoodPestoPuree
+  name: Pesto Puree
+  result: FoodPestoPuree
+  time: 5
+  group: Salad
+  reagents:
+    Pesto: 5
+  recipeType: Assembler
+
+- type: microwaveMealRecipe
+  id: FoodBbqPuree
+  name: BBQ Puree
+  result: FoodBbqPuree
+  time: 5
+  group: Savory
+  reagents:
+    BbqSauce: 5
+  recipeType: Assembler
 
 # Pepperoni
 - type: microwaveMealRecipe

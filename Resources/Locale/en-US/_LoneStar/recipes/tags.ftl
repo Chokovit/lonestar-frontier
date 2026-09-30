@@ -11,3 +11,5 @@ construction-graph-tag-sliced-chevre = a slice of chevre cheese
 construction-graph-tag-cheese-wedge = a cheese wedge
 construction-graph-tag-curd-cheese = some curd cheese
 construction-graph-tag-garlic = some garlic
+construction-graph-tag-pesto-puree = a pesto puree
+construction-graph-tag-bbq-puree = a bbq puree

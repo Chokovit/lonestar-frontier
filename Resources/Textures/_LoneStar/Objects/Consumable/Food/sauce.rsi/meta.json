@@ -8,6 +8,12 @@
   },
   "states": [
     {
+      "name": "bbqpuree"
+    },
+    {
+      "name": "pestopuree"
+    },
+    {
       "name": "tomatopuree"
     }
   ]

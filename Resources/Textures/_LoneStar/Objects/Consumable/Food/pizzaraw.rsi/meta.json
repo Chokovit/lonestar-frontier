@@ -8,6 +8,12 @@
   },
   "states": [
     {
+      "name": "dough-bbq"
+    },
+    {
+      "name": "dough-pesto"
+    },
+    {
       "name": "dough-pizza"
     },
     {
