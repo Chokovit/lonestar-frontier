@@ -330,6 +330,9 @@
     - spicy
     - tingly
     - terrible
+  - type: Reactive
+    groups:
+      Acidic: [Ingestion]
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-uranium-raw
@@ -509,3 +512,25 @@
   - type: Construction
     graph: Pizza
     node: pizza-seafood-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodStingingMeatPizzaRaw
+  name: uncooked stinging meat pizza
+  description: An uncooked pizza topped with xeno and spider meat.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+    - terrible
+    - acidic
+  - type: Reactive
+    groups:
+      Acidic: [Ingestion]
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-uranium-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-stinging-meat-raw

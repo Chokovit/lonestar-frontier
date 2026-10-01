@@ -17,3 +17,5 @@ construction-graph-tag-onion-slice = an onion slice
 construction-graph-tag-chicken-cutlet = a chicken cutlet
 construction-graph-tag-crab-meat = some crab meat
 construction-graph-tag-raw-fish = some raw fish
+construction-graph-tag-xeno-cutlet = a Xeno Cutlet
+construction-graph-tag-spider-cutlet = a Spider Cutlet
