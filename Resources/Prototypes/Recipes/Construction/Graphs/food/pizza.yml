@@ -306,9 +306,24 @@
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-firecracker-raw
+    - to: pizza-chicken-garlic-raw
+      steps:
+      - tag: ChickenCutlet
+        amount: 1
+        name: construction-graph-tag-chicken-cutlet
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-meat-raw
+      - tag: Garlic
+        name: construction-graph-tag-Garlic
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-meat-raw
 
   - node: pizza-firecracker-raw
     entity: FoodFirecrackerPizzaRaw
+  - node: pizza-chicken-garlic-raw
+    entity: FoodChickenGarlicPizzaRaw
 
   # Frontier: making buttered flat dough
   - node: flat-butter

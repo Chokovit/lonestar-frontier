@@ -461,3 +461,21 @@
   - type: Construction
     graph: Pizza
     node: pizza-supreme-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodChickenGarlicPizzaRaw
+  name: uncooked chicken garlic pizza
+  description: An uncooked chicken and garlic pizza.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+    - garlic
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-meat-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-chicken-garlic-raw

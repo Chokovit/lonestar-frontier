@@ -14,3 +14,4 @@ construction-graph-tag-garlic = some garlic
 construction-graph-tag-pesto-puree = a pesto puree
 construction-graph-tag-bbq-puree = a bbq puree
 construction-graph-tag-onion-slice = an onion slice
+construction-graph-tag-chicken-cutlet = a chicken cutlet
