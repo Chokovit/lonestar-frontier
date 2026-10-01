@@ -67,7 +67,7 @@
     - to: pizza-pineapple-raw
       steps:
       - tag: PineappleSlice
-        amount: 1
+        amount: 2
         name: construction-graph-tag-pineapple-slice
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
@@ -99,11 +99,6 @@
     - to: pizza-vegetable-raw
       steps:
       - tag: SlicedVegetable
-        name: construction-graph-tag-sliced-vegetable
-        icon:
-          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-vegetable-raw
-      - tag: SlicedVegetable
         amount: 1
         name: construction-graph-tag-sliced-vegetable
         icon:
@@ -123,7 +118,6 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-fourcheese-raw
       - tag: ChevreSlice
-        amount: 1
         name: construction-graph-tag-sliced-chevre
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi

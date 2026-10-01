@@ -7,7 +7,7 @@
   time: 5
   group: Salad
   reagents:
-    TomatoSauce: 5
+    TomatoSauce: 3
   recipeType: Assembler
 
 - type: microwaveMealRecipe
@@ -17,7 +17,7 @@
   time: 5
   group: Salad
   reagents:
-    Pesto: 5
+    Pesto: 3
   recipeType: Assembler
 
 - type: microwaveMealRecipe
@@ -27,7 +27,7 @@
   time: 5
   group: Savory
   reagents:
-    BbqSauce: 5
+    BbqSauce: 3
   recipeType: Assembler
 
 # Pepperoni
