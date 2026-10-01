@@ -234,6 +234,7 @@
     - dough
     - cheesy
     - savory
+    - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-pineapple-raw
@@ -255,6 +256,7 @@
     - dough
     - cheesy
     - savory
+    - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-meat-raw
@@ -308,6 +310,7 @@
     - dough
     - cheesy
     - savory
+    - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-sassysage-raw
@@ -326,6 +329,7 @@
     - dough
     - spicy
     - tingly
+    - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-uranium-raw
@@ -343,6 +347,7 @@
     flavors:
     - dough
     - donk
+    - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-donkpocket-raw
@@ -361,6 +366,7 @@
     - dough
     - cheesy
     - mushroom
+    - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-mushroom-raw
@@ -379,6 +385,7 @@
     - dough
     - cheesy
     - tomato
+    - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-margherita-raw
@@ -397,6 +404,7 @@
     - dough
     - cheesy
     - oily
+    - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-pesto-raw
@@ -415,6 +423,7 @@
     - dough
     - cheesy
     - spicy
+    - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-firecracker-raw
@@ -433,6 +442,7 @@
     - dough
     - cheesy
     - cotton
+    - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-cotton-raw
@@ -455,6 +465,7 @@
     - dough
     - cheesy
     - onion
+    - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-pepperoni-raw
@@ -473,9 +484,28 @@
     - dough
     - cheesy
     - garlic
+    - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-meat-raw
   - type: Construction
     graph: Pizza
     node: pizza-chicken-garlic-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodSeafoodPizzaRaw
+  name: uncooked seafood pizza
+  description: An uncooked seafood pizza.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+    - terrible
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-pepperoni-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-seafood-raw

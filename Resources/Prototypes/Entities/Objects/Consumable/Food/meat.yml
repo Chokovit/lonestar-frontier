@@ -143,7 +143,7 @@
     tags:
     - Raw
     - Meat
-    - RawCarp
+    - RawFish
   - type: Sprite
     state: fish
   - type: SolutionContainerManager
@@ -336,6 +336,9 @@
       - crabby
   - type: Sprite
     state: crab
+  - type: Tag
+    tags:
+    - CrabMeat
   - type: SolutionContainerManager
     solutions:
       food:

@@ -216,6 +216,25 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-pepperoni-raw
 
+    - to: pizza-seafood-raw
+      steps:
+      - tag: CrabMeat
+        amount: 1
+        name: construction-graph-tag-onion-slice
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-pepperoni-raw
+      - tag: RawFish
+        amount: 1
+        name: construction-graph-tag-pepperoni-slice
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-pepperoni-raw
+      - tag: Garlic
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-pepperoni-raw
+
   - node: pizza-pepperoni-raw
     entity: FoodPepperoniPizzaRaw
   - node: pizza-pineapple-raw
@@ -240,6 +259,8 @@
     entity: FoodCottonPizzaRaw
   - node: pizza-supreme-raw
     entity: FoodSupremePizzaRaw
+  - node: pizza-seafood-raw
+    entity: FoodSeafoodPizzaRaw
 
   # Pesto Pizzas
   - node: pizza-base-pesto
