@@ -220,17 +220,18 @@
       steps:
       - tag: CrabMeat
         amount: 1
-        name: construction-graph-tag-onion-slice
+        name: construction-graph-tag-crab-meat
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-pepperoni-raw
       - tag: RawFish
         amount: 1
-        name: construction-graph-tag-pepperoni-slice
+        name: construction-graph-tag-raw-fish
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-pepperoni-raw
       - tag: Garlic
+        name: construction-graph-tag-garlic
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-pepperoni-raw
