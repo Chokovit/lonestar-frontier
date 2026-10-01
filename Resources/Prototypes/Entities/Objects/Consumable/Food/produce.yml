@@ -1418,6 +1418,7 @@
     - Vegetable
     - Slice
     - SlicedVegetable
+    - OnionSlice
   - type: FoodSequenceElement
     entries:
       Burger: OnionSliceBurger

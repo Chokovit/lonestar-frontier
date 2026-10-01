@@ -196,6 +196,26 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-cotton-raw
 
+    - to: pizza-supreme-raw
+      steps:
+      - tag: OnionSlice
+        amount: 1
+        name: construction-graph-tag-onion-slice
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-pepperoni-raw
+      - tag: PepperoniSlice
+        amount: 1
+        name: construction-graph-tag-pepperoni-slice
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-pepperoni-raw
+      - tag: Mushroom
+        amount: 1
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-pepperoni-raw
+
   - node: pizza-pepperoni-raw
     entity: FoodPepperoniPizzaRaw
   - node: pizza-pineapple-raw
@@ -218,6 +238,8 @@
     entity: FoodMargheritaPizzaRaw
   - node: pizza-cotton-raw
     entity: FoodCottonPizzaRaw
+  - node: pizza-supreme-raw
+    entity: FoodSupremePizzaRaw
 
   # Pesto Pizzas
   - node: pizza-base-pesto

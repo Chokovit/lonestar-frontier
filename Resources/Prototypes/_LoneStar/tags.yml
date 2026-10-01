@@ -41,4 +41,6 @@
 - type: Tag
   id: TomatoSlice
 - type: Tag
+  id: OnionSlice
+- type: Tag
   id: PineappleSlice
