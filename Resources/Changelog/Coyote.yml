@@ -4165,3 +4165,10 @@ Entries:
   id: 456
   time: '2026-10-01T16:30:13.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/216
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Whispers and subtle messages can no longer be seen by ghosts,
+  id: 457
+  time: '2026-10-03T20:46:59.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/220
