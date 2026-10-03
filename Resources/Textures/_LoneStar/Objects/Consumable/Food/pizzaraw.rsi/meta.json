@@ -20,6 +20,9 @@
       "name": "pizza-cheese-raw"
     },
     {
+      "name": "pizza-chicken-garlic-raw"
+    },
+    {
       "name": "pizza-cotton-raw"
     },
     {
@@ -51,6 +54,15 @@
     },
     {
       "name": "pizza-sassysage-raw"
+    },
+    {
+      "name": "pizza-seafood-raw"
+    },
+    {
+      "name": "pizza-stinging-raw"
+    },
+    {
+      "name": "pizza-supreme-raw"
     },
     {
       "name": "pizza-uranium-raw"

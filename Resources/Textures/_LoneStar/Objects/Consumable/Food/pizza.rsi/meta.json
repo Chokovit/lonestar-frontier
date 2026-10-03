@@ -83,6 +83,15 @@
       "name": "pizza-sassysage"
     },
     {
+      "name": "pizza-seafood"
+    },
+    {
+      "name": "pizza-stinging-meat"
+    },
+    {
+      "name": "pizza-supreme"
+    },
+    {
       "name": "pizza-uranium"
     },
     {
@@ -93,6 +102,15 @@
     },
     {
       "name": "sassysage-slice"
+    },
+    {
+      "name": "seafood-slice"
+    },
+    {
+      "name": "stinging-meat-slice"
+    },
+    {
+      "name": "supreme-slice"
     },
     {
       "name": "uranium-slice"
