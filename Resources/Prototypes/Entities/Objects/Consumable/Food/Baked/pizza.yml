@@ -12,7 +12,7 @@
       - bread
   - type: Food
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/pizza.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizza.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -46,7 +46,7 @@
       - bread
   - type: Food
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/pizza.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizza.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -82,7 +82,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: margherita
+    - state: pizza-margherita
   - type: SliceableFood
     slice: FoodPizzaMargheritaSlice
 
@@ -115,7 +115,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: meat
+    - state: pizza-meat
   - type: SliceableFood
     slice: FoodPizzaMeatSlice
   - type: Tag
@@ -158,7 +158,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: mushroom
+    - state: pizza-mushroom
   - type: SliceableFood
     slice: FoodPizzaMushroomSlice
 
@@ -194,7 +194,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: vegetable
+    - state: pizza-vegetable
   - type: SliceableFood
     slice: FoodPizzaVegetableSlice
   - type: SolutionContainerManager
@@ -256,7 +256,7 @@
       - donk
   - type: Sprite
     layers:
-    - state: donkpocket
+    - state: pizza-donkpocket
   - type: SliceableFood
     slice: FoodPizzaDonkpocketSlice
   - type: SolutionContainerManager
@@ -324,7 +324,7 @@
       - leafy
   - type: Sprite
     layers:
-    - state: dank
+    - state: pizza-dank
   - type: SliceableFood
     slice: FoodPizzaDankSlice
   - type: SolutionContainerManager
@@ -381,7 +381,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: sassysage
+    - state: pizza-sassysage
   - type: SliceableFood
     slice: FoodPizzaSassysageSlice
   - type: Tag
@@ -426,7 +426,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: pineapple
+    - state: pizza-pineapple
   - type: SliceableFood
     slice: FoodPizzaPineappleSlice
   - type: Tag
@@ -473,7 +473,7 @@
       - gunpowder
   - type: Sprite
     layers:
-    - state: arnold
+    - state: pizza-arnold
   - type: SliceableFood
     slice: FoodPizzaArnoldSlice
   - type: SolutionContainerManager
@@ -580,7 +580,7 @@
     - bread
   - type: Sprite
     layers:
-    - state: uranium-pizza
+    - state: pizza-uranium
   - type: SliceableFood
     slice: FoodPizzaUraniumSlice
   - type: Tag
@@ -651,7 +651,7 @@
     - bread
   - type: Sprite
     layers:
-    - state: cotton-pizza
+    - state: pizza-cotton
   - type: Food
     requiresSpecialDigestion: true
   - type: SliceableFood
@@ -757,3 +757,105 @@
           Quantity: 2
         - ReagentId: Pax
           Quantity: 1.5
+
+- type: entity
+  name: bbq chicken garlic pizza
+  parent: FoodPizzaBase
+  id: FoodPizzaChickenGarlic
+  description: A flavourful pizza with a smokey after taste.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - cheesy
+    - oily
+    - bread
+    - garlic
+    - chicken
+  - type: Sprite
+    layers:
+    - state: pizza-meat
+  - type: SliceableFood
+    slice: FoodPizzaChickenGarlicSlice
+
+- type: entity
+  name: slice of bbq chicken garlic pizza
+  parent: FoodPizzaSliceBase
+  id: FoodPizzaChickenGarlicSlice
+  description: A flavourful pizza with a smokey after taste.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - cheesy
+    - oily
+    - bread
+    - garlic
+    - chicken
+  - type: Sprite
+    layers:
+    - state: meat-slice
+
+- type: entity
+  name: cheese pizza
+  parent: FoodPizzaBase
+  id: FoodPizzaCheese
+  description: As they call it in New York. "Plain"
+  components:
+  - type: FlavorProfile
+    flavors:
+    - cheesy
+    - oily
+    - bread
+  - type: Sprite
+    layers:
+    - state: pizza-cheese
+  - type: SliceableFood
+    slice: FoodPizzaCheese
+
+- type: entity
+  name: slice of cheese pizza
+  parent: FoodPizzaSliceBase
+  id: FoodPizzaCheese
+  description: As they call it in New York. "Plain"
+  components:
+  - type: FlavorProfile
+    flavors:
+    - cheesy
+    - oily
+    - bread
+  - type: Sprite
+    layers:
+    - state: cheese-slice
+
+- type: entity
+  name: pepperoni pizza
+  parent: FoodPizzaBase
+  id: FoodPizzaPepperoni
+  description: Come on! Let's kill each other over the pepperoni!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - cheesy
+    - oily
+    - bread
+    - savory
+  - type: Sprite
+    layers:
+    - state: pizza-pepperoni
+  - type: SliceableFood
+    slice: FoodPizzaPepperoni
+
+- type: entity
+  name: slice of cheese pizza
+  parent: FoodPizzaSliceBase
+  id: FoodPizzaCheese
+  description: Come on! Let's kill each other over the pepperoni!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - cheesy
+    - oily
+    - bread
+    - savory
+  - type: Sprite
+    layers:
+    - state: pepperoni-slice
