@@ -1467,8 +1467,7 @@
     - onion
   - type: Sprite
     sprite: Objects/Consumable/Food/meat.rsi
-    state: salami-slice
-    color: red
+    state: tomato
   - type: SolutionContainerManager
     solutions:
       food:
