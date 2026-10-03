@@ -203,18 +203,18 @@
         name: construction-graph-tag-onion-slice
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pepperoni-raw
+          state: pizza-supreme-raw
       - tag: PepperoniSlice
         amount: 1
         name: construction-graph-tag-pepperoni-slice
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pepperoni-raw
+          state: pizza-supreme-raw
       - tag: Mushroom
         amount: 1
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pepperoni-raw
+          state: pizza-supreme-raw
 
     - to: pizza-seafood-raw
       steps:
@@ -223,18 +223,18 @@
         name: construction-graph-tag-crab-meat
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pepperoni-raw
+          state: pizza-seafood-raw
       - tag: RawFish
         amount: 1
         name: construction-graph-tag-raw-fish
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pepperoni-raw
+          state: pizza-seafood-raw
       - tag: Garlic
         name: construction-graph-tag-garlic
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pepperoni-raw
+          state: pizza-seafood-raw
 
     - to: pizza-stinging-meat-raw
       steps:
@@ -243,18 +243,18 @@
         name: construction-graph-tag-xeno-cutlet
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-uranium-raw
+          state: pizza-stinging-raw
       - tag: SpiderCutlet
         amount: 1
         name: construction-graph-tag-spider-cutlet
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-uranium-raw
+          state: pizza-stinging-raw
       - tag: Garlic
         name: construction-graph-tag-garlic
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-uranium-raw
+          state: pizza-stinging-raw
 
   - node: pizza-pepperoni-raw
     entity: FoodPepperoniPizzaRaw
@@ -357,12 +357,12 @@
         name: construction-graph-tag-chicken-cutlet
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-meat-raw
+          state: pizza-chicken-garlic-raw
       - tag: Garlic
         name: construction-graph-tag-Garlic
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-meat-raw
+          state: pizza-chicken-garlic-raw
 
   - node: pizza-firecracker-raw
     entity: FoodFirecrackerPizzaRaw

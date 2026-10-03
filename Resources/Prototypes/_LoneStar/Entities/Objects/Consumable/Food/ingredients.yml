@@ -471,7 +471,7 @@
     - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-    state: pizza-pepperoni-raw
+    state: pizza-supreme-raw
   - type: Construction
     graph: Pizza
     node: pizza-supreme-raw
@@ -490,7 +490,7 @@
     - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-    state: pizza-meat-raw
+    state: pizza-chicken-garlic-raw
   - type: Construction
     graph: Pizza
     node: pizza-chicken-garlic-raw
@@ -508,7 +508,7 @@
     - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-    state: pizza-pepperoni-raw
+    state: pizza-seafood-raw
   - type: Construction
     graph: Pizza
     node: pizza-seafood-raw
@@ -530,7 +530,7 @@
       Acidic: [Ingestion]
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-    state: pizza-uranium-raw
+    state: pizza-stinging-raw
   - type: Construction
     graph: Pizza
     node: pizza-stinging-meat-raw
