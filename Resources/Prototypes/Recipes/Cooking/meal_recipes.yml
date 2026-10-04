@@ -690,9 +690,7 @@
   time: 30
   group: Pizza
   solids:
-    FoodDoughFlat: 1
-    FoodCheeseSlice: 1
-    FoodTomato: 4
+    FoodMargheritaPizzaRaw: 1
   recipeType: Oven # Frontier
 
 - type: microwaveMealRecipe
@@ -702,8 +700,7 @@
   time: 30
   group: Pizza
   solids:
-    FoodDoughFlat: 1
-    FoodMushroom: 5
+    FoodMushroomPizzaRaw: 1
   recipeType: Oven # Frontier
 
 - type: microwaveMealRecipe
@@ -713,10 +710,7 @@
   time: 30
   group: Pizza
   solids:
-    FoodDoughFlat: 1
-    FoodMeat: 3
-    FoodCheeseSlice: 1
-    FoodTomato: 1
+    FoodMeatPizzaRaw: 1
   recipeType: Oven # Frontier
 
 - type: microwaveMealRecipe
@@ -726,11 +720,7 @@
   time: 30
   group: Pizza
   solids:
-    FoodDoughFlat: 1
-    FoodEggplant: 1
-    FoodCarrot: 1
-    FoodCorn: 1
-    FoodTomato: 1
+    FoodVegetablePizzaRaw: 1
   recipeType: Oven # Frontier
 
 - type: microwaveMealRecipe
@@ -740,9 +730,7 @@
   time: 30
   group: Pizza
   solids:
-    FoodDoughFlat: 1
-    FoodMeatChickenCutlet: 3
-    FoodPineappleSlice: 5
+    FoodPineapplePizzaRaw: 1
   recipeType: Oven # Frontier
 
 - type: microwaveMealRecipe
@@ -753,9 +741,6 @@
   group: Pizza
   solids:
     FoodDoughFlat: 1
-    LeavesCannabis: 2
-    FoodCheeseSlice: 1
-    FoodTomato: 1
   recipeType: Oven # Frontier
 
 - type: microwaveMealRecipe
@@ -765,10 +750,7 @@
   time: 30
   group: Pizza
   solids:
-    FoodDoughFlat: 1
-    FoodDonkpocketWarm: 3
-    FoodCheeseSlice: 1
-    FoodTomato: 1
+    FoodDonkPocketPizzaRaw: 1
   recipeType: Oven # Frontier
 
 - type: microwaveMealRecipe
@@ -778,10 +760,7 @@
   time: 30
   group: Pizza
   solids:
-    FoodDoughFlat: 1
-    FoodChiliPepper: 2
-    FoodTomato: 2
-    SheetUranium1: 2
+    FoodUraniumPizzaRaw: 1
   recipeType: Oven # Frontier
 
 - type: microwaveMealRecipe
@@ -791,8 +770,7 @@
   time: 30
   group: Moth
   solids:
-    FoodDoughCottonFlat: 1
-    CottonBol: 4
+    FoodCottonPizzaRaw: 1
   recipeType: Oven # Frontier
 
 - type: microwaveMealRecipe
