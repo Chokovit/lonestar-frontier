@@ -313,7 +313,7 @@
     - terrible
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-    state: pizza-sassysage-raw
+    state: pizza-sausage-raw
   - type: Construction
     graph: Pizza
     node: pizza-sausage-raw

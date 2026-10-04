@@ -139,7 +139,7 @@
         name: construction-graph-tag-sausage
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-sassysage-raw
+          state: pizza-sausage-raw
 
     - to: pizza-uranium-raw
       steps:

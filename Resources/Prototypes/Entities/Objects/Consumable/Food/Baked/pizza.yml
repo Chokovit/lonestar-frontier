@@ -368,10 +368,10 @@
 # Tastes like crust, tomato, cheese, meat, satisfaction.
 
 - type: entity
-  name: sassysage pizza
+  name: sausage pizza
   parent: FoodPizzaBase
-  id: FoodPizzaSassysage
-  description: You can really smell the sassiness.
+  id: FoodPizzaSausage
+  description: A pizza without sausage is the absolute wurst.
   components:
   - type: FlavorProfile
     flavors:
@@ -381,18 +381,18 @@
       - bread
   - type: Sprite
     layers:
-    - state: pizza-sassysage
+    - state: pizza-sausage
   - type: SliceableFood
-    slice: FoodPizzaSassysageSlice
+    slice: FoodPizzaSausageSlice
   - type: Tag
     tags:
     - Meat
     - Pizza
 
 - type: entity
-  name: slice of sassysage pizza
+  name: slice of sausage pizza
   parent: FoodPizzaSliceBase
-  id: FoodPizzaSassysageSlice
+  id: FoodPizzaSausageSlice
   description: Deliciously sassy.
   components:
   - type: FlavorProfile
@@ -403,7 +403,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: sassysage-slice
+    - state: sausage-slice
   - type: Tag
     tags:
     - Meat

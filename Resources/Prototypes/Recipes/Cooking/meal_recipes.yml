@@ -774,6 +774,33 @@
   recipeType: Oven # Frontier
 
 - type: microwaveMealRecipe
+  id: RecipeCheesePizza
+  name: cheese pizza recipe
+  result: FoodPizzaCheese
+  time: 30
+  solids:
+    FoodCheesePizzaRaw: 1
+  recipeType: Oven # Frontier
+
+- type: microwaveMealRecipe
+  id: RecipePepperoniPizza
+  name: pepperoni pizza recipe
+  result: FoodPizzaPepperoni
+  time: 30
+  solids:
+    FoodPepperoniPizzaRaw: 1
+  recipeType: Oven # Frontier
+
+- type: microwaveMealRecipe
+  id: RecipeSausagePizza
+  name: sausage pizza recipe
+  result: FoodPizzaSausage
+  time: 30
+  solids:
+    FoodSausagePizzaRaw: 1
+  recipeType: Oven # Frontier
+
+- type: microwaveMealRecipe
   id: RecipeWorldpeasPizza
   name: world peazza recipe
   result: FoodPizzaWorldpeas
