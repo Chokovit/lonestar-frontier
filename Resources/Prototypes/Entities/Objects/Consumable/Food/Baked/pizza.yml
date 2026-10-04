@@ -802,9 +802,7 @@
   components:
   - type: FlavorProfile
     flavors:
-    - cheesy
-    - oily
-    - bread
+    - basic
   - type: Sprite
     layers:
     - state: pizza-cheese
@@ -814,14 +812,12 @@
 - type: entity
   name: slice of cheese pizza
   parent: FoodPizzaSliceBase
-  id: FoodPizzaCheese
+  id: FoodPizzaCheeseSlice
   description: As they call it in New York. "Plain"
   components:
   - type: FlavorProfile
     flavors:
-    - cheesy
-    - oily
-    - bread
+    - basic
   - type: Sprite
     layers:
     - state: cheese-slice
@@ -845,9 +841,9 @@
     slice: FoodPizzaPepperoni
 
 - type: entity
-  name: slice of cheese pizza
+  name: slice of pepperoni pizza
   parent: FoodPizzaSliceBase
-  id: FoodPizzaCheese
+  id: FoodPizzaPepperoniSlice
   description: Come on! Let's kill each other over the pepperoni!
   components:
   - type: FlavorProfile
@@ -859,3 +855,166 @@
   - type: Sprite
     layers:
     - state: pepperoni-slice
+
+- type: entity
+  name: bbq cheese pizza
+  parent: FoodPizzaBase
+  id: FoodPizzaBbqCheese
+  description: You forgot the toppings...
+  components:
+  - type: FlavorProfile
+    flavors:
+    - basic
+  - type: Sprite
+    layers:
+    - state: pizza-cheese
+  - type: SliceableFood
+    slice: FoodPizzaBbqCheese
+
+- type: entity
+  name: slice of bbq cheese pizza
+  parent: FoodPizzaSliceBase
+  id: FoodPizzaBbqCheeseSlice
+  description: You forgot the toppings...
+  components:
+  - type: FlavorProfile
+    flavors:
+    - basic
+  - type: Sprite
+    layers:
+    - state: cheese-slice
+
+- type: entity
+  name: pesto cheese pizza
+  parent: FoodPizzaBase
+  id: FoodPizzaPestoCheese
+  description: You forgot the toppings...
+  components:
+  - type: FlavorProfile
+    flavors:
+    - basic
+  - type: Sprite
+    layers:
+    - state: pizza-cheese
+  - type: SliceableFood
+    slice: FoodPizzaBbqCheese
+
+- type: entity
+  name: slice of pesto cheese pizza
+  parent: FoodPizzaSliceBase
+  id: FoodPizzaPestoCheeseSlice
+  description: You forgot the toppings...
+  components:
+  - type: FlavorProfile
+    flavors:
+    - basic
+  - type: Sprite
+    layers:
+    - state: cheese-slice
+
+- type: entity
+  name: supreme pizza
+  parent: FoodPizzaBase
+  id: FoodPizzaSupreme
+  description: A delicious Supreme Pizza topped with onion, pepperoni, and mushrooms.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - cheesy
+    - oily
+    - bread
+    - savory
+    - onion
+  - type: Sprite
+    layers:
+    - state: pizza-supreme
+  - type: SliceableFood
+    slice: FoodPizzaSupreme
+
+- type: entity
+  name: slice of supreme pizza
+  parent: FoodPizzaSliceBase
+  id: FoodPizzaSupremeSlice
+  description: A delicious Supreme Pizza topped with onion, pepperoni, and mushrooms.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - cheesy
+    - oily
+    - bread
+    - savory
+    - onion
+  - type: Sprite
+    layers:
+    - state: supreme-slice
+
+- type: entity
+  name: seafood pizza
+  parent: FoodPizzaBase
+  id: FoodPizzaSeafood
+  description: A New Haven specialty, also popular among Feroxi.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - cheesy
+    - oily
+    - bread
+    - fishy
+    - crabby
+  - type: Sprite
+    layers:
+    - state: pizza-seafood
+  - type: SliceableFood
+    slice: FoodPizzaSeafood
+
+- type: entity
+  name: slice of seafood pizza
+  parent: FoodPizzaSliceBase
+  id: FoodPizzaSeafoodSlice
+  description: A New Haven specialty, also popular among Feroxi.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - cheesy
+    - oily
+    - bread
+    - fishy
+    - crabby
+  - type: Sprite
+    layers:
+    - state: seafood-slice
+
+- type: entity
+  name: stinger pizza
+  parent: FoodPizzaBase
+  id: FoodPizzaStingingMeat
+  description: When Humans and Rodentia first brought pizza to Moghes, it was only natural the Unathi would find a way to make it their own.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - cheesy
+    - oily
+    - bread
+    - pyrotton
+  - type: Sprite
+    layers:
+    - state: pizza-stinging-meat
+  - type: SliceableFood
+    slice: FoodPizzaStingingMeat
+
+
+- type: entity
+  name: slice of stinger pizza
+  parent: FoodPizzaSliceBase
+  id: FoodPizzaStingingMeatSlice
+  description: When Humans and Rodentia first brought pizza to Moghes, it was only natural the Unathi would find a way to make it their own.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - cheesy
+    - oily
+    - bread
+    - pyrotton
+  - type: Sprite
+    layers:
+    - state: stinging-meat-slice
