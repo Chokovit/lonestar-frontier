@@ -143,7 +143,6 @@
     - Meat
     - Pizza
     - Slice
-# Tastes like crust, tomato, cheese, meat.
 
 - type: entity
   name: mushroom pizza
@@ -176,7 +175,6 @@
   - type: Sprite
     layers:
     - state: mushroom-slice
-# Tastes like crust, tomato, cheese, mushroom.
 
 - type: entity
   name: vegetable pizza
@@ -243,7 +241,6 @@
         - ReagentId: Flavorol
           Quantity: 3
 
-# Tastes like crust, tomato, cheese, carrot.
 
 - type: entity
   name: donk-pocket pizza
@@ -308,7 +305,6 @@
     - Meat
     - Pizza
     - Slice
-# Tastes like crust, tomato, cheese, meat, laziness.
 
 - type: entity
   name: dank pizza
@@ -365,7 +361,6 @@
           Quantity: 5
         - ReagentId: Flavorol # Frontier
           Quantity: 3 # Frontier
-# Tastes like crust, tomato, cheese, meat, satisfaction.
 
 - type: entity
   name: sausage pizza
@@ -409,7 +404,6 @@
     - Meat
     - Pizza
     - Slice
-# Tastes like crust, tomato, cheese, sausage, sass.
 
 - type: entity
   name: Hawaiian pizza
@@ -455,7 +449,6 @@
     - Meat
     - Pizza
     - Slice
-# Tastes like crust, tomato, cheese, pineapple, ham.
 
 #TODO: This is a meme pizza from /tg/. It has specially coded mechanics.
 - type: entity
@@ -532,7 +525,6 @@
     - Meat
     - Pizza
     - Slice
-# Tastes like crust, tomato, cheese, pepperoni, 9 millimeter bullets.
 
 #TODO: Make this do poison damage and make cut pizza slices eventually rot into this.
 - type: entity
@@ -564,7 +556,6 @@
           Quantity: 2
         - ReagentId: Vitamin
           Quantity: 1
-# Tastes like stale crust, rancid cheese, mushroom.
 
 - type: entity
   name: spicy rock pizza
@@ -636,8 +627,6 @@
           Quantity: 0.5
         - ReagentId: Uranium
           Quantity: 2
-
-# Tastes like crust, tomato, cheese, radiation.
 
 - type: entity
   name: cotton pizza

@@ -236,25 +236,25 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-seafood-raw
 
-    - to: pizza-stinging-meat-raw
+    - to: pizza-stinger-raw
       steps:
       - tag: XenoCutlet
         amount: 1
         name: construction-graph-tag-xeno-cutlet
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-stinging-raw
+          state: pizza-stinger-raw
       - tag: SpiderCutlet
         amount: 1
         name: construction-graph-tag-spider-cutlet
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-stinging-raw
+          state: pizza-stinger-raw
       - tag: Garlic
         name: construction-graph-tag-garlic
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-stinging-raw
+          state: pizza-stinger-raw
 
   - node: pizza-pepperoni-raw
     entity: FoodPepperoniPizzaRaw
@@ -282,8 +282,8 @@
     entity: FoodSupremePizzaRaw
   - node: pizza-seafood-raw
     entity: FoodSeafoodPizzaRaw
-  - node: pizza-stinging-meat-raw
-    entity: FoodStingingMeatPizzaRaw
+  - node: pizza-stinger-raw
+    entity: FoodStingerPizzaRaw
 
   # Pesto Pizzas
   - node: pizza-base-pesto

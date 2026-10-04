@@ -515,7 +515,7 @@
 
 - type: entity
   parent: FoodDoughFlat
-  id: FoodStingingMeatPizzaRaw
+  id: FoodStingerPizzaRaw
   name: uncooked stinging meat pizza
   description: An uncooked pizza topped with xeno and spider meat.
   components:
@@ -533,4 +533,4 @@
     state: pizza-stinging-raw
   - type: Construction
     graph: Pizza
-    node: pizza-stinging-meat-raw
+    node: pizza-stinger-raw

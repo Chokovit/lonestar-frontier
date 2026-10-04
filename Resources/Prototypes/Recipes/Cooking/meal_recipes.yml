@@ -801,6 +801,78 @@
   recipeType: Oven # Frontier
 
 - type: microwaveMealRecipe
+  id: RecipeStingerPizza
+  name: stinger pizza recipe
+  result: FoodPizzaStinger
+  time: 30
+  solids:
+    FoodStingerPizzaRaw: 1
+  recipeType: Oven # Frontier
+
+- type: microwaveMealRecipe
+  id: RecipeSeafoodPizza
+  name: seafood pizza recipe
+  result: FoodPizzaSeafood
+  time: 30
+  solids:
+    FoodSeafoodPizzaRaw: 1
+  recipeType: Oven # Frontier
+
+- type: microwaveMealRecipe
+  id: RecipeUraniumPizza
+  name: spicy rock pizza recipe
+  result: FoodPizzaUranium
+  time: 30
+  solids:
+    FoodUraniumPizzaRaw: 1
+  recipeType: Oven # Frontier
+
+- type: microwaveMealRecipe
+  id: RecipeFirecrackerPizza
+  name: firecracker pizza recipe
+  result: FoodMothPizzaFirecracker
+  time: 30
+  solids:
+    FoodFirecrackerPizzaRaw: 1
+  recipeType: Oven # Frontier
+
+- type: microwaveMealRecipe
+  id: RecipeFiveCheesePizza
+  name: five cheese pizza recipe
+  result: FoodMothPizzaFiveCheese
+  time: 30
+  solids:
+    FoodFourCheesePizzaRaw: 1
+  recipeType: Oven # Frontier
+
+- type: microwaveMealRecipe
+  id: RecipeSupremePizza
+  name: supreme pizza recipe
+  result: FoodPizzaSupreme
+  time: 30
+  solids:
+    FoodSupremePizzaRaw: 1
+  recipeType: Oven # Frontier
+
+- type: microwaveMealRecipe
+  id: RecipePestoPizza
+  name: pesto pizza recipe
+  result: FoodPizzaPesto
+  time: 30
+  solids:
+    FoodPestoPizzaRaw: 1
+  recipeType: Oven # Frontier
+
+- type: microwaveMealRecipe
+  id: RecipeChickenGarlicPizza
+  name: chicken garlic pizza recipe
+  result: FoodPizzaChickenGarlic
+  time: 30
+  solids:
+    FoodChickenGarlicPizzaRaw: 1
+  recipeType: Oven # Frontier
+
+- type: microwaveMealRecipe
   id: RecipeWorldpeasPizza
   name: world peazza recipe
   result: FoodPizzaWorldpeas
