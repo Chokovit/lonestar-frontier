@@ -857,7 +857,7 @@
 - type: microwaveMealRecipe
   id: RecipePestoPizza
   name: pesto pizza recipe
-  result: FoodPizzaPesto
+  result: FoodMothPizzaPesto
   time: 30
   solids:
     FoodPestoPizzaRaw: 1
