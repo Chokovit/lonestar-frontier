@@ -4252,3 +4252,12 @@ Entries:
   id: 464
   time: '2026-10-05T19:04:08.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/190
+- author: archee1
+  changes:
+    - type: Add
+      message: A range of new clothing ported from Den and Imp.
+    - type: Tweak
+      message: The chameleon collar can now disguise as scarfs.
+  id: 465
+  time: '2026-10-05T19:17:54.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/222
