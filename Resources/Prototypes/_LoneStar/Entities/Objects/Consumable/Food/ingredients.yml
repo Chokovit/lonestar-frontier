@@ -191,8 +191,8 @@
   - type: Tag
     tags:
     - Raw
-    - type: FlavorProfile
-      flavors:
+  - type: FlavorProfile
+    flavors:
       - dough
       - cheesy
       - savory
