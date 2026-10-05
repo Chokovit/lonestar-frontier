@@ -29,9 +29,8 @@
     flavors:
     - savory
   - type: Sprite
-    sprite: Objects/Consumable/Food/meat.rsi
-    state: salami-slice
-    color: red
+    sprite: _LoneStar/Objects/Consumable/Food/meats.rsi
+    state: pepperoni-slice
   - type: Tag
     tags:
     - Slice
