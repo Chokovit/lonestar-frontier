@@ -193,15 +193,15 @@
     - Raw
     - type: FlavorProfile
       flavors:
-        - dough
-        - cheesy
-        - savory
-    - type: Sprite
-      sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-      state: pizza-pepperoni-raw
-    - type: Construction
-      graph: Pizza
-      node: pizza-pepperoni-raw
+      - dough
+      - cheesy
+      - savory
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-pepperoni-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-pepperoni-raw
 
 - type: entity
   parent: FoodDoughFlat
