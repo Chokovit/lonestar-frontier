@@ -513,7 +513,7 @@
       Acidic: [Ingestion]
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-    state: pizza-stinging-raw
+    state: pizza-stinger-raw
   - type: Construction
     graph: Pizza
     node: pizza-stinger-raw
