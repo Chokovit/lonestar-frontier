@@ -598,7 +598,7 @@
   components:
   - type: Tag
     tags:
-    - Garlic
+    - FoodGarlic
     - Vegetable
   - type: FlavorProfile
     flavors:

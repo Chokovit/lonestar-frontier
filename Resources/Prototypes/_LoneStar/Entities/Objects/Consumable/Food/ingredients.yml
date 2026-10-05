@@ -78,23 +78,6 @@
   components:
   - type: FlavorProfile
     flavors:
-      - dough
-      - tomato
-  - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
-    state: dough-pizza
-  - type: Construction
-    graph: Pizza
-    node: pizza-base
-
-- type: entity
-  parent: FoodDoughFlat
-  id: FoodPizzaDough
-  name: pizza base
-  description: Flattened dough with tomato sauce spread around it.
-  components:
-  - type: FlavorProfile
-    flavors:
     - dough
     - tomato
   - type: Sprite
