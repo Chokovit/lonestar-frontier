@@ -4210,3 +4210,12 @@ Entries:
   id: 460
   time: '2026-10-04T08:11:11.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/218
+- author: archee1
+  changes:
+    - type: Tweak
+      message: >-
+        Rogue silicon Catcher's Viscerator unit summons no longer have silicon
+        loot bags.
+  id: 461
+  time: '2026-10-05T07:39:58.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/223
