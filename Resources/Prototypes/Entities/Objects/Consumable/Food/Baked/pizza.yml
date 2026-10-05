@@ -707,7 +707,7 @@
       - numbingtranquility
   - type: Sprite
     layers:
-    - state: worldpeas
+    - state: pizza-worldpeas
   - type: SliceableFood
     slice: FoodPizzaWorldpeasSlice
   - type: SolutionContainerManager
@@ -987,7 +987,7 @@
     - pyrotton
   - type: Sprite
     layers:
-    - state: pizza-stinging-meat
+    - state: pizza-stinger
   - type: SliceableFood
     slice: FoodPizzaStingingMeat
 
@@ -1006,4 +1006,4 @@
     - pyrotton
   - type: Sprite
     layers:
-    - state: stinging-meat-slice
+    - state: stinger-slice
