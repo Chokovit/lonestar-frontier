@@ -598,7 +598,7 @@
   components:
   - type: Tag
     tags:
-    - FoodGarlic
+    - Garlic
     - Vegetable
   - type: FlavorProfile
     flavors:
@@ -618,9 +618,6 @@
     sprite: Objects/Specific/Hydroponics/garlic.rsi
   - type: Produce
     seedId: garlic
-  - type: Tag
-    tags:
-    - Vegetable
   - type: FoodSequenceElement
     entries:
       Burger: GarlicBurger
