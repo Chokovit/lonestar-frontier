@@ -36,12 +36,12 @@
   name: raw pepperoni recipe
   result: FoodPepperoni
   time: 10
-  group: Savory # TODO: move to ingredients
+  group: Savory
   solids:
     FoodSausageCasing: 1
   reagents:
     UncookedAnimalProteins: 9
-    Pepper: 3
+    Blackpepper: 3
   recipeType:
   - Assembler
 
@@ -50,12 +50,12 @@
   name: raw stomach sausage recipe
   result: RecipePepperoni
   time: 10
-  group: Savory # TODO: move to ingredients
+  group: Savory
   solids:
     OrganRatStomach: 1
   reagents:
     UncookedAnimalProteins: 9
-    Pepper: 3
+    Blackpepper: 3
   recipeType:
   - Assembler
 
@@ -64,11 +64,11 @@
   name: raw stomach pepperoni recipe
   result: RecipePepperoni
   time: 10
-  group: Savory # TODO: move to ingredients
+  group: Savory
   solids:
     OrganHumanStomach: 1
   reagents:
     UncookedAnimalProteins: 9
-    Pepper: 3
+    Blackpepper: 3
   recipeType:
   - Assembler
