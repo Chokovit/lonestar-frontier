@@ -4243,3 +4243,12 @@ Entries:
   id: 463
   time: '2026-10-05T09:20:48.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/225
+- author: lexiwitch
+  changes:
+    - type: Add
+      message: >-
+        Ship renaming! Now you can finally fly around in Spacey McSpaceFace
+        without badgering the SR!
+  id: 464
+  time: '2026-10-05T19:04:08.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/190
