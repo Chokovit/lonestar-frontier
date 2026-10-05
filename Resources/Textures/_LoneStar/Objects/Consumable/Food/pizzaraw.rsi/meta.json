@@ -26,6 +26,9 @@
       "name": "pizza-cotton-raw"
     },
     {
+      "name": "pizza-dank-raw"
+    },
+    {
       "name": "pizza-donkpocket-raw"
     },
     {
@@ -69,6 +72,9 @@
     },
     {
       "name": "pizza-vegetable-raw"
+    },
+    {
+      "name": "pizza-worldpeas-raw"
     }
   ]
 }

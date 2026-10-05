@@ -256,6 +256,29 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-stinger-raw
 
+    - to: pizza-dank-raw
+      steps:
+      - tag: CannabisButter
+        name: construction-graph-tag-cannabis-butter
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-dank-raw
+      - tag: Cannabis
+        amount: 2
+        name: construction-graph-tag-cannabis
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-dank-raw
+
+    - to: pizza-dank-raw
+      steps:
+      - tag: WorldPeas
+        amount: 2
+        name: construction-graph-tag-worldpeas
+        icon:
+          sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+          state: pizza-worldpeas-raw
+
   - node: pizza-pepperoni-raw
     entity: FoodPepperoniPizzaRaw
   - node: pizza-pineapple-raw
@@ -284,6 +307,10 @@
     entity: FoodSeafoodPizzaRaw
   - node: pizza-stinger-raw
     entity: FoodStingerPizzaRaw
+  - node: pizza-dank-raw
+    entity: FoodDankPizzaRaw
+  - node: pizza-worldpeas-raw
+    entity: FoodWorldPeazzaRaw
 
   # Pesto Pizzas
   - node: pizza-base-pesto

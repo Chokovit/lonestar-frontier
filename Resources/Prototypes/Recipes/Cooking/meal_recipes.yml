@@ -740,7 +740,7 @@
   time: 30
   group: Pizza
   solids:
-    FoodDoughFlat: 1
+    FoodDankPizzaRaw: 1
   recipeType: Oven # Frontier
 
 - type: microwaveMealRecipe
@@ -878,8 +878,7 @@
   result: FoodPizzaWorldpeas
   time: 30
   solids:
-    FoodDoughFlat: 1
-    FoodWorldPeas: 3
+    FoodWorldPeazzaRaw: 1
   recipeType: Oven # Frontier
 
 #Italian

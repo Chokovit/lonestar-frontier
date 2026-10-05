@@ -534,3 +534,39 @@
   - type: Construction
     graph: Pizza
     node: pizza-stinger-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodDankPizzaRaw
+  name: uncooked dank pizza
+  description: An uncooked dank pizza.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+    - terrible
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-dank-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-dank-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodWorldPeazzaRaw
+  name: uncooked worldpeas pizza
+  description: An uncooked worldpeas pizza.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - dough
+    - cheesy
+    - terrible
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-worldpeas-raw
+  - type: Construction
+    graph: Pizza
+    node: pizza-worldpeas-raw

@@ -2515,6 +2515,7 @@
   - type: Tag
     tags:
     - Vegetable
+    - WorldPeas
   - type: FoodSequenceElement
     entries:
       Taco: WorldPea

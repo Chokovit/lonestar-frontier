@@ -690,6 +690,9 @@
   - type: Sprite
     state: butter
     color: "#82C36E"
+  - type: Tag
+    tags:
+    - CannabisButter
   - type: SolutionContainerManager
     solutions:
       food:

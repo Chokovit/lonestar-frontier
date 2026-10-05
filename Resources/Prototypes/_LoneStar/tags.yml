@@ -46,3 +46,9 @@
   id: OnionSlice
 - type: Tag
   id: PineappleSlice
+- type: Tag
+  id: CannabisButter
+- type: Tag
+  id: Cannabis
+- type: Tag
+  id: WorldPeas
