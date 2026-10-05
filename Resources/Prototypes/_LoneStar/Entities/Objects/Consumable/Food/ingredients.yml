@@ -193,9 +193,9 @@
     - Raw
   - type: FlavorProfile
     flavors:
-      - dough
-      - cheesy
-      - savory
+    - dough
+    - cheesy
+    - savory
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-pepperoni-raw
