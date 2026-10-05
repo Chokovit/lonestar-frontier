@@ -4228,3 +4228,18 @@ Entries:
   id: 462
   time: '2026-10-05T07:53:46.0000000+00:00'
   url: https://github.com/LoneStarSS14/lonestar-frontier/pull/224
+- author: archee1
+  changes:
+    - type: Fix
+      message: Shadekin's emote wheel icon is not an error anymore.
+    - type: Fix
+      message: >-
+        Shadekin now passively heal asphyxiation slowly while their blood is
+        healthy.
+    - type: Fix
+      message: >-
+        Shadekin now have full access to other markings that all other species
+        have access to.
+  id: 463
+  time: '2026-10-05T09:20:48.0000000+00:00'
+  url: https://github.com/LoneStarSS14/lonestar-frontier/pull/225
