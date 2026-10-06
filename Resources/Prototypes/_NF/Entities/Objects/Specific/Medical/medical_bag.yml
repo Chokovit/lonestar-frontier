@@ -17,12 +17,14 @@
     slots:
     - belt
   - type: Storage
+    maxItemSize: Large # LoneStar
     quickInsert: true
     areaInsert: true
     whitelist:
       components:
         - Pill
         - Hypospray
+        - Defibrillator # LoneStar
       tags:
         - PillCanister
         - CentrifugeCompatible
@@ -32,7 +34,7 @@
         - Bloodpack
         - Gauze
         - Bottle
-        - RepairPatch # Coyote: add
+        - IpcTopical # LoneStar
   - type: Dumpable
   - type: MagnetPickup
     magnetEnabled: false

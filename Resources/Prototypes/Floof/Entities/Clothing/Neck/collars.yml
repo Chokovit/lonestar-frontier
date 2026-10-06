@@ -4,9 +4,17 @@
   abstract: true
   components:
   - type: Clothing
+    equipDelay: 1 # LoneStar
+    unequipDelay: 3 # LoneStar
   - type: LeashAnchor
     offset: 0, 0.22
   - type: Engraveable
+  - type: Tag
+    tags:
+    - ClothMade
+    - Recyclable
+    - WhitelistChameleon
+    - WhitelistChameleonAdvancedCollar
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -15,9 +23,9 @@
   description: A cute blue collar.
   components:
   - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_blue.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_blue.rsi
   - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_blue.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_blue.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -26,9 +34,9 @@
   description: A cute black collar.
   components:
   - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_black.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_black.rsi
   - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_black.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_black.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -37,9 +45,9 @@
   description: A cute pink collar.
   components:
   - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_pink.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_pink.rsi
   - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_pink.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_pink.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -48,9 +56,9 @@
   description: A collar showing how loyal you are to science!
   components:
   - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_epi.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_epi.rsi
   - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_epi.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_epi.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -59,9 +67,9 @@
   description: A collar showing your deft skill utilizing your hands!
   components:
   - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_engi.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_engi.rsi
   - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_engi.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_engi.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -70,9 +78,9 @@
   description: Who's a good courier?
   components:
   - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_logi.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_logi.rsi
   - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_logi.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_logi.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -81,9 +89,9 @@
   description: Put your patients at ease by letting them know you're here to help.
   components:
   - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_med.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_med.rsi
   - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_med.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_med.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -92,9 +100,9 @@
   description: Be the best guard dog on the station!
   components:
   - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_sec.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_sec.rsi
   - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_sec.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_sec.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -103,9 +111,9 @@
   description: The top dog (or cat) around.
   components:
   - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_cmd.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_cmd.rsi
   - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_cmd.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_cmd.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -114,9 +122,9 @@
   description: All bark with a whole lotta bite.
   components:
   - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_cc.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_cc.rsi
   - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_cc.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_cc.rsi
 
 - type: entity
   parent: ClothingNeckCollarBase
@@ -125,6 +133,6 @@
   description: Sometimes you gotta be naughty.
   components:
   - type: Sprite
-    sprite: Floof/Clothing/Neck/collar_syndi.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_syndi.rsi
   - type: Clothing
-    sprite: Floof/Clothing/Neck/collar_syndi.rsi
+    sprite: _DEN/Clothing/Neck/Collars/collar_syndi.rsi

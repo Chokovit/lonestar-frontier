@@ -231,7 +231,8 @@
   - DocForcedOuterClothing
   - DocShoes
   - ContractorFace
-  - ContractorGlasses
+  - DocGlasses # LoneStar
+  # - ContractorGlasses
   - NurseBelt # Coyote: ContractorBelt < NurseBelt (Inherits ContractorBelt)
   - DocEars
   - ContractorBoxSurvival
@@ -356,10 +357,12 @@
   - BrigmedicNeck
   - BrigmedicJumpsuit
   - BrigmedicGloves
-  - NfsdBackpackCream
+  # - NfsdBackpackCream # Lonestar changes, cream versions removed
+  - NfsdBackpackBrown
   - BrigmedicOuterClothing
   - NfsdForcedOuterClothing
-  - NfsdShoesCream
+  # - NfsdShoesCream # Lonestar changes, cream versions removed
+  - NfsdShoesBrown
   - BrigmedicFace
   - BrigmedicGlasses
   - BrigmedicBelt
@@ -409,6 +412,7 @@
   - PalJumpsuit
   - PalGloves
   - NfsdBackpackBrown
+  - SeniorOfficerOuterClothing # Lonestar
   - NfsdForcedOuterClothing
   - NfsdShoesBrown
   - ContractorFace
@@ -458,11 +462,13 @@
   - BailiffHead
   - BailiffNeck
   - BailiffJumpsuit
-  - NfsdGlovesCream
+  # - NfsdGlovesCream # Lonestar changes, cream versions removed
+  - NfsdGlovesBrown
   - NfsdBackpackBrown
   - BailiffOuterClothing
   - NfsdForcedOuterClothing
-  - NfsdShoesCream
+  # - NfsdShoesCream # Lonestar changes, cream versions removed
+  - NfsdShoesBrown
   - NfsdFace
   - NfsdGlasses
   - NfsdBelt
@@ -484,7 +490,8 @@
   - SeniorOfficerHead
   - SeniorOfficerNeck
   - SeniorOfficerJumpsuit
-  - NfsdGlovesCream
+  # - NfsdGlovesCream # Lonestar changes, cream versions removed
+  - NfsdGlovesBrown
   - NfsdBackpackBrown
   - SeniorOfficerOuterClothing
   - NfsdForcedOuterClothing
@@ -510,7 +517,8 @@
   - SheriffHead
   - SheriffNeck
   - SheriffJumpsuit
-  - NfsdGlovesCream
+  # - NfsdGlovesCream # Lonestar changes, cream versions removed
+  - NfsdGlovesBrown
   - NfsdBackpackBrown
   - SheriffOuterClothing
   - NfsdForcedOuterClothing
@@ -576,7 +584,7 @@
   - MercenaryGlasses # Coyote: Pirate Loadout Expansion
   - MercenaryBelt # Coyote: Pirate Loadout Expansion
   - NFPirateEars
-  - PirateEncryptionKey # Coyote: Pirates get comm keys
+  - FreelancerEncryptionKey # Coyote: Pirates get comm keys
   - ContractorBoxSurvival
   - NFPirateFirstMatePDA
   - ContractorWallet
@@ -604,7 +612,7 @@
   - MercenaryGlasses # Coyote: Pirate Loadout Expansion
   - MercenaryBelt # Coyote: Pirate Loadout Expansion
   - NFPirateCaptainEars
-  - PirateEncryptionKey # Coyote: Pirates get comm keys
+  - FreelancerEncryptionKey # Coyote: Pirates get comm keys
   - ContractorBoxSurvival
   - NFPirateCaptainPDA
   - PirateCaptainWallet

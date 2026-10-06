@@ -6,13 +6,15 @@
     ClothingNeckCollarBlue: 4294967295
     ClothingNeckCollarPink: 4294967295
     ClothingNeckBellCollar: 4294967295
+    ClothingNeckCowBellCollar: 4294967295
     ClothingNeckShockCollar: 4294967295
     # Adv Collars
     ClothingNeckAdvancedCollarBlack: 4294967295
     ClothingNeckAdvancedCollarBlue: 4294967295
     ClothingNeckAdvancedCollarPink: 4294967295
-    ClothingNeckAdvancedCollarShock: 4294967295
     ClothingNeckAdvancedCollarBell: 4294967295
+    ClothingNeckAdvancedCollarCowBell: 4294967295
+    ClothingNeckAdvancedCollarShock: 4294967295
     ClothingNeckAdvancedCollarEpi: 4294967295
     ClothingNeckAdvancedCollarEngi: 4294967295
     ClothingNeckAdvancedCollarLogi: 4294967295
@@ -24,7 +26,6 @@
     AdvCollarModuleJingling: 4294967295
     AdvCollarModuleSpeechModifier: 4294967295
     AdvCollarModulePsychicClothingLock: 4294967295
-    AdvCollarModuleClothingLock: 4294967295
     AdvCollarModuleWaddle: 4294967295
     AdvCollarModuleStealth: 4294967295
     # Restraints
@@ -58,6 +59,7 @@
     # Accessories
     Clicker: 4294967295
     ServantBell: 4294967295
+    ClothingEyesNeuralyzer: 4294967295
     # Toys - Vibrators
     LewdVibeGreen: 4294967295
     LewdVibePink: 4294967295
@@ -92,10 +94,11 @@
   contrabandInventory:
     # Adv Collars
     ClothingNeckAdvancedCollarCC: 4294967295
+    ClothingNeckAdvancedCollarChameleon: 4294967295
     AdvCollarModulePsychicClothingLockPlus: 4294967295
-    AdvCollarModuleClothingLockPlus: 4294967295
     AdvCollarModuleVulnerability: 4294967295
     AdvCollarModulePsychicShackle: 4294967295
+    AdvCollarModulePacifism: 4294967295
     # Snacks
     FoodTinPeachesMaint: 5
   emaggedInventory:

@@ -915,7 +915,7 @@
 - type: entity
   parent: ClothingBackpackMessengerContractor
   id: ClothingBackpackMessengerNfsdBrown
-  name: NFSD messenger bag
+  name: LSRD messenger bag # Lonestar changes NFSD -> LSRD
   components:
   - type: Sprite
     sprite: _NF/Clothing/Back/Messenger/color.rsi
@@ -960,7 +960,7 @@
 - type: entity
   parent: ClothingBackpackMessengerContractor
   id: ClothingBackpackMessengerNfsdCream
-  name: NFSD messenger bag
+  name: LSRD messenger bag # Lonestar changes NFSD -> LSRD
   components:
   - type: Sprite
     sprite: _NF/Clothing/Back/Messenger/color.rsi
@@ -1424,6 +1424,7 @@
         map: [ "rightMessengerBase" ]
         shader: unshaded
   - type: RandomSprite
+    denyReroll: false # LoneStar
     available:
     # icon
     - iconMessengerBase:

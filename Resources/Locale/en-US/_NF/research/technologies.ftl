@@ -1,7 +1,7 @@
 nf-research-discipline-engineering = Engineering
 nf-research-discipline-medical = Medical
 nf-research-discipline-arsenal-mercenary = Mercenary
-nf-research-discipline-arsenal-nfsd = NFSD
+nf-research-discipline-arsenal-nfsd = LSRD
 nf-research-discipline-salvage = Salvage
 nf-research-discipline-science = Science
 nf-research-discipline-service = Service
@@ -116,7 +116,7 @@ nf-research-technology-power-solar = Solar Power Generation
 nf-research-technology-quantum-fiber-weaving = Quantum Fiber Weaving
 nf-research-technology-rapid-construction = Rapid Construction
 nf-research-technology-reinforced-jug = Advanced Fluid Containers
-nf-research-technology-rifle-ammo-bulk = Bulk Ammunition Production
+nf-research-technology-ammo-bulk = Bulk Ammunition Production
 nf-research-technology-rifle-ammo-improved = High Pressure Rifle Ammo
 nf-research-technology-ripley-aplu = Ripley APLU
 nf-research-technology-robotics-equipment = Compact Robotic Systems

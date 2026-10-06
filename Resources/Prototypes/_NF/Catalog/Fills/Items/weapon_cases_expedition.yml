@@ -559,7 +559,7 @@
     contents:
     - id: NFWeaponRifleMusketExpedition
       amount: 1
-    - id: NFAmmunitionBoxRifle60
+    - id: NFAmmunitionBoxRifle30 # LoneStar
       amount: 2
 
 - type: entity
@@ -614,7 +614,7 @@
     - id: NFWeaponLightMachineGunL6Expedition
       amount: 1
     - id: NFMagazineBoxRifle20
-      amount: 4
+      amount: 2 # LoneStar
 
 #region Melee
 - type: entity
@@ -879,6 +879,13 @@
   id: WeaponCaseShortAmmoBoxEmp35
   categories: [ HideSpawnMenu ]
 
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxBigLethal35
+  id: WeaponCaseShortAmmoBoxBigLethal35
+  categories: [ HideSpawnMenu ]
+
 ## .25 caseless
 - type: entity
   parent:
@@ -965,6 +972,13 @@
   id: WeaponCaseShortAmmoBoxFlareShotgun
   categories: [ HideSpawnMenu ]
 
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxBigLethalShotgun
+  id: WeaponCaseShortAmmoBoxBigLethalShotgun
+  categories: [ HideSpawnMenu ]
+
 ## .45 ammo
 - type: entity
   parent:
@@ -999,4 +1013,11 @@
   - WeaponCaseShortAmmo
   - StorageFillAmmoBoxUranium45
   id: WeaponCaseShortAmmoBoxUranium45
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxBigLethal45
+  id: WeaponCaseShortAmmoBoxBigLethal45
   categories: [ HideSpawnMenu ]

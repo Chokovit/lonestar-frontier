@@ -377,6 +377,9 @@
   cost: 5000
   recipeUnlocks:
   - ClothingOuterHardsuitSalvage
+  # LoneStar, merged Field&Engineering
+  - ClothingOuterHardsuitAtmos
+  - ClothingOuterHardsuitEngineering
   technologyPrerequisites:
   - NFHardsuitsBasic
   position: 1, 8
@@ -397,6 +400,7 @@
   position: 1, 9
 
 - type: technology
+  abstract: true # LoneStar, merged Field&Engineering
   id: NFHardsuitsEngineering
   name: nf-research-technology-hardsuits-engineering
   entityIcon: ClothingOuterHardsuitEngineering
@@ -421,10 +425,25 @@
   - ClothingOuterHardsuitCap
   - ClothingOuterHardsuitEngineeringWhite # CE
   - ClothingOuterHardsuitLuxury
-
   technologyPrerequisites:
-  - NFHardsuitsEngineering
-  position: 3, 8
+  - NFHardsuitsField # LoneStar, merged Field&Engineering
+  position: 3, 8 # LoneStar, merged Field&Engineering
+
+- type: technology # LoneStar
+  id: NFHardsuitsAdvancedMedical
+  name: lonestar-research-technology-hardsuits-advanced-medical
+  entityIcon: ClothingOuterHardsuitResponseRed
+  discipline: NFMedical
+  tier: 1
+  cost: 7500
+  recipeUnlocks:
+  - ClothingOuterHardsuitResponseRed
+  - ClothingOuterHardsuitResponseBlue
+  prerequisiteLineType: Tree
+  technologyPrerequisites:
+  - NFHardsuitsMedical
+  - NFHardsuitsAdvanced
+  position: 3, 9
 
 - type: technology
   id: NFHardsuitsExperimentalProtection
@@ -583,6 +602,8 @@
   recipeUnlocks:
   - MedicalAssemblerMachineCircuitboard
   - HotplateMachineCircuitboard
+  - ElectrolysisUnitMachineCircuitboard
+  - CentrifugeMachineCircuitboard
   - DefibrillatorCompact
   - JetInjector # Coyote: - Port in Jet Injectors from Den
   technologyPrerequisites:
@@ -1809,6 +1830,7 @@
   recipeUnlocks:
   - ClothingEyesPunkInfoShades
   - ClothingOuterArmorPunkRandomized
+  - ClothingOuterArmoredJacketPMCPunkRandomized # LoneStar - added PMC armored jacket
   - ClothingOuterArmorPunkRed
   - ClothingOuterArmorPunkGreen
   - ClothingOuterArmorPunkOrange
@@ -1893,17 +1915,25 @@
   position: 3, 43
 
 - type: technology
-  id: NFBulkRifleAmmo
-  name: nf-research-technology-rifle-ammo-bulk
+  id: NFBulkAmmo
+  name: nf-research-technology-ammo-bulk
   entityIcon: NFAmmunitionBoxBigRifle20
   discipline: NFArsenalMercenary
   tier: 1
   cost: 10000
   recipeUnlocks:
+  - NFAmmunitionBoxBigPistol35
+  - NFAmmunitionBoxBigPistol35Overpressure
+  - CSAmmunitionBoxBigPistol40
+  - CSAmmunitionBoxBigPistol40Overpressure
+  - NFAmmunitionBoxBigPistol45
+  - NFAmmunitionBoxBigPistol45Overpressure
   - NFAmmunitionBoxBigRifle20
   - NFAmmunitionBoxBigRifle20Overpressure
   - NFAmmunitionBoxBigRifle30
   - NFAmmunitionBoxBigRifle30Overpressure
+  - NFAmmunitionBoxBigShellShotgunBuckshot
+  - NFAmmunitionBoxBigShellShotgunOverpressure
   technologyPrerequisites:
   - NFImprovedRifleAmmo
   position: 3, 44

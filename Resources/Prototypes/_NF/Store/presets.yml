@@ -34,10 +34,13 @@
     - UplinkSecurityUtility
     - UplinkSecurityExplosives
     - UplinkSecurityBundles
+    - UplinkSecurityMelee # Lonestar
     currencyWhitelist:
     - FrontierUplinkCoin
     balance:
       FrontierUplinkCoin: 0
+    stripTurnInValues:
+    - FrontierUplinkCoin
 
 - type: entity
   id: StorePresetPirateUplink
@@ -56,7 +59,10 @@
     - UplinkPirateLoot # Coyote
     - UplinkPirateWearables # Coyote
     - UplinkPirateMachines # Coyote
+    - UplinkPirateMelee # Lonestar
     currencyWhitelist:
     - Doubloon
     balance:
       Doubloon: 0
+    stripTurnInValues:
+    - Doubloon

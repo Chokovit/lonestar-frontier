@@ -1,6 +1,26 @@
 - type: vendingMachineInventory
   id: AutoDrobeInventory
   startingInventory:
+    ClothingUniformRandomArmless: 4294967295
+    ClothingUniformRandomStandard: 4294967295
+    ClothingUniformRandomBra: 4294967295
+    ClothingUniformRandomShorts: 4294967295
+    ClothingUniformRandomShirt: 4294967295
+    ClothingSkirtUniformRandomArmless: 4294967295
+    ClothingSkirtUniformRandomStandard: 4294967295
+    ClothingSkirtUniformRandomBra: 4294967295
+    ClothingSkirtUniformRandomShorts: 4294967295
+    ClothingSkirtUniformRandomShirt: 4294967295
+    ClothingUniformBodysuitRandom: 4294967295
+    ClothingUniformBodysuitRandomSwimsuit: 4294967295
+    ClothingUniformBodysuitRandomLeotard: 4294967295
+    ClothingUniformBodysuitRandomDealer: 4294967295
+    ClothingUniformBodysuitRandomClown: 4294967295
+    ClothingOuterCoatBomberWhite: 4294967295
+    ClothingOuterCoatBomberWhiteOpen: 4294967295
+    ClothingOuterCoatBomberWhiteLoose: 4294967295
+    ClothingOuterCoatBomberWhiteLooseOpen: 4294967295
+    MagicNeedle: 4294967295
     ClothingHeadHatJester: 4294967295
     ClothingUniformJumpsuitJester: 4294967295
     ClothingHeadHatJesterAlt: 4294967295
@@ -47,7 +67,7 @@
     ClothingOuterDameDane: 4294967295
     ClothingUniformJumpsuitKimono: 4294967295
     ClothingHeadHatCasa: 4294967295
-    FoodPoppy: 4294967295
+    ClothingHeadHatHairflower: 4294967295 # LoneStar: Clothing version, not food.
     ClothingHeadHatGladiator: 4294967295
     ClothingUniformJumpsuitGladiator: 4294967295
     ClothingHeadHatCowboyBrown: 4294967295
@@ -68,9 +88,17 @@
     # Begin Frontier Additions
     ClothingUniformJumpskirtPerformer: 4294967295
     ClothingShoesBootsPerformer: 4294967295
+    ClothingUniformJumpskirtPerformerAlt: 4294967295 # LoneStar
+    ClothingUniformMusicianSingerDress: 4294967295
+    ClothingHandsMusicianSingerGloves: 4294967295
+    ClothingOuterCoatMusicianFurCoat: 4294967295
+    ClothingNeckFeatherBoa: 4294967295
     ClothingNeckCloakMoth: 4294967295
     ClothingUniformJumpskirtJanimaid: 4294967295
     ClothingNeckCloakVoid: 4294967295
+    ClothingNeckCloakHero: 4294967295
+    ClothingNeckCowBellCollar: 4294967295
+    ClothingNeckTeddyRibbon: 4294967295
     ClothingHeadBandRed: 4294967295
     ClothingHeadHatPirate: 4294967295
     ClothingOuterCoatPirate: 4294967295
@@ -80,12 +108,6 @@
     FoamCutlass: 4294967295
     ClothingHeadSafari: 4294967295
     ClothingUniformJumpsuitSafari: 4294967295
-    ClothingUniformRandomArmlessNoSkirt: 4294967295
-    ClothingUniformRandomArmless: 4294967295
-    ClothingUniformRandomStandard: 4294967295
-    ClothingUniformRandomBra: 4294967295
-    ClothingUniformRandomShorts: 4294967295
-    ClothingUniformRandomShirt: 4294967295
     ClothingHandsGlovesBoxingRed: 4294967295
     ClothingHandsGlovesBoxingBlue: 4294967295
     ClothingHandsGlovesBoxingYellow: 4294967295
@@ -98,10 +120,12 @@
     ClothingBackpackMessengerClown: 4294967295
     ClothingMaskClown: 4294967295
     ClothingMaskClownBald: 4294967295
+    ClothingMaskClownNose: 4294967295
     ClothingShoesClown: 4294967295
     ClothingUniformJumpsuitClown: 4294967295
     ClothingOuterWinterClown: 4294967295
     ClothingOuterClownPriest: 4294967295
+    ClothingNeckRuffle: 4294967295
     RubberStampClown: 4294967295
     ClothingBackpackMime: 4294967295
     ClothingBackpackSatchelMime: 4294967295
@@ -136,7 +160,7 @@
     CoolCoyoteClothesBeggar: 4294967295
     CoolCoyoteClothesBlackTango: 4294967295
     CoolCoyoteClothesBlackDress: 4294967295
-    CoolCoyoteClothesBlackNGold: 4294967295
+    ClothingUniformJumpsuitBlackNGold: 4294967295
     CoolCoyoteClothesBloodshot: 4294967295
     CoolCoyoteClothesBlueKimono: 4294967295
     CoolCoyoteClothesBlueSari: 4294967295
@@ -214,6 +238,11 @@
     CoolCoyoteClothesKimonoRed: 4294967295
     CoolCoyoteClothesKimonoViolet: 4294967295
     CoolCoyoteClothesKimonoYellow: 4294967295
+    # LoneStar start Kiminos
+    ClothingUniformJumpskirtKimonoRed: 4294967295
+    ClothingUniformJumpskirtKimonoGreen: 4294967295
+    ClothingUniformJumpskirtKimonoWhite: 4294967295
+    # LoneStar end
     CoolCoyoteClothesLandschneckt: 4294967295
     CoolCoyoteClothesLatexHalf: 4294967295
     CoolCoyoteClothesLeavesSkirt: 4294967295
@@ -313,6 +342,7 @@
     CoolCoyoteClothesWhitesun: 4294967295
     CoolCoyoteClothesYellowwshort: 4294967295
     CoolCoyoteClothesGearHarness: 4294967295
+    ClothingNeckVetCone: 4294967295
     ClothingShoesFootProtectors: 4294967295
     ClothingHeadHatGrenzel: 4294967295
     ClothingUniformJumpsuitGrenzel: 4294967295
@@ -331,10 +361,17 @@
     ClothingShoesAngelSandals: 4294967295
     ClothingNeckAngelWings: 4294967295
     HandheldHarpInstrument: 4294967295
+    ClothingMaskKistune: 4294967295
     ClothingUniformHitmanSuit: 4294967295
     ClothingUniformHitmanSuitSkirt: 4294967295
     ClothingUniformBrosBlazer: 4294967295
     ClothingUniformBrosBlazerSkirt: 4294967295
+    # Euphoria
+    ClothingShoesHeelsBallet: 2
+    ClothingShoesHeelsKitten: 2
+    ClothingShoesHeelsKittenBlack: 2
+    ClothingShoesHeelsKittenCrimson: 2
+    ClothingShoesHeelsKittenRose: 2
   contrabandInventory:
     ClothingHeadHatRichard: 4294967295
     ToyFigurineBoxer: 4294967295

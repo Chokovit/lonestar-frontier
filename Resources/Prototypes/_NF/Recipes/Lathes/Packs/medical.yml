@@ -101,6 +101,9 @@
   - JugBluespace
   - VialBluespace
   - ClothingOuterHardsuitMedical
+  # LoneStar
+  - ClothingOuterHardsuitResponseRed
+  - ClothingOuterHardsuitResponseBlue
 
 - type: latheRecipePack
   id: NFMedicalBoards
@@ -110,3 +113,5 @@
   - ChemMasterMachineCircuitboard
   - ReagentGrinderMachineCircuitboard
   - HotplateMachineCircuitboard
+  - ElectrolysisUnitMachineCircuitboard
+  - CentrifugeMachineCircuitboard
