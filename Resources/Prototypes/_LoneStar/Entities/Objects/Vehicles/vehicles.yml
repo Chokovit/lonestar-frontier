@@ -21,7 +21,6 @@
     - state: engine
       map: ["enum.VehicleVisualLayers.AutoAnimate"]
     - state: lights
-      shader: unshaded
     noRot: true
   - type: ItemSlots
     slots:
@@ -75,9 +74,27 @@
           tags:
           - VehicleKey
           - HoverbikeKeys
-        startingItem: VehicleKeyHoverbikeNF
+        startingItem: VehicleKeyHoverScooterPizza
         priority: 1
         insertSound:
           path: /Audio/Effects/Vehicle/vehiclestartup.ogg
           params:
             volume: -5
+
+# Keys
+
+- type: entity
+  parent: BaseKey
+  id: VehicleKeyHoverScooterPizza
+  name: hoverscooter keys
+  description: The key to a Hoverscooter. It's got a keychain of the Little Cheeser's mascot on it.
+  components:
+  - type: Tag
+    tags:
+    - VehicleKey
+    - HoverbikeKeys
+  - type: Sprite
+    sprite: _LoneStar/Objects/Vehicles/hoverscooter.rsi
+    state: keys
+  - type: StaticPrice
+    price: 50
