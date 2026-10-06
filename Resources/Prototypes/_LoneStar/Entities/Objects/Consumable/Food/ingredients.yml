@@ -553,3 +553,175 @@
   - type: Construction
     graph: Pizza
     node: pizza-worldpeas-raw
+
+# Little Cheesers 3D Printed Pizzas
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodCheapCheesePizzaRaw
+  name: uncooked cheese pizza
+  description: An uncooked 3D printed pizza.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: FlavorProfile
+    flavors:
+    - terrible
+    - donk
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-cheese-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodCheapPepperoniPizzaRaw
+  name: uncooked pepperoni pizza
+  description: An uncooked 3D printed pizza.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: FlavorProfile
+    flavors:
+    - terrible
+    - donk
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-pepperoni-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodCheapMeatPizzaRaw
+  name: uncooked meatzza
+  description: An uncooked 3D printed pizza.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: FlavorProfile
+    flavors:
+    - terrible
+    - donk
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-meat-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodCheapPineapplePizzaRaw
+  name: uncooked hawaiian pizza
+  description: An uncooked 3D printed pizza.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: FlavorProfile
+    flavors:
+    - terrible
+    - donk
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-pineapple-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodCheapSupremePizzaRaw
+  name: uncooked supreme pizza
+  description: An uncooked 3D printed pizza.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: FlavorProfile
+    flavors:
+    - terrible
+    - donk
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-supreme-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodCheapVegetablePizzaRaw
+  name: uncooked vegetable pizza
+  description: An uncooked 3D printed pizza.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: FlavorProfile
+    flavors:
+    - terrible
+    - donk
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-vegetable-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodCheapSausagePizzaRaw
+  name: uncooked sausage pizza
+  description: An uncooked 3D printed pizza.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: FlavorProfile
+    flavors:
+    - terrible
+    - donk
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-sausage-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodCheapMushroomPizzaRaw
+  name: uncooked mushroom pizza
+  description: An uncooked 3D printed pizza.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: FlavorProfile
+    flavors:
+    - terrible
+    - donk
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-mushroom-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodCheapCottonPizzaRaw
+  name: uncooked cotton pizza
+  description: An uncooked 3D printed pizza.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: FlavorProfile
+    flavors:
+    - terrible
+    - donk
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-cotton-raw
+
+- type: entity
+  parent: FoodDoughFlat
+  id: FoodCheapStingerPizzaRaw
+  name: uncooked stinger pizza
+  description: An uncooked 3D printed pizza.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: FlavorProfile
+    flavors:
+    - terrible
+    - donk
+  - type: Sprite
+    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    state: pizza-stinger-raw
