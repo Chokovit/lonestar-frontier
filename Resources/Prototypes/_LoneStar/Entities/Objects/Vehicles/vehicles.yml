@@ -33,7 +33,7 @@
           - HoverbikeKeys
         priority: 1
         insertSound:
-          path: /Audio/Effects/Vehicle/vehiclestartup.ogg
+          path: Audio/_LoneStar/Effects/scooter-start.ogg
           params:
             volume: -5
       pizza:
