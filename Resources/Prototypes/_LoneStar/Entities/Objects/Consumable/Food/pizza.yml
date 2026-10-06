@@ -52,7 +52,6 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        # Note: Keep FoodPizzaMoldySlice & FoodPizzaSliceBase roughly in sync
         maxVol: 20
         reagents:
         - ReagentId: Nutriment
