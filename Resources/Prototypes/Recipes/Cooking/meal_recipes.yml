@@ -682,7 +682,7 @@
     FoodOnionRingsBattered: 1 # Frontier FoodOnionSlice<FoodOnionRingsBattered
   recipeType: Oven # Frontier
 
-#Pizzas #Lone Star make the raw variant via Construction Graphs
+#Pizzas # LoneStar make the raw variant via Construction Graphs
 - type: microwaveMealRecipe
   id: RecipeMargheritaPizza
   name: margherita pizza recipe

@@ -1,4 +1,4 @@
-- type: reagent #Lone Star Recipe
+- type: reagent # LoneStar Recipe
   id: TomatoSauce
   name: reagent-name-tomatosauce
   group: Foods

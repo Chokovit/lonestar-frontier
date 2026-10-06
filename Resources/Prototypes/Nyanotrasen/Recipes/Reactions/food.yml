@@ -1,4 +1,4 @@
-# Curd Cheese #Lone Star Recipe
+# Curd Cheese # LoneStar Recipe
 - type: reaction
   id: CurdlingCurdCheese
   impact: Low
@@ -15,7 +15,7 @@
       entity: FoodCurdCheese
       number: 2
 
-# Mozzarella #Lone Star Recipe
+# Mozzarella # LoneStar Recipe
 - type: reaction
   id: CurdlingMozzarella
   impact: Low

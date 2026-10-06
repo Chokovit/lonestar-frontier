@@ -69,7 +69,7 @@
           Quantity: 3
         - ReagentId: Cream
           Quantity: 1
-  - type: Tag #Lone Star Pizza
+  - type: Tag # LoneStar Pizza
     tags:
       - Ingredient
       - Mozzarella
