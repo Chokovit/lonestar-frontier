@@ -23,7 +23,7 @@
           Quantity: 20
         - ReagentId: Protein
           Quantity: 2
-        - ReagentID: Fat
+        - ReagentId: Fat
           Quantity: 20
   - type: SliceableFood
     count: 8
@@ -58,7 +58,7 @@
           Quantity: 8
         - ReagentId: Protein
           Quantity: 0.8
-        - ReagentID: Fat
+        - ReagentId: Fat
           Quantity: 8
   - type: Item
     size: Tiny
