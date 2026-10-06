@@ -1,0 +1,83 @@
+# Little Cheeser's Delivery Scooter
+- type: entity
+  parent: VehicleHoverbikeMailcarrier
+  id: VehicleHoverscooterPizza
+  name: Little Cheeser's hoverscooter
+  description: An adorable little scooter made to navigate vertical cities like New York, Zijun, oh and space I guess.
+  components:
+  - type: MovementIgnoreGravity
+  - type: MovementAlwaysTouching
+  - type: CanMoveInAir
+  - type: AmbientSound
+    sound: /Audio/Effects/shuttle_thruster.ogg
+    range: 8
+    volume: 5
+    enabled: false
+  - type: Sprite
+    sprite: _LoneStar/Objects/Vehicles/hoverscooter.rsi
+    layers:
+    - state: hull
+      color: "#8fd3ff"
+    - state: engine
+      map: ["enum.VehicleVisualLayers.AutoAnimate"]
+    - state: lights
+      shader: unshaded
+    noRot: true
+  - type: ItemSlots
+    slots:
+      key_slot:
+        name: vehicle-slot-component-slot-name-keys
+        whitelist:
+          requireAll: true
+          tags:
+          - VehicleKey
+          - HoverbikeKeys
+        priority: 1
+        insertSound:
+          path: /Audio/Effects/Vehicle/vehiclestartup.ogg
+          params:
+            volume: -5
+      pizza:
+        name: pizza case
+        whitelist:
+          components:
+            - PizzaBox
+        priority: 2
+  - type: ItemMapper
+    mapLayers:
+      pizza:
+        whitelist:
+          components:
+            - PizzaBox
+    sprite: _LoneStar/Objects/Vehicles/hoverscooter.rsi
+  - type: Appearance
+  - type: PointLight
+    enabled: false
+    radius: 7
+    energy: 3
+  - type: Vehicle
+    hornSound:
+      collection: NFVehicleHorn # resetting from the motorbike
+      params:
+        variation: 0.125
+
+- type: entity
+  parent: VehicleHoverscooterPizza
+  id: VehicleHoverscooterPizzaKey
+  suffix: With key
+  components:
+  - type: ItemSlots
+    slots:
+      key_slot:
+        name: vehicle-slot-component-slot-name-keys
+        whitelist:
+          requireAll: true
+          tags:
+          - VehicleKey
+          - HoverbikeKeys
+        startingItem: VehicleKeyHoverbikeNF
+        priority: 1
+        insertSound:
+          path: /Audio/Effects/Vehicle/vehiclestartup.ogg
+          params:
+            volume: -5
