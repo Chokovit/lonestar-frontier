@@ -9,7 +9,7 @@
   - type: MovementAlwaysTouching
   - type: CanMoveInAir
   - type: AmbientSound
-    sound: _LoneStar/Effects/scooter-run.ogg
+    sound: Audio/_LoneStar/Effects/Vehicle/scooter-run.ogg
     range: 8
     volume: 5
     enabled: false
@@ -33,7 +33,7 @@
           - HoverbikeKeys
         priority: 1
         insertSound:
-          path: _LoneStar/Effects/scooter-start.ogg
+          path: Audio/_LoneStar/Effects/Vehicle/scooter-start.ogg
           params:
             volume: -5
       pizza:
@@ -77,7 +77,7 @@
         startingItem: VehicleKeyHoverScooterPizza
         priority: 1
         insertSound:
-          path: _LoneStar/Effects/scooter-start.ogg
+          path: Audio/_LoneStar/Effects/Vehicle/scooter-start.ogg
           params:
             volume: -5
 
