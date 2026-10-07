@@ -565,6 +565,7 @@
   - type: Tag
     tags:
     - Raw
+    - CheapPizza
   - type: FlavorProfile
     flavors:
     - terrible
@@ -582,6 +583,7 @@
   - type: Tag
     tags:
     - Raw
+    - CheapPizza
   - type: FlavorProfile
     flavors:
     - terrible
@@ -599,6 +601,7 @@
   - type: Tag
     tags:
     - Raw
+    - CheapPizza
   - type: FlavorProfile
     flavors:
     - terrible
@@ -616,6 +619,7 @@
   - type: Tag
     tags:
     - Raw
+    - CheapPizza
   - type: FlavorProfile
     flavors:
     - terrible
@@ -633,6 +637,7 @@
   - type: Tag
     tags:
     - Raw
+    - CheapPizza
   - type: FlavorProfile
     flavors:
     - terrible
@@ -650,6 +655,7 @@
   - type: Tag
     tags:
     - Raw
+    - CheapPizza
   - type: FlavorProfile
     flavors:
     - terrible
@@ -667,6 +673,7 @@
   - type: Tag
     tags:
     - Raw
+    - CheapPizza
   - type: FlavorProfile
     flavors:
     - terrible
@@ -684,6 +691,7 @@
   - type: Tag
     tags:
     - Raw
+    - CheapPizza
   - type: FlavorProfile
     flavors:
     - terrible
@@ -701,6 +709,7 @@
   - type: Tag
     tags:
     - Raw
+    - CheapPizza
   - type: FlavorProfile
     flavors:
     - terrible
@@ -718,6 +727,7 @@
   - type: Tag
     tags:
     - Raw
+    - CheapPizza
   - type: FlavorProfile
     flavors:
     - terrible
