@@ -1,0 +1,46 @@
+# Little Cheeser's Service Fab
+
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: DrinkLittleCheesersCup
+  result: DrinkLittleCheesersCup
+  materials:
+    Cardboard: 25
+  tags:
+  - LittleCheesers
+
+- type: latheRecipe
+  parent: NFBaseBoxRecipe
+  id: FoodCheapBoxPizza
+  result: FoodCheapBoxPizza
+  materials:
+    Cardboard: 150
+  tags:
+  - LittleCheesers
+
+- type: latheRecipe
+  parent: NFBaseJumpsuitRecipe
+  id: ClothingUniformJumpsuitLittleCheesers
+  result: ClothingUniformJumpsuitLittleCheesers
+  materials:
+     Cloth: 200
+  tags:
+  - LittleCheesers
+
+- type: latheRecipe
+  parent: NFBaseJumpsuitRecipe
+  id: ClothingUniformJumpskirtLittleCheesers
+  result: ClothingUniformJumpskirtLittleCheesers
+  materials:
+    Cloth: 200
+  tags:
+  - LittleCheesers
+
+- type: latheRecipe
+  parent: NFBaseCoatRecipe
+  id: ClothingOuterApronLittleCheesers
+  result: ClothingOuterApronLittleCheesers
+  materials:
+     Cloth: 200
+  tags:
+  - LittleCheesers

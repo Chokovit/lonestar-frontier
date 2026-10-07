@@ -1,0 +1,16 @@
+# Little Cheeser's Lathe
+
+- type: latheRecipePack
+  id: LittleCheesersServiceTechfabStatic
+  recipes:
+    - DrinkLittleCheesersCup
+    - ClothingUniformJumpsuitLittleCheesers
+    - ClothingUniformJumpskirtLittleCheesers
+    - FoodCheapBoxPizza
+    - ClothingOuterApronLittleCheesers
+  emagStaticPacks:
+    - DrinkDonkcoCup
+    - FoodBoxDonkngo
+    - ClothingUniformJumpsuitDonkcoChef
+    - ClothingOuterDonkcoApron
+    - ClothingHeadHatDonkcoHat
