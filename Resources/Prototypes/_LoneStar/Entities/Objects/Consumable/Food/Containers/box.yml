@@ -23,6 +23,7 @@
       tags:
       - Pizza
       - CheapPizza
+      - LittleCheesers
   - type: Item
     sprite: _LoneStar/Objects/Consumable/Food/Containers/little_cheesers_box.rsi
     heldPrefix: box

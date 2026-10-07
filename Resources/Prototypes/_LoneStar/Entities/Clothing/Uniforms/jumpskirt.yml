@@ -413,3 +413,7 @@
     sprite: _LoneStar/Clothing/Uniforms/Jumpskirt/little-cheesers-skirt.rsi
   - type: Clothing
     sprite: _LoneStar/Clothing/Uniforms/Jumpskirt/little-cheesers-skirt.rsi
+  - type: Tag
+    tags:
+    - LittleCheesers
+    - Clothing

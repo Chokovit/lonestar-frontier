@@ -8,3 +8,7 @@
     sprite: _LoneStar/Clothing/OuterClothing/Misc/little_cheesers_apron.rsi
   - type: Clothing
     sprite: _LoneStar/Clothing/OuterClothing/Misc/little_cheesers_apron.rsi
+  - type: Tag
+    tags:
+    - LittleCheesers
+    - Clothing

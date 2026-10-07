@@ -148,3 +148,7 @@
     sprite: _LoneStar/Clothing/Uniforms/Jumpsuit/little-cheesers-uniform.rsi
   - type: Clothing
     sprite: _LoneStar/Clothing/Uniforms/Jumpsuit/little-cheesers-uniform.rsi
+  - type: Tag
+    tags:
+    - LittleCheesers
+    - Clothing
