@@ -102,3 +102,9 @@
 
 - type: Tag
   id: CheapPizza
+
+- type: Tag
+  id: DonkCo
+
+- type: Tag
+  id: LittleCheesers
