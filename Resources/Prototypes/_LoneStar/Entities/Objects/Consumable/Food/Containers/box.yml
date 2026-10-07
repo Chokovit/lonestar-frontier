@@ -6,7 +6,7 @@
   name: pizza box
   components:
   - type: Sprite
-    sprite: _LoneStar/Objects/Consumable/Food/Containers/little_cheesers_box.rsi
+    sprite: /_LoneStar/Objects/Consumable/Food/Containers/little_cheesers_box.rsi
     drawdepth: SmallObjects
     layers:
     - state: box
@@ -25,7 +25,7 @@
       - CheapPizza
       - LittleCheesers
   - type: Item
-    sprite: _LoneStar/Objects/Consumable/Food/Containers/little_cheesers_box.rsi
+    sprite: /_LoneStar/Objects/Consumable/Food/Containers/little_cheesers_box.rsi
     heldPrefix: box
     shape:
     - 0,0,2,1
