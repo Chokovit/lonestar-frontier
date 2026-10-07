@@ -46,6 +46,11 @@
   - LittleCheesers
 
 - type: latheRecipe
-  id: ClothingOuterEVASuitPizzaDelivery
+  id: ClothingOuterEVASuitLittleCheesers
   parent: NFBaseEVASuitRecipe
-  result: ClothingOuterEVASuitPizzaDelivery
+  result: ClothingOuterEVASuitLittleCheesers
+
+- type: latheRecipe
+  id: ClothingBackpackDuffelLittleCheesers
+  parent: NFBaseJumpsuitRecipe
+  result: ClothingBackpackDuffelLittleCheesers

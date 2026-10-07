@@ -1,9 +1,7 @@
-
 #region softsuits or "EVA" suits
--
 - type: entity
   parent: NFDepartmentalEVASuit
-  id: ClothingOuterEVASuitPizzaDelivery
+  id: ClothingOuterEVASuitLittleCheesers
   name: pizza delivery EVA suit
   description: An EVA suit with a built-in helmet issued to Little Cheeser's delivery workers.
   components:
@@ -53,4 +51,4 @@
       - state: equipped-unshaded
         shader: unshaded
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadEVAHelmetPizzaDelivery
+    clothingPrototype: ClothingHeadEVAHelmetLittleCheesers
