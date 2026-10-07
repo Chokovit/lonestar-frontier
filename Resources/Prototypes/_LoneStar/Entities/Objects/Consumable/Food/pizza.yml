@@ -34,6 +34,7 @@
   - type: Tag
     tags:
     - Pizza
+    - CheapPizza
     - ReptilianFood
 
 - type: entity
@@ -65,6 +66,7 @@
   - type: Tag
     tags:
     - Pizza
+    - CheapPizza
     - ReptilianFood
     - Slice
 
@@ -89,6 +91,7 @@
     tags:
     - Meat
     - Pizza
+    - CheapPizza
 
 - type: entity
   name: slice of Meatzza
@@ -108,6 +111,7 @@
     - Meat
     - Pizza
     - Slice
+    - CheapPizza
 
 - type: entity
   name: Fungi Town pizza
@@ -124,6 +128,9 @@
     - state: pizza-mushroom
   - type: SliceableFood
     slice: FoodCheapPizzaMushroomSlice
+  - type: Tag
+    tags:
+    - CheapPizza
 
 - type: entity
   name: slice of Fungi Town pizza
@@ -138,6 +145,9 @@
   - type: Sprite
     layers:
     - state: mushroom-slice
+  - type: Tag
+    tags:
+    - CheapPizza
 
 - type: entity
   name: Veggie Variety pizza
@@ -154,6 +164,9 @@
     - state: pizza-vegetable
   - type: SliceableFood
     slice: FoodCheapPizzaVegetableSlice
+  - type: Tag
+    tags:
+    - CheapPizza
 
 - type: entity
   name: slice of Veggie Variety pizza
@@ -168,6 +181,9 @@
   - type: Sprite
     layers:
     - state: vegetable-slice
+  - type: Tag
+    tags:
+    - CheapPizza
 
 - type: entity
   name: Smokin' Sausage pizza
@@ -188,6 +204,7 @@
     tags:
     - Meat
     - Pizza
+    - CheapPizza
 
 - type: entity
   name: slice of Smokin' Sausage pizza
@@ -207,6 +224,7 @@
     - Meat
     - Pizza
     - Slice
+    - CheapPizza
 
 - type: entity
   name: Hula Hawaiian pizza
@@ -228,6 +246,7 @@
     tags:
     - Meat
     - Pizza
+    - CheapPizza
 
 - type: entity
   name: slice of Hula Hawaiian pizza
@@ -248,6 +267,7 @@
     - Meat
     - Pizza
     - Slice
+    - CheapPizza
 
 - type: entity
   name: Copious Cotton pizza
@@ -270,6 +290,7 @@
     tags:
     - ClothMade
     - Pizza
+    - CheapPizza
   - type: SolutionContainerManager
     solutions:
       food:
@@ -297,6 +318,7 @@
     - ClothMade
     - Pizza
     - Slice
+    - CheapPizza
   - type: Food # Frontier
     requiresSpecialDigestion: true # Frontier
   - type: SolutionContainerManager
@@ -323,6 +345,9 @@
     - state: pizza-cheese
   - type: SliceableFood
     slice: FoodCheapPizzaCheeseSlice
+  - type: Tag
+    tags:
+    - CheapPizza
 
 - type: entity
   name: slice of Little Cheeser's Plain pizza
@@ -337,6 +362,9 @@
   - type: Sprite
     layers:
     - state: cheese-slice
+  - type: Tag
+    tags:
+    - CheapPizza
 
 - type: entity
   name: Little Cheeser's Classic pizza
@@ -353,6 +381,9 @@
     - state: pizza-pepperoni
   - type: SliceableFood
     slice: FoodCheapPizzaPepperoniSlice
+  - type: Tag
+    tags:
+    - CheapPizza
 
 - type: entity
   name: slice of Little Cheeser's Classic pizza
@@ -367,6 +398,9 @@
   - type: Sprite
     layers:
     - state: pepperoni-slice
+  - type: Tag
+    tags:
+    - CheapPizza
 
 - type: entity
   name: Big Boss pizza
@@ -384,6 +418,9 @@
     - state: pizza-supreme
   - type: SliceableFood
     slice: FoodCheapPizzaSupremeSlice
+  - type: Tag
+    tags:
+    - CheapPizza
 
 - type: entity
   name: slice of Big Boss pizza
@@ -399,6 +436,9 @@
   - type: Sprite
     layers:
     - state: supreme-slice
+  - type: Tag
+    tags:
+    - CheapPizza
 
 - type: entity
   name: Sizzling Spider pizza
@@ -415,6 +455,9 @@
     - state: pizza-stinger
   - type: SliceableFood
     slice: FoodCheapPizzaStingingMeatSlice
+  - type: Tag
+    tags:
+    - CheapPizza
 
 
 - type: entity
@@ -430,3 +473,6 @@
   - type: Sprite
     layers:
     - state: stinger-slice
+  - type: Tag
+    tags:
+    - CheapPizza
