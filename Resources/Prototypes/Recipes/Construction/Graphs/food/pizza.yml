@@ -59,17 +59,17 @@
     - to: pizza-pepperoni-raw
       steps:
       - tag: PepperoniSlice
-        name: construction-graph-tag-cutlet
+        name: construction-graph-tag-pepperoni-slice
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-pepperoni-raw
       - tag: PepperoniSlice
-        name: construction-graph-tag-sausage
+        name: construction-graph-tag-pepperoni-slice
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-pepperoni-raw
       - tag: PepperoniSlice
-        name: construction-graph-tag-bacon
+        name: construction-graph-tag-pepperoni-slice
         icon:
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-pepperoni-raw
