@@ -8,4 +8,4 @@
   components:
   - type: Sprite
     sprite: _LoneStar/Structures/Wallmounts/signs.rsi
-    state: donk_co_logo_small
+    state: little_cheesers_logo
