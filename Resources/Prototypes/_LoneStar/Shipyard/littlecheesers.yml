@@ -1,0 +1,47 @@
+# Author Info
+# GitHub: Chokovit
+
+# Maintainer Info
+# GitHub: Chokovit (https://github.com/Chokovit)
+# Discord: Chokovit
+
+# Shuttle Notes:
+# This ship is a lot more focused on DELIVERING pizzas. The Donk Co appliances are meant to facilitate speed but its
+#  cramped interior intentionally prevents it from being a genuine venue.
+
+- type: vessel
+  id: LittleCheesers
+  parent: BaseVessel
+  name: DC Little Cheeser's
+  description: "Little Cheeser's parent company, Donk Co, was happy to convert many of their Courier hulls into Pizza Delivery vessels!"
+  price: 25000
+  category: Medium
+  group: Shipyard
+  shuttlePath: /Maps/_LoneStar/Shuttles/littlecheesers.yml
+  guidebookPage: Null
+  class:
+  - Civilian
+  - Kitchen
+  engine:
+  - Plasma
+
+- type: gameMap
+  id: LittleCheesers
+  mapName: 'Little Cheesers'
+  mapPath: /Maps/_LoneStar/Shuttles/littlecheesers.yml
+  minPlayers: 0
+  stations:
+    LittleCheesers:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Little Cheesers {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
+            CompanionInterview: [ 0, 0 ]
