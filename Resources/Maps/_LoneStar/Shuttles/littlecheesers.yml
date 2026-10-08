@@ -4,8 +4,8 @@ meta:
   engineVersion: 267.3.0
   forkId: ""
   forkVersion: ""
-  time: 10/08/2026 03:25:21
-  entityCount: 359
+  time: 10/08/2026 06:30:45
+  entityCount: 360
 maps: []
 grids:
 - 1
@@ -1903,6 +1903,13 @@ entities:
     components:
     - type: Transform
       pos: -6.5,-0.5
+      parent: 1
+- proto: LittleCheesersLogo
+  entities:
+  - uid: 360
+    components:
+    - type: Transform
+      pos: -0.5,5.5
       parent: 1
 - proto: LittleCheesersServiceTechFab
   entities:
