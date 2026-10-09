@@ -1,18 +1,13 @@
 - type: entity
   parent: DVSmartFridge
-  id: HotnReadyCase
+  id: HotCase
   name: Hot 'n Ready Case
   description: A hot case for storing warm, ready-to-eat food.
   components:
-  - type: Tag
-    tags:
-    - LittleCheesers
-    - DonkCo
   - type: StationAiWhitelist
   - type: Advertise
-    pack: SmartFridgeAds
+    pack: HotnReadyAds
   - type: Speech
-  - type: Appearance
   - type: Sprite
     sprite: _LoneStar/Structures/Machines/hotnreadycase.rsi
     snapCardinals: true
@@ -22,43 +17,58 @@
     - state: hotcase_door
       map: ["enum.StorageVisualLayers.Door"]
       shader: unshaded
-  - type: EntityStorageVisuals
-    stateBaseClosed: hotcase
-    stateDoorOpen: hotcase_open
-    stateDoorClosed: hotcase_door
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      visible: false
   - type: PointLight
-    radius: 1.2
-    energy: 3.0
+    enabled: false
+    radius: 1.5
+    energy: 1.6
     color: "#eb701e"
-  - type: EntityStorage
-    whitelist: # add more hot food as needed, tag various hot foods appropriatley
-      tags:
-      - Pizza
-      - CheapPizza
-      - Food
-      - LittleCheesers
-      - DonkCo
-    isCollidableWhenOpen: true
-    closeSound:
-      path: /Audio/Machines/windoor_open.ogg
-      params:
-        volume: -3
-    openSound:
-      path: /Audio/Machines/windoor_open.ogg
-      params:
-        volume: -3
+  - type: Machine
+    board: HotCaseCircuitboard
   - type: ContainerContainer
     containers:
-      entity_storage: !type:Container
-  - type: UseDelay
-    delay: 1
-  - type: AntiRottingContainer
-  - type: ResistLocker
-  - type: Physics
-    bodyType: Static
-  - type: Transform
-    noRot: true
-    anchored: True
+      smart_fridge_inventory: !type:Container
+      smart_fridge_insertion: !type:ContainerSlot
+      machine_board: !type:Container
+      machine_parts: !type:Container
+  - type: Construction
+    graph: Machine
+    node: machine
+    containers:
+    - machine_parts
+    - machine_board
+    - smart_fridge_inventory
+  - type: WiresPanel
+  - type: WiresVisuals
+  - type: LitOnPowered
+  - type: ApcPowerReceiver
+    powerLoad: 200
+  - type: SmartFridge
+    whitelist:
+      components:
+      - FitsInDispenser
+      - Pill
+      - Produce
+      - Seed
+      - Hypospray
+      - Pizza # Lone Star
+      - LittleCheesers # Lone Star
+      - Food # Coyote
+      - Healing # Coyote
+      tags:
+      - PillCanister
+      - Bottle
+      - Syringe
+      - ChemDispensable
+  - type: ActivatableUI
+    key: enum.SmartFridgeUiKey.Key
+  - type: ActivatableUIRequiresPower
+  - type: UserInterface
+    interfaces:
+      enum.SmartFridgeUiKey.Key:
+        type: SmartFridgeBoundUserInterface
   - type: Fixtures
     fixtures:
       fix1:
@@ -75,41 +85,22 @@
   - type: InteractionOutline
   - type: Destructible
     thresholds:
-    - trigger: # Excess damage, don't spawn entities
+    - trigger:
         !type:DamageTrigger
         damage: 300
       behaviors:
       - !type:PlaySoundBehavior
         sound:
           collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: machineFrame
       - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-    - trigger:
-        !type:DamageTrigger
-        damage: 100
-      behaviors:
-      - !type:DoActsBehavior
-        acts: ["Breakage"]
-    - trigger:
-        !type:DamageTrigger
-        damage: 200
-      behaviors:
-      - !type:SpawnEntitiesBehavior
-        spawn:
-          SheetSteel1:
-            min: 1
-            max: 1
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
+        acts: ["Destruction"]
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Metallic
-  - type: DamageOnHighSpeedImpact
-    damage:
-      types:
-        Blunt: 5
-    soundHit:
-      collection: MetalThud
+  - type: Dumpable
+  - type: AccessReader
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: AntiRottingContainer

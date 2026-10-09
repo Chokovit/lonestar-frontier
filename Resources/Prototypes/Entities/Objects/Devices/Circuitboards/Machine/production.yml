@@ -1531,3 +1531,24 @@
       Steel: 2
       # Manipulator: 2 # Frontier
       Cable: 1
+
+- type: entity # Lone Star
+  id: HotCaseCircuitboard
+  parent: BaseMachineCircuitboard
+  name: Hot n Ready Case machine board
+  description: A machine printed circuit board for a Hot Case.
+  components:
+  - type: Sprite
+    state: service
+  - type: MachineBoard
+    prototype: HotnReadyCase
+    requirements:
+      Manipulator: 1
+      Capacitor: 3
+      MatterBin: 1
+    stackRequirements:
+      Glass: 5
+    tagRequirements:
+      GlassBeaker:
+        amount: 2
+        defaultPrototype: Beaker
