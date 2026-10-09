@@ -1,10 +1,13 @@
 - type: entity
-  parent: SmartFridge
+  parent: DVSmartFridge
   id: HotnReadyCase
   name: Hot 'n Ready Case
   description: A hot case for storing warm, ready-to-eat food.
-  categories: [ HideSpawnMenu ] # DeltaV - apparently we can't migrate abstract/disabled prototypes
   components:
+  - type: Tag
+    tags:
+    - LittleCheesers
+    - DonkCo
   - type: StationAiWhitelist
   - type: Advertise
     pack: SmartFridgeAds
@@ -33,6 +36,8 @@
       - Pizza
       - CheapPizza
       - Food
+      - LittleCheesers
+      - DonkCo
     isCollidableWhenOpen: true
     closeSound:
       path: /Audio/Machines/windoor_open.ogg
