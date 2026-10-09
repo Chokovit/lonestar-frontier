@@ -568,7 +568,6 @@
     - CheapPizza
   - type: FlavorProfile
     flavors:
-    - terrible
     - donk
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
@@ -586,7 +585,6 @@
     - CheapPizza
   - type: FlavorProfile
     flavors:
-    - terrible
     - donk
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
@@ -604,7 +602,6 @@
     - CheapPizza
   - type: FlavorProfile
     flavors:
-    - terrible
     - donk
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
@@ -622,7 +619,6 @@
     - CheapPizza
   - type: FlavorProfile
     flavors:
-    - terrible
     - donk
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
@@ -640,7 +636,6 @@
     - CheapPizza
   - type: FlavorProfile
     flavors:
-    - terrible
     - donk
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
@@ -658,7 +653,6 @@
     - CheapPizza
   - type: FlavorProfile
     flavors:
-    - terrible
     - donk
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
@@ -676,7 +670,6 @@
     - CheapPizza
   - type: FlavorProfile
     flavors:
-    - terrible
     - donk
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
@@ -694,7 +687,6 @@
     - CheapPizza
   - type: FlavorProfile
     flavors:
-    - terrible
     - donk
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
@@ -712,7 +704,6 @@
     - CheapPizza
   - type: FlavorProfile
     flavors:
-    - terrible
     - donk
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
@@ -730,7 +721,6 @@
     - CheapPizza
   - type: FlavorProfile
     flavors:
-    - terrible
     - donk
   - type: Sprite
     sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
