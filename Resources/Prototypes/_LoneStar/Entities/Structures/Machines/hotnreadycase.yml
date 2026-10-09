@@ -53,8 +53,6 @@
       - Produce
       - Seed
       - Hypospray
-      - Pizza # Lone Star
-      - LittleCheesers # Lone Star
       - Food # Coyote
       - Healing # Coyote
       tags:
@@ -62,6 +60,9 @@
       - Bottle
       - Syringe
       - ChemDispensable
+      - BoxCardboard
+      - Pizza # Lone Star
+      - LittleCheesers # Lone Star
   - type: ActivatableUI
     key: enum.SmartFridgeUiKey.Key
   - type: ActivatableUIRequiresPower
