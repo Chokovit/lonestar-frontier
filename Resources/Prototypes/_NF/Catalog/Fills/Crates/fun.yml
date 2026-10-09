@@ -95,3 +95,13 @@
       contents:
         - id: VehicleSyndicateSegway
         - id: VehicleKeySyndicateSegway
+
+- type: entity
+  id: CrateFunHoverscooter # Lone Star
+  parent: CrateLivestock
+  name: delivery scooter crate
+  description: Ey those pizza's won't deliver themselves!
+  components:
+  - type: StorageFill
+    contents:
+    - id: VehicleHoverscooterPizza
