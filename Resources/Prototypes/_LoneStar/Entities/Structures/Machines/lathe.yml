@@ -106,7 +106,7 @@
     idleState: icon
     runningState: building
     staticPacks:
-    - BioGenLittleCheesersRecipe
+    - BioGenLittleCheesersRecipeStatic
 
   # Frontier: emag lathe recipes, item mapper
   - type: EmagLatheRecipes
@@ -135,8 +135,8 @@
   # Coyote: Biogenerator Buffer System
   - type: BiogeneratorBuffer
     current: 0
-    max: 100
-    regenAmount: 5
+    max: 5000
+    regenAmount: 0
     regenInterval: 10
   # End Coyote
   - type: OreSiloClient #LoneStar
