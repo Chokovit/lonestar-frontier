@@ -10,9 +10,24 @@
     - ClothingOuterApronLittleCheesers
     - ClothingOuterEVASuitLittleCheesers
     - ClothingBackpackDuffelLittleCheesers
+    - HotCaseCircuitboard
   emagStaticPacks:
     - DrinkDonkcoCup
     - FoodBoxDonkngo
     - ClothingUniformJumpsuitDonkcoChef
     - ClothingOuterDonkcoApron
     - ClothingHeadHatDonkcoHat
+
+- type: latheRecipePack
+  id: BioGenLittleCheesersRecipeStatic
+  recipes:
+    - BioGenFoodCheapCheesePizzaRaw
+    - BioGenFoodCheapPepperoniPizzaRaw
+    - BioGenFoodCheapMeatPizzaRaw
+    - BioGenFoodCheapPineapplePizzaRaw
+    - BioGenFoodCheapSupremePizzaRaw
+    - BioGenFoodCheapVegetablePizzaRaw
+    - BioGenFoodCheapSausagePizzaRaw
+    - BioGenFoodCheapMushroomPizzaRaw
+    - BioGenFoodCheapCottonPizzaRaw
+    - BioGenFoodCheapStingerPizzaRaw

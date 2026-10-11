@@ -62,3 +62,81 @@
       tags:
       - NFBlueprintServiceTechfab
   - type: OreSiloClient
+
+- type: entity
+  id: LittleCheesersBiogenerator
+  parent: [ BaseLathe, BaseLatheMagnet ]
+  name: DRM biogenerator
+  description: The beating heart of every Little Cheeser's. This oughtta solve that pesky supply n demand problem.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/biofabricator.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+    - state: beaker # Frontier
+      map: ["beaker"] # Frontier
+      visible: false # Frontier
+  - type: Machine
+    board: LittleCheesersBiogeneratorMachineCircuitboard
+  - type: MaterialStorage
+  - type: ProduceMaterialExtractor
+  - type: ItemSlots
+    slots:
+      beaker_slot:
+        name: lathe-component-output-slot-beaker-name
+        whitelist:
+          components:
+          - FitsInDispenser
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      beaker_slot: !type:ContainerSlot
+  - type: Lathe
+    reagentOutputSlotId: beaker_slot
+    idleState: icon
+    runningState: building
+    staticPacks:
+    - BioGenLittleCheesersRecipe
+
+  # Frontier: emag lathe recipes, item mapper
+  - type: EmagLatheRecipes
+    emagStaticPacks:
+    - HostileCubesStatic
+    - NFBioGenIngredientsDangerous
+    - BioGenIngredientsStatic
+    - BioGenMaterialsStatic
+    - FriendlyCubesStatic # Frontier
+    - NFBioGenIngredientsStatic # Frontier
+    - NFBioGenMaterialsStatic # Frontier
+    - NFBioGenSodaStatic # Frontier
+    - NFBioGenSeedsStatic # Frontier
+    - NFBioGenSeedsMedicalStatic # Frontier
+    - NFBioGenSoil # Frontier
+    - NFBioGenAnimalCubesStatic #Frontier
+  - type: ItemMapper
+    mapLayers:
+      beaker:
+        whitelist: null # We shouldn't really care what goes in it
+    containerWhitelist:
+    - beaker_slot
+    spriteLayers:
+    - beaker
+  # End Frontier: emag lathe recipes, item mapper
+  # Coyote: Biogenerator Buffer System
+  - type: BiogeneratorBuffer
+    current: 0
+    max: 100
+    regenAmount: 5
+    regenInterval: 10
+  # End Coyote
+  - type: OreSiloClient #LoneStar
