@@ -29,7 +29,7 @@
   mapPath: /Maps/_LoneStar/Shuttles/littlecheesers.yml
   minPlayers: 0
   stations:
-    Courier:
+    LittleCheesers:
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
