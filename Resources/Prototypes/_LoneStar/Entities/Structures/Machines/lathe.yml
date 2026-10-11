@@ -66,8 +66,8 @@
 - type: entity
   id: LittleCheesersBiogenerator
   parent: [ BaseLathe, BaseLatheMagnet ]
-  name: DRM biogenerator
-  description: The beating heart of every Little Cheeser's. This oughtta solve that pesky supply n demand problem.
+  name: pre-programmed biogenerator
+  description: The beating heart of every Fast Food chain. The serial number for this one indicates it belongs to a Little Cheeser's.
   components:
   - type: Sprite
     sprite: _NF/Structures/Machines/biofabricator.rsi
