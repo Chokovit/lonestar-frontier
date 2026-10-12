@@ -4,7 +4,7 @@ meta:
   engineVersion: 267.3.0
   forkId: ""
   forkVersion: ""
-  time: 10/12/2026 05:26:41
+  time: 10/12/2026 05:44:44
   entityCount: 436
 maps: []
 grids:
@@ -447,6 +447,20 @@ entities:
       - 73
       - 256
       - 343
+- proto: Airlock
+  entities:
+  - uid: 79
+    components:
+    - type: Transform
+      pos: -1.5,1.5
+      parent: 1
+    - type: ItemSlots
+  - uid: 80
+    components:
+    - type: Transform
+      pos: 3.5,0.5
+      parent: 1
+    - type: ItemSlots
 - proto: AirlockCommandGlass
   entities:
   - uid: 140
@@ -499,21 +513,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 0.5,5.5
-      parent: 1
-    - type: ItemSlots
-- proto: AirlockServiceLocked
-  entities:
-  - uid: 208
-    components:
-    - type: Transform
-      pos: -1.5,1.5
-      parent: 1
-    - type: ItemSlots
-  - uid: 263
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 3.5,0.5
       parent: 1
     - type: ItemSlots
 - proto: APCBasic
@@ -1365,19 +1364,13 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -0.5,4.5
       parent: 1
-- proto: FastWeakThruster
+- proto: FastStrongThruster
   entities:
-  - uid: 216
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 5.5,-3.5
-      parent: 1
   - uid: 232
     components:
     - type: Transform
       rot: 3.141592653589793 rad
-      pos: -4.5,-3.5
+      pos: 0.5,-12.5
       parent: 1
 - proto: FaxMachineShip
   entities:
@@ -2940,23 +2933,29 @@ entities:
       parent: 1
 - proto: Thruster
   entities:
-  - uid: 79
+  - uid: 81
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 5.5,-3.5
+      parent: 1
+  - uid: 208
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 6.5,-3.5
       parent: 1
-  - uid: 80
+  - uid: 216
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -4.5,-3.5
+      parent: 1
+  - uid: 263
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -5.5,-3.5
-      parent: 1
-  - uid: 81
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 0.5,-12.5
       parent: 1
   - uid: 336
     components:
