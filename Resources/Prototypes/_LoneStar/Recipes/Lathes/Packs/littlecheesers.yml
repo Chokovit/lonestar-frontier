@@ -11,8 +11,8 @@
     - ClothingOuterEVASuitLittleCheesers
     - ClothingBackpackDuffelLittleCheesers
     - HotCaseCircuitboard
-  emagStaticPacks:
-    - LittleCheesersServiceTechfabEmagStatic
+  # emagStaticPacks:
+  #   - LittleCheesersServiceTechfabEmagStatic
 
 - type: latheRecipePack
   id: BioGenLittleCheesersRecipeStatic
