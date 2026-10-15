@@ -340,7 +340,7 @@
           sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-dank-raw
 
-    - to: pizza-dank-raw
+    - to: pizza-worldpeas-raw
       steps:
       - tag: WorldPeas
         name: construction-graph-tag-worldpeas
