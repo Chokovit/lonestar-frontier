@@ -31,11 +31,11 @@
 
 # Emag Inventory
 
-- type: EmagLatheRecipes
-  id: LittleCheesersServiceTechfabEmagStatic
-  recipes:
-    - DrinkDonkcoCup
-    - FoodBoxDonkngo
-    - ClothingUniformJumpsuitDonkcoChef
-    - ClothingOuterDonkcoApron
-    - ClothingHeadHatDonkcoHat
+# - type: EmagLatheRecipes
+#   id: LittleCheesersServiceTechfabEmagStatic
+#   recipes:
+#     - DrinkDonkcoCup
+#     - FoodBoxDonkngo
+#     - ClothingUniformJumpsuitDonkcoChef
+#     - ClothingOuterDonkcoApron
+#     - ClothingHeadHatDonkcoHat
