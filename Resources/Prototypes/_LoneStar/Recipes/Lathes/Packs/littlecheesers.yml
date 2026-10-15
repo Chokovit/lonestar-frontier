@@ -31,7 +31,7 @@
 
 # Emag Inventory
 
-- type: latheRecipePack
+- type: EmagLatheRecipes
   id: LittleCheesersServiceTechfabEmagStatic
   recipes:
     - DrinkDonkcoCup
