@@ -5,8 +5,8 @@
   description: A hot case for storing warm, ready-to-eat food.
   components:
   - type: StationAiWhitelist
-  - type: Advertise
-    pack: HotnReadyAds
+  - type: DatasetVocalizer
+    dataset: HotnReadyAds
   - type: Speech
   - type: Sprite
     sprite: _LoneStar/Structures/Machines/hotnreadycase.rsi
