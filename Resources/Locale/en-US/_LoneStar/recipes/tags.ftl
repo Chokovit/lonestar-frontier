@@ -23,3 +23,4 @@ construction-graph-tag-tomato-slice = a slice of tomato
 construction-graph-tag-cannabis-butter = a stick of cannabis butter
 construction-graph-tag-cannabis = a cannabis leaf
 construction-graph-tag-worldpeas = a worldpeas
+construction-graph-tag-sausage = a sausage

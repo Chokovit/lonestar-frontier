@@ -12,11 +12,7 @@
     - ClothingBackpackDuffelLittleCheesers
     - HotCaseCircuitboard
   emagStaticPacks:
-    - DrinkDonkcoCup
-    - FoodBoxDonkngo
-    - ClothingUniformJumpsuitDonkcoChef
-    - ClothingOuterDonkcoApron
-    - ClothingHeadHatDonkcoHat
+    - LittleCheesersServiceTechfabEmagStatic
 
 - type: latheRecipePack
   id: BioGenLittleCheesersRecipeStatic
@@ -31,3 +27,15 @@
     - BioGenFoodCheapMushroomPizzaRaw
     - BioGenFoodCheapCottonPizzaRaw
     - BioGenFoodCheapStingerPizzaRaw
+
+
+# Emag Inventory
+
+- type: latheRecipePack
+  id: LittleCheesersServiceTechfabEmagStatic
+  recipes:
+    - DrinkDonkcoCup
+    - FoodBoxDonkngo
+    - ClothingUniformJumpsuitDonkcoChef
+    - ClothingOuterDonkcoApron
+    - ClothingHeadHatDonkcoHat

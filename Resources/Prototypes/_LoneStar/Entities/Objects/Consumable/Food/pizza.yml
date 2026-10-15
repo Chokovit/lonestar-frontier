@@ -135,7 +135,7 @@
 - type: entity
   name: slice of Fungi Town pizza
   parent: FoodCheapPizzaSliceBase
-  id: FoodPizzaCheapMushroomSlice
+  id: FoodCheapPizzaMushroomSlice
   description: The mushrooms look a little sad.
   components:
   - type: FlavorProfile
