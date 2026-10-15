@@ -8,7 +8,7 @@
       flavors:
         - tomato
     - type: Sprite
-      sprite: _Lonestar/Objects/Consumable/Food/sauce.rsi
+      sprite: _LoneStar/Objects/Consumable/Food/sauce.rsi
       state: tomatopuree
     - type: SolutionContainerManager
       solutions:
@@ -32,7 +32,7 @@
     flavors:
     - oily
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/sauce.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/sauce.rsi
     state: pestopuree
   - type: SolutionContainerManager
     solutions:
@@ -56,7 +56,7 @@
     flavors:
     - smokey
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/sauce.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/sauce.rsi
     state: bbqpuree
   - type: SolutionContainerManager
     solutions:
@@ -81,7 +81,7 @@
     - dough
     - tomato
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: dough-pizza
   - type: Construction
     graph: Pizza
@@ -98,7 +98,7 @@
     - dough
     - oily
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: dough-pesto
   - type: Construction
     graph: Pizza
@@ -115,7 +115,7 @@
     - dough
     - bbq
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: dough-bbq
   - type: Construction
     graph: Pizza
@@ -135,7 +135,7 @@
     - dough
     - cheesy
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-cheese-raw
   - type: Construction
     graph: Pizza
@@ -155,7 +155,7 @@
     - dough
     - cheesy
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-cheese-raw
   - type: Construction
     graph: Pizza
@@ -175,7 +175,7 @@
     - dough
     - cheesy
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-cheese-raw
   - type: Construction
     graph: Pizza
@@ -197,7 +197,7 @@
     - cheesy
     - savory
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-pepperoni-raw
   - type: Construction
     graph: Pizza
@@ -219,7 +219,7 @@
     - savory
     - terrible
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-pineapple-raw
   - type: Construction
     graph: Pizza
@@ -241,7 +241,7 @@
     - savory
     - terrible
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-meat-raw
   - type: Construction
     graph: Pizza
@@ -259,7 +259,7 @@
     - cheesy
     - vegetable
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-vegetable-raw
   - type: Construction
     graph: Pizza
@@ -276,7 +276,7 @@
     - dough
     - cheesy
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-fourcheese-raw
   - type: Construction
     graph: Pizza
@@ -295,7 +295,7 @@
     - savory
     - terrible
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-sausage-raw
   - type: Construction
     graph: Pizza
@@ -317,7 +317,7 @@
     groups:
       Acidic: [Ingestion]
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-uranium-raw
   - type: Construction
     graph: Pizza
@@ -335,7 +335,7 @@
     - donk
     - terrible
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-donkpocket-raw
   - type: Construction
     graph: Pizza
@@ -354,7 +354,7 @@
     - mushroom
     - terrible
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-mushroom-raw
   - type: Construction
     graph: Pizza
@@ -373,7 +373,7 @@
     - tomato
     - terrible
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-margherita-raw
   - type: Construction
     graph: Pizza
@@ -392,7 +392,7 @@
     - oily
     - terrible
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-pesto-raw
   - type: Construction
     graph: Pizza
@@ -411,7 +411,7 @@
     - spicy
     - terrible
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-firecracker-raw
   - type: Construction
     graph: Pizza
@@ -430,7 +430,7 @@
     - cotton
     - terrible
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-cotton-raw
   - type: Tag
     tags:
@@ -453,7 +453,7 @@
     - onion
     - terrible
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-supreme-raw
   - type: Construction
     graph: Pizza
@@ -472,7 +472,7 @@
     - garlic
     - terrible
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-chicken-garlic-raw
   - type: Construction
     graph: Pizza
@@ -490,7 +490,7 @@
     - cheesy
     - terrible
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-seafood-raw
   - type: Construction
     graph: Pizza
@@ -512,7 +512,7 @@
     groups:
       Acidic: [Ingestion]
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-stinger-raw
   - type: Construction
     graph: Pizza
@@ -530,7 +530,7 @@
     - cheesy
     - terrible
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-dank-raw
   - type: Construction
     graph: Pizza
@@ -548,7 +548,7 @@
     - cheesy
     - terrible
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-worldpeas-raw
   - type: Construction
     graph: Pizza
@@ -570,7 +570,7 @@
     flavors:
     - donk
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-cheese-raw
 
 - type: entity
@@ -587,7 +587,7 @@
     flavors:
     - donk
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-pepperoni-raw
 
 - type: entity
@@ -604,7 +604,7 @@
     flavors:
     - donk
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-meat-raw
 
 - type: entity
@@ -621,7 +621,7 @@
     flavors:
     - donk
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-pineapple-raw
 
 - type: entity
@@ -638,7 +638,7 @@
     flavors:
     - donk
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-supreme-raw
 
 - type: entity
@@ -655,7 +655,7 @@
     flavors:
     - donk
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-vegetable-raw
 
 - type: entity
@@ -672,7 +672,7 @@
     flavors:
     - donk
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-sausage-raw
 
 - type: entity
@@ -689,7 +689,7 @@
     flavors:
     - donk
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-mushroom-raw
 
 - type: entity
@@ -706,7 +706,7 @@
     flavors:
     - donk
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-cotton-raw
 
 - type: entity
@@ -723,5 +723,5 @@
     flavors:
     - donk
   - type: Sprite
-    sprite: _Lonestar/Objects/Consumable/Food/pizzaraw.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
     state: pizza-stinger-raw
