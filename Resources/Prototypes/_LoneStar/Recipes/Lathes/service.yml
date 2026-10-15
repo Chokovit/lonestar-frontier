@@ -6,8 +6,6 @@
   result: DrinkLittleCheesersCup
   materials:
     Cardboard: 25
-  tags:
-  - LittleCheesers
 
 - type: latheRecipe
   parent: NFBaseBoxRecipe
@@ -15,8 +13,6 @@
   result: FoodCheapBoxPizza
   materials:
     Cardboard: 150
-  tags:
-  - LittleCheesers
 
 - type: latheRecipe
   parent: NFBaseJumpsuitRecipe
@@ -24,8 +20,6 @@
   result: ClothingUniformJumpsuitLittleCheesers
   materials:
      Cloth: 200
-  tags:
-  - LittleCheesers
 
 - type: latheRecipe
   parent: NFBaseJumpsuitRecipe
@@ -33,8 +27,6 @@
   result: ClothingUniformJumpskirtLittleCheesers
   materials:
     Cloth: 200
-  tags:
-  - LittleCheesers
 
 - type: latheRecipe
   parent: NFBaseCoatRecipe
@@ -42,8 +34,6 @@
   result: ClothingOuterApronLittleCheesers
   materials:
      Cloth: 200
-  tags:
-  - LittleCheesers
 
 - type: latheRecipe
   id: ClothingOuterEVASuitLittleCheesers

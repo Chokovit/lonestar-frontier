@@ -74,7 +74,7 @@
 - type: microwaveMealRecipe
   id: RecipePepperoniRawStomachRat
   name: raw stomach sausage recipe
-  result: RecipePepperoni
+  result: FoodPepperoni
   time: 10
   group: Savory
   solids:
@@ -194,7 +194,7 @@
 - type: microwaveMealRecipe
   id: RecipeCheapStingerPizza
   name: stinger pizza recipe
-  result: FoodCheapPizzaStinger
+  result: FoodCheapPizzaStingingMeat
   time: 30
   group: Pizza
   solids:

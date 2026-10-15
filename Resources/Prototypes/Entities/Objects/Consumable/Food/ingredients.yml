@@ -742,7 +742,7 @@
           Quantity: 3.75
   - type: Tag
     tags:
-    - CheeseWedge
+    - CheeseSlice
     - Slice
   - type: FoodSequenceElement
     entries:

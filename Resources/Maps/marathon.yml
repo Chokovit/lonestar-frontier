@@ -66796,7 +66796,7 @@ entities:
     - type: Transform
       pos: 40.458298,29.708153
       parent: 30
-- proto: FoodPizzaSassysageSlice
+- proto: FoodPizzaSausageSlice
   entities:
   - uid: 15068
     components:

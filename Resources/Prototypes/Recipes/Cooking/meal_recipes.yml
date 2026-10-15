@@ -806,7 +806,7 @@
 - type: microwaveMealRecipe
   id: RecipeStingerPizza
   name: stinger pizza recipe
-  result: FoodPizzaStinger
+  result: FoodPizzaStingingMeat
   time: 30
   group: Pizza
   solids:

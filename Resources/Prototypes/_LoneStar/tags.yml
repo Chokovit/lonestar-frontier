@@ -21,7 +21,7 @@
 
 - type: Tag
   id: RechargerBlacklist
-  
+
 - type: Tag
   id: PomBoll
 
@@ -80,7 +80,7 @@
   id: Chili
 
 - type: Tag
-  id: FoodGarlic
+  id: Garlic
 
 - type: Tag
   id: Cabbage
