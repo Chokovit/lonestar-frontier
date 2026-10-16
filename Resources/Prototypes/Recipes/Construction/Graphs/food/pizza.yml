@@ -23,23 +23,14 @@
       steps:
       - tag: TomatoPuree
         name: construction-graph-tag-tomato-puree
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: dough-pizza
     - to: pizza-base-pesto # LoneStar
       steps:
       - tag: PestoPuree
         name: construction-graph-tag-pesto-puree
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: dough-pesto
     - to: pizza-base-bbq # LoneStar
       steps:
       - tag: BbqPuree
         name: construction-graph-tag-bbq-puree
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: dough-bbq
 
   # LoneStar: Pizza
   - node: pizza-base
@@ -49,9 +40,6 @@
       steps:
       - tag: Mozzarella
         name: construction-graph-tag-mozzarella
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-cheese-raw
   - node: pizza-cheese-raw
     entity: FoodCheesePizzaRaw
     edges:
@@ -60,303 +48,148 @@
       steps:
       - tag: PepperoniSlice
         name: construction-graph-tag-pepperoni-slice
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pepperoni-raw
       - tag: PepperoniSlice
         name: construction-graph-tag-pepperoni-slice
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pepperoni-raw
       - tag: PepperoniSlice
         name: construction-graph-tag-pepperoni-slice
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pepperoni-raw
 
     - to: pizza-pineapple-raw
       steps:
       - tag: PineappleSlice
         name: construction-graph-tag-pineapple-slice
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pineapple-raw
       - tag: PineappleSlice
         name: construction-graph-tag-pineapple-slice
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pineapple-raw
       - tag: PineappleSlice
         name: construction-graph-tag-pineapple-slice
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pineapple-raw
       - tag: RawBacon
         name: construction-graph-tag-bacon
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pineapple-raw
 
     - to: pizza-meat-raw
       steps:
       - tag: Cutlet
         name: construction-graph-tag-cutlet
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-meat-raw
       - tag: RawSausage
         name: construction-graph-tag-sausage
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-meat-raw
       - tag: RawBacon
         name: construction-graph-tag-bacon
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-meat-raw
 
     - to: pizza-vegetable-raw
       steps:
       - tag: Chili
         name: construction-graph-tag-chili
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-vegetable-raw
       - tag: SlicedVegetable
         name: construction-graph-tag-sliced-vegetable
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-vegetable-raw
 
     - to: pizza-fourcheese-raw
       steps:
       - tag: CheeseSlice
         name: construction-graph-tag-cheese-wedge
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-fourcheese-raw
       - tag: ChevreSlice
         name: construction-graph-tag-sliced-chevre
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-fourcheese-raw
       - tag: Mozzarella
         name: construction-graph-tag-mozzarella
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-fourcheese-raw
       - tag: CurdCheese
         name: construction-graph-tag-curd-cheese
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-fourcheese-raw
 
     - to: pizza-sassysage-raw
       steps:
       - tag: RawSausage
         name: construction-graph-tag-sausage
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-sassysage-raw
 
     - to: pizza-uranium-raw
       steps:
       - material: Uranium
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-uranium-raw
       - tag: Chili
         name: construction-graph-tag-chili
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-uranium-raw
       - tag: Garlic
         name: construction-graph-tag-garlic
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-uranium-raw
       - tag: PepperoniSlice
         name: construction-graph-tag-pepperoni-slice
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-uranium-raw
       - tag: PepperoniSlice
         name: construction-graph-tag-pepperoni-slice
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-uranium-raw
 
     - to: pizza-donkpocket-raw
       steps:
       - tag: DonkPocket
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-donkpocket-raw
       - tag: DonkPocket
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-donkpocket-raw
 
     - to: pizza-mushroom-raw
       steps:
       - tag: Mushroom
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-mushroom-raw
+        name: construction-graph-tag-mushroom
       - tag: Mushroom
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-mushroom-raw
+        name: construction-graph-tag-mushroom
 
     - to: pizza-margherita-raw
       steps:
       - tag: TomatoSlice
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-margherita-raw
       - tag: TomatoSlice
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-margherita-raw
 
     - to: pizza-cotton-raw
       steps:
       - tag: CottonBoll
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-cotton-raw
       - tag: CottonBoll
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-cotton-raw
 
     - to: pizza-supreme-raw
       steps:
       - tag: OnionSlice
         name: construction-graph-tag-onion-slice
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-supreme-raw
       - tag: OnionSlice
         name: construction-graph-tag-onion-slice
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-supreme-raw
       - tag: PepperoniSlice
         name: construction-graph-tag-pepperoni-slice
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-supreme-raw
       - tag: PepperoniSlice
         name: construction-graph-tag-pepperoni-slice
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-supreme-raw
       - tag: Mushroom
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-supreme-raw
+        name: construction-graph-tag-mushroom
       - tag: Mushroom
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-supreme-raw
+        name: construction-graph-tag-mushroom
 
     - to: pizza-seafood-raw
       steps:
       - tag: CrabMeat
         name: construction-graph-tag-crab-meat
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-seafood-raw
       - tag: CrabMeat
         name: construction-graph-tag-crab-meat
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-seafood-raw
       - tag: RawFish
         name: construction-graph-tag-raw-fish
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-seafood-raw
       - tag: RawFish
         name: construction-graph-tag-raw-fish
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-seafood-raw
       - tag: Garlic
         name: construction-graph-tag-garlic
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-seafood-raw
 
     - to: pizza-stinger-raw
       steps:
       - tag: XenoCutlet
         name: construction-graph-tag-xeno-cutlet
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-stinger-raw
       - tag: XenoCutlet
         name: construction-graph-tag-xeno-cutlet
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-stinger-raw
       - tag: SpiderCutlet
         name: construction-graph-tag-spider-cutlet
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-stinger-raw
       - tag: SpiderCutlet
         name: construction-graph-tag-spider-cutlet
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-stinger-raw
       - tag: Garlic
         name: construction-graph-tag-garlic
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-stinger-raw
 
     - to: pizza-dank-raw
       steps:
       - tag: CannabisButter
         name: construction-graph-tag-cannabis-butter
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-dank-raw
       - tag: Cannabis
         name: construction-graph-tag-cannabis
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-dank-raw
       - tag: Cannabis
         name: construction-graph-tag-cannabis
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-dank-raw
       - tag: Cannabis
         name: construction-graph-tag-cannabis
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-dank-raw
 
     - to: pizza-worldpeas-raw
       steps:
       - tag: WorldPeas
         name: construction-graph-tag-worldpeas
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-worldpeas-raw
       - tag: WorldPeas
         name: construction-graph-tag-worldpeas
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-worldpeas-raw
       - tag: WorldPeas
         name: construction-graph-tag-worldpeas
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-worldpeas-raw
 
   - node: pizza-pepperoni-raw
     entity: FoodPepperoniPizzaRaw
@@ -399,9 +232,6 @@
       steps:
       - tag: Mozzarella
         name: construction-graph-tag-mozzarella
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-cheese-raw
   - node: pizza-pesto-cheese-raw
     entity: FoodPestoCheesePizzaRaw
     edges:
@@ -409,16 +239,10 @@
       steps:
       - tag: TomatoSlice
         name: construction-graph-tag-tomato-slice
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pesto-raw
     - to: pizza-pesto-raw
       steps:
       - tag: Mozzarella
         name: construction-graph-tag-mozzarella
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-pesto-raw
 
   - node: pizza-pesto-raw
     entity: FoodPestoPizzaRaw
@@ -431,9 +255,6 @@
       steps:
       - tag: Mozzarella
         name: construction-graph-tag-mozzarella
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-cheese-raw
   - node: pizza-bbq-cheese-raw
     entity: FoodBbqCheesePizzaRaw
     edges:
@@ -441,31 +262,16 @@
       steps:
       - tag: Chili
         name: construction-graph-tag-chili
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-firecracker-raw
       - tag: CheeseSlice
         name: construction-graph-tag-cheese-wedge
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-firecracker-raw
       - tag: Cutlet
         name: construction-graph-tag-cutlet
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-firecracker-raw
     - to: pizza-chicken-garlic-raw
       steps:
       - tag: ChickenCutlet
         name: construction-graph-tag-chicken-cutlet
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-chicken-garlic-raw
       - tag: Garlic
         name: construction-graph-tag-garlic
-        icon:
-          sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-chicken-garlic-raw
 
   - node: pizza-firecracker-raw
     entity: FoodFirecrackerPizzaRaw
