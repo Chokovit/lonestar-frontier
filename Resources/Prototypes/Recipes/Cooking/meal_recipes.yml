@@ -794,13 +794,13 @@
   recipeType: Oven # Frontier
 
 - type: microwaveMealRecipe
-  id: RecipeSausagePizza
+  id: RecipeSassysagePizza
   name: sausage pizza recipe
-  result: FoodPizzaSausage
+  result: FoodPizzaSassysage
   time: 30
   group: Pizza
   solids:
-    FoodSausagePizzaRaw: 1
+    FoodSassysagePizzaRaw: 1
   recipeType: Oven # Frontier
 
 - type: microwaveMealRecipe

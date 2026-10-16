@@ -284,7 +284,7 @@
 
 - type: entity
   parent: FoodDoughFlat
-  id: FoodSausagePizzaRaw
+  id: FoodSassysagePizzaRaw
   name: uncooked sausage pizza
   description: An uncooked sausage pizza.
   components:
@@ -296,10 +296,10 @@
     - terrible
   - type: Sprite
     sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-    state: pizza-sausage-raw
+    state: pizza-sassysage-raw
   - type: Construction
     graph: Pizza
-    node: pizza-sausage-raw
+    node: pizza-sassysage-raw
 
 - type: entity
   parent: FoodDoughFlat
@@ -673,7 +673,7 @@
     - donk
   - type: Sprite
     sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-    state: pizza-sausage-raw
+    state: pizza-sassysage-raw
 
 - type: entity
   parent: FoodDoughFlat

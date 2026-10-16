@@ -988,7 +988,7 @@
       orGroup: Food
     - id: FoodPieFrosty
       orGroup: Food
-    - id: FoodPizzaSausage # ideally, this comes in a pizza box
+    - id: FoodPizzaSassysage # ideally, this comes in a pizza box
       orGroup: Food
     - id: FoodPizzaArnold # ideally, this comes in a pizza box
       orGroup: Food

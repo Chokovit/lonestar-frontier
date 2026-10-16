@@ -197,7 +197,7 @@
       - donk
   - type: Sprite
     layers:
-    - state: pizza-sausage
+    - state: pizza-sassysage
   - type: SliceableFood
     slice: FoodCheapPizzaSausageSlice
   - type: Tag
@@ -218,7 +218,7 @@
       - donk
   - type: Sprite
     layers:
-    - state: sausage-slice
+    - state: sassysage-slice
   - type: Tag
     tags:
     - Meat

@@ -151,13 +151,13 @@
           sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
           state: pizza-fourcheese-raw
 
-    - to: pizza-sausage-raw
+    - to: pizza-sassysage-raw
       steps:
       - tag: RawSausage
         name: construction-graph-tag-sausage
         icon:
           sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
-          state: pizza-sausage-raw
+          state: pizza-sassysage-raw
 
     - to: pizza-uranium-raw
       steps:
@@ -368,8 +368,8 @@
     entity: FoodVegetablePizzaRaw
   - node: pizza-fourcheese-raw
     entity: FoodFourCheesePizzaRaw
-  - node: pizza-sausage-raw
-    entity: FoodSausagePizzaRaw
+  - node: pizza-sassysage-raw
+    entity: FoodSassysagePizzaRaw
   - node: pizza-uranium-raw
     entity: FoodUraniumPizzaRaw
   - node: pizza-donkpocket-raw

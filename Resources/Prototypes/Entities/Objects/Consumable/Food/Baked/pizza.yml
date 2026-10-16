@@ -363,9 +363,9 @@
           Quantity: 3 # Frontier
 
 - type: entity
-  name: sausage pizza
+  name: sassysage pizza
   parent: FoodPizzaBase
-  id: FoodPizzaSausage
+  id: FoodPizzaSassysage
   description: A pizza without sausage is the absolute wurst.
   components:
   - type: FlavorProfile
@@ -376,18 +376,18 @@
       - bread
   - type: Sprite
     layers:
-    - state: pizza-sausage
+    - state: pizza-sassysage
   - type: SliceableFood
-    slice: FoodPizzaSausageSlice
+    slice: FoodPizzaSassysageSlice
   - type: Tag
     tags:
     - Meat
     - Pizza
 
 - type: entity
-  name: slice of sausage pizza
+  name: slice of saassysage pizza
   parent: FoodPizzaSliceBase
-  id: FoodPizzaSausageSlice
+  id: FoodPizzaSassysageSlice
   description: Deliciously sassy.
   components:
   - type: FlavorProfile
@@ -398,7 +398,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: sausage-slice
+    - state: sassysage-slice
   - type: Tag
     tags:
     - Meat
