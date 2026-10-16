@@ -408,7 +408,6 @@
     - to: pizza-pesto-raw
       steps:
       - tag: TomatoSlice
-        amount: 1
         name: construction-graph-tag-tomato-slice
         icon:
           sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
@@ -416,7 +415,6 @@
     - to: pizza-pesto-raw
       steps:
       - tag: Mozzarella
-        amount: 1
         name: construction-graph-tag-mozzarella
         icon:
           sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
@@ -459,7 +457,6 @@
     - to: pizza-chicken-garlic-raw
       steps:
       - tag: ChickenCutlet
-        amount: 1
         name: construction-graph-tag-chicken-cutlet
         icon:
           sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
