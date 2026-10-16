@@ -106,7 +106,7 @@
     defaultTarget: meat steak
   - type: Tag
     tags:
-    - Meat
+    - Meat # LoneStar
 
 - type: entity
   name: raw human meat
@@ -127,7 +127,7 @@
     slice: FoodMeatCutlet
   - type: Tag
     tags:
-    - Meat
+    - Meat # LoneStar
 
 - type: entity
   name: raw carp fillet
@@ -143,7 +143,7 @@
     tags:
     - Raw
     - Meat
-    - RawFish
+    - RawFish # LoneStar
   - type: Sprite
     state: fish
   - type: SolutionContainerManager
@@ -169,7 +169,7 @@
     tags:
     - Raw
     - Meat
-    - RawBacon
+    - RawBacon # LoneStar
   - type: Sprite
     state: bacon
   - type: SolutionContainerManager
@@ -214,7 +214,7 @@
     defaultTarget: filet migrawr
   - type: Tag
     tags:
-    - Meat
+    - Meat # LoneStar
 
 - type: entity
   name: raw penguin meat
@@ -242,7 +242,7 @@
     defaultTarget: cooked penguin
   - type: Tag
     tags:
-    - Meat
+    - Meat # LoneStar
 
 - type: entity
   name: raw chicken meat
@@ -271,7 +271,7 @@
     defaultTarget: cooked chicken
   - type: Tag
     tags:
-    - Meat
+    - Meat # LoneStar
 
 - type: entity
   name: raw duck meat
@@ -299,7 +299,7 @@
     defaultTarget: cooked duck
   - type: Tag
     tags:
-    - Meat
+    - Meat # LoneStar
 
 - type: entity
   name: prime-cut corgi meat
@@ -338,7 +338,7 @@
     state: crab
   - type: Tag
     tags:
-    - CrabMeat
+    - CrabMeat # LoneStar
   - type: SolutionContainerManager
     solutions:
       food:
@@ -1366,7 +1366,7 @@
   - type: Tag
     tags:
     - Raw
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     state: cutlet
@@ -1392,7 +1392,7 @@
   - type: Tag
     tags:
     - Raw
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     layers:
@@ -1421,7 +1421,7 @@
   - type: Tag
     tags:
     - Raw
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     state: cutlet
@@ -1448,7 +1448,7 @@
   - type: Tag
     tags:
     - Raw
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
     - ChickenCutlet
   - type: Sprite
@@ -1476,7 +1476,7 @@
   - type: Tag
     tags:
     - Raw
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     state: cutlet
@@ -1503,7 +1503,7 @@
   - type: Tag
     tags:
     - Raw
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     layers:
@@ -1533,9 +1533,9 @@
   - type: Tag
     tags:
     - Raw
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
-    - SpiderCutlet
+    - SpiderCutlet # LoneStar
   - type: Sprite
     state: spidercutlet
   - type: SolutionContainerManager
@@ -1564,9 +1564,9 @@
   - type: Tag
     tags:
     - Raw
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
-    - XenoCutlet
+    - XenoCutlet # LoneStar
   - type: Sprite
     state: xenocutlet
   - type: SolutionContainerManager
@@ -1588,7 +1588,7 @@
   components:
   - type: Tag
     tags:
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     state: salami-slice
@@ -1605,7 +1605,7 @@
   - type: Tag
     tags:
     - Raw
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
     - SalamiSlice
   - type: Sprite
@@ -1628,7 +1628,7 @@
   - type: Tag
     tags:
     - Raw
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     layers:
@@ -1657,7 +1657,7 @@
   - type: Tag
     tags:
     - Cooked
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     state: cutlet-cooked
@@ -1686,7 +1686,7 @@
   - type: Tag
     tags:
     - Cooked
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     layers:
@@ -1718,7 +1718,7 @@
   - type: Tag
     tags:
     - Cooked
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     state: cutlet-cooked
@@ -1748,7 +1748,7 @@
   - type: Tag
     tags:
     - Cooked
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     state: cutlet-cooked
@@ -1778,7 +1778,7 @@
   - type: Tag
     tags:
     - Cooked
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     state: cutlet-cooked
@@ -1808,7 +1808,7 @@
   - type: Tag
     tags:
     - Cooked
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     layers:
@@ -1839,7 +1839,7 @@
   - type: Tag
     tags:
     - Cooked
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     state: spidercutlet-cooked
@@ -1868,7 +1868,7 @@
   - type: Tag
     tags:
     - Cooked
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     state: xenocutlet-cooked
@@ -1897,7 +1897,7 @@
   - type: Tag
     tags:
     - Cooked
-    - Cutlet
+    - Cutlet # LoneStar
     - Meat
   - type: Sprite
     state: dragoncutlet-cooked

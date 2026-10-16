@@ -692,7 +692,7 @@
     color: "#82C36E"
   - type: Tag
     tags:
-    - CannabisButter
+    - CannabisButter # LoneStar
   - type: SolutionContainerManager
     solutions:
       food:
@@ -742,7 +742,7 @@
           Quantity: 3.75
   - type: Tag
     tags:
-    - CheeseSlice
+    - CheeseSlice # LoneStar
     - Slice
   - type: FoodSequenceElement
     entries:
@@ -798,7 +798,7 @@
   - type: Tag
     tags:
     - Slice
-    - ChevreSlice
+    - ChevreSlice # LoneStar
 
 - type: entity
   name: tofu

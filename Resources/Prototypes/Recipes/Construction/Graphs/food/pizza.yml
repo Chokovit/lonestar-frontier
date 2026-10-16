@@ -19,21 +19,21 @@
         icon:
           sprite: Objects/Consumable/Food/ingredients.rsi
           state: butter
-    - to: pizza-base
+    - to: pizza-base # LoneStar
       steps:
       - tag: TomatoPuree
         name: construction-graph-tag-tomato-puree
         icon:
           sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
           state: dough-pizza
-    - to: pizza-base-pesto
+    - to: pizza-base-pesto # LoneStar
       steps:
       - tag: PestoPuree
         name: construction-graph-tag-pesto-puree
         icon:
           sprite: _LoneStar/Objects/Consumable/Food/pizzaraw.rsi
           state: dough-pesto
-    - to: pizza-base-bbq
+    - to: pizza-base-bbq # LoneStar
       steps:
       - tag: BbqPuree
         name: construction-graph-tag-bbq-puree

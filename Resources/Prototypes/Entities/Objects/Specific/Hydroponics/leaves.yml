@@ -12,7 +12,7 @@
     seedId: cannabis
   - type: Tag
     tags:
-    - Cannabis
+    - Cannabis # LoneStar
   - type: Food
   - type: SolutionContainerManager
     solutions:
@@ -33,7 +33,7 @@
     count: 1
   - type: Tag
     tags:
-    - Cannabis
+    - Cannabis # LoneStar
   - type: SolutionContainerManager
     solutions:
       food:
@@ -69,7 +69,7 @@
   - type: Tag
     tags:
       - Smokable
-      - Cannabis
+      - Cannabis # LoneStar
   - type: Item
     size: Tiny
 
@@ -86,7 +86,7 @@
       shader: unshaded
   - type: Tag
     tags:
-    - Cannabis
+    - Cannabis # LoneStar
   - type: Produce
     seedId: rainbowCannabis
   # disabled because 50 morbillion point lights still break the lighting engine
@@ -123,7 +123,7 @@
     count: 1
   - type: Tag
     tags:
-    - Cannabis
+    - Cannabis # LoneStar
   - type: SolutionContainerManager
     solutions:
       food:
@@ -156,7 +156,7 @@
     count: 1
   - type: Tag
     tags:
-    - Cannabis
+    - Cannabis # LoneStar
   - type: SolutionContainerManager
     solutions:
       food:

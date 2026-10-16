@@ -583,7 +583,7 @@
     seedId: cabbage
   - type: Tag
     tags:
-    - Cabbage
+    - Cabbage # LoneStar
     - Vegetable
   - type: FoodSequenceElement
     entries:
@@ -598,7 +598,7 @@
   components:
   - type: Tag
     tags:
-    - Garlic
+    - Garlic # LoneStar
     - Vegetable
   - type: FlavorProfile
     flavors:
@@ -932,7 +932,7 @@
         acts: [ "Destruction" ]
   - type: SliceableFood
     count: 5
-    slice: FoodTomatoSlice
+    slice: FoodTomatoSlice # LoneStar
   - type: Tag
     tags:
     - Fruit
@@ -1414,8 +1414,8 @@
     tags:
     - Vegetable
     - Slice
-    - SlicedVegetable
-    - OnionSlice
+    - SlicedVegetable # LoneStar
+    - OnionSlice # LoneStar
   - type: FoodSequenceElement
     entries:
       Burger: OnionSliceBurger
@@ -1447,7 +1447,7 @@
     tags:
     - Vegetable
     - Slice
-    - SlicedVegetable
+    - SlicedVegetable # LoneStar
   - type: FoodSequenceElement
     entries:
       Burger: OnionRedSliceBurger
@@ -1456,7 +1456,7 @@
 - type: entity
   name: tomato slice
   parent: ProduceSliceBase
-  id: FoodTomatoSlice
+  id: FoodTomatoSlice # LoneStar
   description: A slice of tomato.
   components:
   - type: FlavorProfile
@@ -1481,8 +1481,8 @@
     - Vegetable
     - Fruit
     - Slice
-    - SlicedVegetable
-    - TomatoSlice
+    - SlicedVegetable # LoneStar
+    - TomatoSlice # LoneStar
 
 - type: entity
   name: chili pepper
@@ -1513,7 +1513,7 @@
   - type: Tag
     tags:
     - Vegetable
-    - Chili
+    - Chili # LoneStar
   - type: FoodSequenceElement
     entries:
       Taco: ChiliPepper
@@ -2319,7 +2319,7 @@
   name: grapes
   parent: FoodProduceBase
   id: FoodGrape
-  description: The food of emperors, French People (usually as wine) and soccer moms. One day it could be used in wine production for the bartender if he ever runs out.
+  description: The food of emperors, French People (usually as wine) and soccer moms. One day it could be used in wine production for the bartender if he ever runs out. # LoneStar
   components:
   - type: FlavorProfile
     flavors:
@@ -2512,7 +2512,7 @@
   - type: Tag
     tags:
     - Vegetable
-    - WorldPeas
+    - WorldPeas # LoneStar
   - type: FoodSequenceElement
     entries:
       Taco: WorldPea

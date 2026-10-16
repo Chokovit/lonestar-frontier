@@ -12,7 +12,7 @@
       - bread
   - type: Food
   - type: Sprite
-    sprite: _LoneStar/Objects/Consumable/Food/pizza.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizza.rsi # LoneStar
   - type: SolutionContainerManager
     solutions:
       food:
@@ -46,7 +46,7 @@
       - bread
   - type: Food
   - type: Sprite
-    sprite: _LoneStar/Objects/Consumable/Food/pizza.rsi
+    sprite: _LoneStar/Objects/Consumable/Food/pizza.rsi # LoneStar
   - type: SolutionContainerManager
     solutions:
       food:
@@ -82,7 +82,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: pizza-margherita
+    - state: pizza-margherita # LoneStar
   - type: SliceableFood
     slice: FoodPizzaMargheritaSlice
 
@@ -99,7 +99,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: margherita-slice
+    - state: margherita-slice # LoneStar
 
 - type: entity
   name: meat pizza
@@ -115,7 +115,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: pizza-meat
+    - state: pizza-meat # LoneStar
   - type: SliceableFood
     slice: FoodPizzaMeatSlice
   - type: Tag
@@ -137,7 +137,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: meat-slice
+    - state: meat-slice # LoneStar
   - type: Tag
     tags:
     - Meat
@@ -157,7 +157,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: pizza-mushroom
+    - state: pizza-mushroom # LoneStar
   - type: SliceableFood
     slice: FoodPizzaMushroomSlice
 
@@ -174,7 +174,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: mushroom-slice
+    - state: mushroom-slice # LoneStar
 
 - type: entity
   name: vegetable pizza
@@ -192,7 +192,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: pizza-vegetable
+    - state: pizza-vegetable # LoneStar
   - type: SliceableFood
     slice: FoodPizzaVegetableSlice
   - type: SolutionContainerManager
@@ -226,7 +226,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: vegetable-slice
+    - state: vegetable-slice # LoneStar
   - type: SolutionContainerManager
     solutions:
       food:
@@ -253,7 +253,7 @@
       - donk
   - type: Sprite
     layers:
-    - state: pizza-donkpocket
+    - state: pizza-donkpocket # LoneStar
   - type: SliceableFood
     slice: FoodPizzaDonkpocketSlice
   - type: SolutionContainerManager
@@ -286,7 +286,7 @@
       - donk
   - type: Sprite
     layers:
-    - state: donkpocket-slice
+    - state: donkpocket-slice # LoneStar
   - type: SolutionContainerManager
     solutions:
       food:
@@ -320,7 +320,7 @@
       - leafy
   - type: Sprite
     layers:
-    - state: pizza-dank
+    - state: pizza-dank # LoneStar
   - type: SliceableFood
     slice: FoodPizzaDankSlice
   - type: SolutionContainerManager
@@ -349,7 +349,7 @@
       - leafy
   - type: Sprite
     layers:
-    - state: dank-slice
+    - state: dank-slice # LoneStar
   - type: SolutionContainerManager
     solutions:
       food:
@@ -376,7 +376,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: pizza-sassysage
+    - state: pizza-sassysage # LoneStar
   - type: SliceableFood
     slice: FoodPizzaSassysageSlice
   - type: Tag
@@ -398,7 +398,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: sassysage-slice
+    - state: sassysage-slice # LoneStar
   - type: Tag
     tags:
     - Meat
@@ -420,7 +420,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: pizza-pineapple
+    - state: pizza-pineapple # LoneStar
   - type: SliceableFood
     slice: FoodPizzaPineappleSlice
   - type: Tag
@@ -443,7 +443,7 @@
       - bread
   - type: Sprite
     layers:
-    - state: pineapple-slice
+    - state: pineapple-slice # LoneStar
   - type: Tag
     tags:
     - Meat
@@ -746,6 +746,8 @@
           Quantity: 2
         - ReagentId: Pax
           Quantity: 1.5
+
+# LoneStar
 
 - type: entity
   name: bbq chicken garlic pizza
