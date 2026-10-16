@@ -110,7 +110,7 @@
 
 - type: entity
   id: LittleCheesersBiogenerator
-  parent: [ BaseLathe, BaseLatheMagnet ]
+  parent: BioDjinn
   name: pre-programmed biogenerator
   description: The beating heart of every Fast Food chain. The serial number for this one indicates it belongs to a Little Cheeser's.
   components:
@@ -132,27 +132,12 @@
       visible: false # Frontier
   - type: Machine
     board: LittleCheesersBiogeneratorMachineCircuitboard
-  - type: MaterialStorage
-  - type: ProduceMaterialExtractor
-  - type: ItemSlots
-    slots:
-      beaker_slot:
-        name: lathe-component-output-slot-beaker-name
-        whitelist:
-          components:
-          - FitsInDispenser
-  - type: ContainerContainer
-    containers:
-      machine_board: !type:Container
-      machine_parts: !type:Container
-      beaker_slot: !type:ContainerSlot
   - type: Lathe
     reagentOutputSlotId: beaker_slot
     idleState: icon
     runningState: building
     staticPacks:
     - BioGenLittleCheesersRecipeStatic
-
   # Frontier: emag lathe recipes, item mapper
   - type: EmagLatheRecipes
     emagStaticPacks:
@@ -160,28 +145,11 @@
     - NFBioGenIngredientsDangerous
     - BioGenIngredientsStatic
     - BioGenMaterialsStatic
-    - FriendlyCubesStatic # Frontier
-    - NFBioGenIngredientsStatic # Frontier
-    - NFBioGenMaterialsStatic # Frontier
-    - NFBioGenSodaStatic # Frontier
-    - NFBioGenSeedsStatic # Frontier
-    - NFBioGenSeedsMedicalStatic # Frontier
-    - NFBioGenSoil # Frontier
-    - NFBioGenAnimalCubesStatic #Frontier
-  - type: ItemMapper
-    mapLayers:
-      beaker:
-        whitelist: null # We shouldn't really care what goes in it
-    containerWhitelist:
-    - beaker_slot
-    spriteLayers:
-    - beaker
-  # End Frontier: emag lathe recipes, item mapper
-  # Coyote: Biogenerator Buffer System
-  - type: BiogeneratorBuffer
-    current: 0
-    max: 5000
-    regenAmount: 0
-    regenInterval: 10
-  # End Coyote
-  - type: OreSiloClient #LoneStar
+    - FriendlyCubesStatic
+    - NFBioGenIngredientsStatic
+    - NFBioGenMaterialsStatic
+    - NFBioGenSodaStatic
+    - NFBioGenSeedsStatic
+    - NFBioGenSeedsMedicalStatic
+    - NFBioGenSoil
+    - NFBioGenAnimalCubesStatic

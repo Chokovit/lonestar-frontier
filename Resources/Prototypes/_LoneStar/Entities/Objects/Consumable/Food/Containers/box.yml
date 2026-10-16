@@ -1,7 +1,7 @@
 
 # Pizza Box
 - type: entity
-  parent: BoxCardboard
+  parent: FoodBoxPizza
   id: FoodCheapBoxPizza
   name: pizza box
   components:
@@ -30,10 +30,3 @@
     heldPrefix: box
     shape:
     - 0,0,2,1
-  - type: Appearance
-  - type: EntityStorageVisuals
-    stateDoorOpen: box-open
-    stateDoorClosed: box
-  - type: StaticPrice
-    price: 0
-  - type: NFIngredient # Frontier
