@@ -25,3 +25,5 @@ construction-graph-tag-cannabis = a cannabis leaf
 construction-graph-tag-worldpeas = a worldpeas
 construction-graph-tag-sausage = a sausage
 construction-graph-tag-mushroom = a mushroom
+construction-graph-tag-donkpocket = a donk pocket
+construction-graph-tag-cottonboll = a cottonboll

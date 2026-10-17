@@ -111,7 +111,9 @@
     - to: pizza-donkpocket-raw
       steps:
       - tag: DonkPocket
+        name: construction-graph-tag-donkpocket
       - tag: DonkPocket
+        name: construction-graph-tag-donkpocket
 
     - to: pizza-mushroom-raw
       steps:
@@ -123,12 +125,16 @@
     - to: pizza-margherita-raw
       steps:
       - tag: TomatoSlice
+        name: construction-graph-tag-tomato-slice
       - tag: TomatoSlice
+        name: construction-graph-tag-tomato-slice
 
     - to: pizza-cotton-raw
       steps:
       - tag: CottonBoll
+        name: construction-graph-tag-cottonboll
       - tag: CottonBoll
+        name: construction-graph-tag-cottonboll
 
     - to: pizza-supreme-raw
       steps:
