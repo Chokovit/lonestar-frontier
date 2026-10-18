@@ -33,7 +33,29 @@
           path: /Audio/_LoneStar/Effects/Vehicle/scooter_start.ogg
           params:
             volume: -5
+      mailgun:
+        name: rpds
+        whitelist:
+          components:
+          - Gun # Any gun :(, including RPDS
+        priority: 2
+  - type: ItemMapper
+    mapLayers:
+      mailgun:
+        whitelist:
+          components:
+          - Gun
     sprite: _LoneStar/Objects/Vehicles/hoverscooter.rsi
+  - type: Appearance
+  - type: PointLight
+    enabled: false
+    radius: 7
+    energy: 3
+  - type: Vehicle
+    hornSound:
+      collection: NFVehicleHorn # resetting from the motorbike
+      params:
+        variation: 0.125
 
 - type: entity
   parent: VehicleHoverscooterPizza
