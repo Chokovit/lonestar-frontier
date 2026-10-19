@@ -35,6 +35,10 @@
       ]
     },
     {
+      "name": "mailgun",
+      "directions": 4
+    },
+    {
       "name": "vehicle",
       "directions": 4
     }

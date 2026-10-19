@@ -1446,16 +1446,6 @@ entities:
       deviceLists:
       - 351
       - 225
-  - uid: 416
-    components:
-    - type: Transform
-      pos: 0.5,3.5
-      parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 225
 - proto: FirelockGlass
   entities:
   - uid: 146
