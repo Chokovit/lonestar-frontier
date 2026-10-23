@@ -8,7 +8,7 @@
       prototype: LittleCheesersServiceTechFab
 
 - type: entity
-  id: LittleCheesersBiogeneratorMachineCircuitboard
+  id: LittleCheesersBiodjinnMachineCircuitboard
   parent: BioDjinnMachineCircuitboard
   name: biogenerator machine board
   description: A machine printed circuit board for a biogenerator. A serial number on the board indicates its for a Little Cheeser's.

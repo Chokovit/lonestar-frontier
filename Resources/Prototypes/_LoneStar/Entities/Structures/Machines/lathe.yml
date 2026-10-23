@@ -131,7 +131,7 @@
       map: ["beaker"] # Frontier
       visible: false # Frontier
   - type: Machine
-    board: LittleCheesersBiogeneratorMachineCircuitboard
+    board: LittleCheesersBiodjinnMachineCircuitboard
   - type: Lathe
     reagentOutputSlotId: beaker_slot
     idleState: icon
