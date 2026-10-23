@@ -500,6 +500,7 @@
   - ContractorClothingShoesColorBlack
   subgroups:
   - CoyoteShoes
+  - MercenaryShoes # LoneStar
 
 - type: loadoutGroup
   id: ContractorHead
@@ -602,6 +603,8 @@
   - ContractorClothingHeadsetAltScienceCommon
   fallbacks:
   - ContractorClothingHeadsetGreyCommon
+  subgroups:
+  - PsionicMantisEars # LoneStar
 
 - type: loadoutGroup
   id: ContractorGloves
@@ -761,6 +764,8 @@
   - ContractorMimePDA
   fallbacks:
   - ContractorContractorPDA
+  subgroups:
+  - PsionicMantisPDA # LoneStar
 
 - type: loadoutGroup
   id: ContractorGlasses
